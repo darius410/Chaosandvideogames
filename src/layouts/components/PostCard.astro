@@ -1,0 +1,47 @@
+---
+
+
+import { Image } from "@astrojs/image/components";
+import Link from "./Link.astro";
+import { filterTags } from "../../js/utils";
+
+
+const { frontmatter, url,tagType } = Astro.props;
+const { subtitle , desc, title , publishDate, author, tags, image} = frontmatter
+
+const Tag = tagType;
+
+---
+
+
+<article class="card">
+    
+    <small>{author} - {publishDate}</small>
+    <h2>{ title }</h2>
+    <Tag onClick={filterTags} class="tags" > {tags} </Tag> 
+        <a  href={ url } >   
+            <Image 
+                src = {image.src}
+                alt = {image.alt}
+                width = "500"
+                height = "400"
+                aspectRatio ="5:2"
+                format = "jpeg"
+                fit ="cover"
+                quality={80}
+                class=""
+            />
+    </a>
+    <div class="descContainer">
+        <p>{desc}
+            
+        <Link class="" 
+        href={url}
+        text="Read More" 
+    />
+        </p>
+
+    
+    </div>
+    
+</article>

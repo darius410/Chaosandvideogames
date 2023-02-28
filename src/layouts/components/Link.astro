@@ -1,0 +1,57 @@
+---
+import Icon from "astro-icon"
+import { boolean, string } from "astro/zod";
+
+
+
+interface Props{
+    text:string;
+    href:string;
+    style:"Primary" | "Secondary";
+    icon?:{
+        name:string;
+        side: "left" | "right";
+    };
+    isFilled:boolean;
+    borderVisible?:boolean;
+    classes?:string;
+}
+
+const {
+    text,
+    href,
+    style,
+    icon,
+    isFilled,
+    borderVisible,
+    classes,
+    ...rest
+} = Astro.props as Props;
+
+---
+<a 
+href={href}
+class:list={[
+    'link',
+    classes,
+    style,
+    {filled:isFilled, bordered: borderVisible }
+    ]}
+    {...rest}
+    >
+{
+    icon && icon.side === "left" && (
+        <Icon name = {icon.name} height="2rem" width="2rem" />
+    )
+}
+
+<span>
+{text}
+</span>
+
+{
+      icon && icon.side === "right" && (
+        <Icon name = {icon.name} height="1rem" width="1rem" />
+    )
+}
+</a>

@@ -1,0 +1,12 @@
+Make the Blog Page capable of filtering through tags and show any blogs with those tags
+Add a DARK MODE thats stays across the user session
+Make the blog page have pagination that loads as you scroll
+Make the homepage show
+ -latest Tweets from Twitter(Images are Fine)
+ -possibly even Mastadon toots
+ -Youtube Videos(Maybe)
+
+
+Intergrate a like system (Facebook maybe) at the bottom of every blog post
+Add Logo for ChaosNVideo Games
+Add mobile Navigation Menu on click

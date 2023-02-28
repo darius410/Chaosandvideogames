@@ -1,0 +1,27 @@
+---
+import MainLayout from "./MainLayout.astro";
+import { Image } from "@astrojs/image/components";
+import BlogHeader from "./components/BlogHeader.astro";
+import { slugify } from "../js/utils";
+
+const {frontmatter} = Astro.props
+const {title , publishDate, tags, author, image} = frontmatter;
+
+---
+<MainLayout { title } {publishDate } { tags }> 
+    <BlogHeader
+    {author}
+    {title}
+    {publishDate}
+    {tags}
+    {image}
+    />
+
+    <div class="post-content container">
+            
+        <slot/>
+
+        
+    </div>
+
+</MainLayout>

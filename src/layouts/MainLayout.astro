@@ -1,0 +1,38 @@
+---
+import HeadComp from "./HeadComp.astro";
+import Footer from "../layouts/components/Footer.astro";
+
+import "../styles/global.scss"
+import "../styles/reset.css"
+import Navigation from "./components/Navigation.astro";
+
+const {
+title="Created with Astro 2.0",
+description="This is the description"} = Astro.props;
+
+---
+
+<html lang="en">
+    <HeadComp title={title} description={description}/>
+	<body>
+        <Navigation />
+		
+	<slot>
+        This is a slot
+    </slot>
+
+   
+	 <Footer />
+	</body>
+</html>
+
+<style>
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  grid-template-rows: 100px 1fr auto;
+  
+}
+
+</style>
