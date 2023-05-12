@@ -1,7 +1,7 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: Five reasons to Train Your child for Esports,
+    title: Five books to increase your gaming ability ,                                                       
     subtitle: You have to be more strict,
     publishDate: "2020-05-05"
     tags: [Psychology]
