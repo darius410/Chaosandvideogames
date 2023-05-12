@@ -1,9 +1,8 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: Topic: The ethical considerations of using (AI) in video game development. 
+    title: The ethical considerations of using (AI) in video game development. 
 
-You are a psychologist and researcher and have been tasked with giving as much information about the potential risk that this topic has. Remember to focus on words such as cognitive, autonomy, immersion, and emotional response. Be sure to provide a list of r
     subtitle: Keep Going !
     publishDate: "2019-05-14"
     tags: [Psychology,Gaming]
