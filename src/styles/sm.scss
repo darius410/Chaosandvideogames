@@ -1,5 +1,5 @@
 /* SMALl SMALL SMALL SMALL SMALL SMALL SMALl SMALL SMALL SMALL SMALL SMALL SMALl SMALL SMALL SMALL SMALL SMALL  */
-@media(min-width:40em) {
+
     .visually-hidden {
       clip: rect(0 0 0 0);
       clip-path: inset(50%);
@@ -126,15 +126,19 @@
   
   
   /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
-  .recentPost{
-    
-    height:500px;
+  .recentPostContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-content: stretch;
+    align-items: stretch;
+    height:100px;
     background-image: url(../../public/img/joystick-4321216.jpg);
     background-size: cover;
-    
+    width:100%;
     isolation: isolate;
     margin:20px 0px;
-    
+   
     
   }
   .recentPostShader{
@@ -144,7 +148,7 @@
   .recentPostShader::after{
     content: '';
   position:absolute;
-  background-color: #980808;
+  background-color: #3514c9;
   inset:0;
   z-index:-1;
   opacity:0.7;
@@ -329,4 +333,4 @@
       writing-mode: horizontal-tb;
   }
   
-          }
+          

@@ -25,16 +25,18 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 
 
 			<!-- recent post -->
-			<div class="recentPost">
-				<div class="recentPostShader">
-					<h2 class=" recentPostH2 blogH2">Recent Blog Post</h2>
-				</div>
-				
-			</div>
-
+		
 				
 
 				<ul class="recentPostCard flex column ">
+					<div class="w-full flex column recentPostContainer">
+							<div class="w-full row flex items-center recentPostShader">
+								<h2 class="flex column font-avengers">Recent <span class="font-secondary no-wrap overflow-hidden">Blog Post</span></h2>
+							</div>
+							
+					</div>
+
+
 					{
 					recentBlogs.map((v) => (
 					<li>
