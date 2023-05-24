@@ -185,7 +185,10 @@
   }
   .postCardInfo h3{
      font-weight: bold;
-     font-size:2.8rem;
+     font-size:2.2rem;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
   }
   .postCardInfo span{
     
