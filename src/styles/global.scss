@@ -1,11 +1,17 @@
 @font-face {
   font-family:'Avengers';
-  src: url('my-blog/src/fonts/HeroesAssemble3DRegular-gz3p.otf') format('opentype');
+  src: url('./fonts/HeroesAssembleLeftalic-PgJZ.otf') format('opentype');
   /* Additional font properties (optional) */
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family:'Stigo';
+  src: url('./fonts/StigoThinPersonal-VG790.otf') format('opentype');
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root{
    --primary-dark:#323941;
@@ -21,6 +27,12 @@
 .font-avengers{
   font-family: 'Avengers', sans-serif ;
 }
+.font-archivo{
+  font-family:'Archivo Narrow', sans-serif;
+}
+.font-stigo{
+  font-family: 'Stigo', sans-serif;
+}
 
 
 body {
@@ -29,6 +41,12 @@ body {
   place-items: center;
   grid-template-rows: 100px 1fr auto;
   
+}
+.relative{
+position: relative;
+}
+.absolute{
+  position: absolute;
 }
 .items-center{
   align-items: center;
@@ -51,6 +69,26 @@ width:100%;
 }
 .m-auto{
   margin: 0 auto;
+}
+.m-top-8{
+  margin-top:0.5em;
+}
+.m-top-32{
+  margin-top: 2em;
+}
+
+.pl-8{
+  padding-left: 0.5em;
+}
+
+.ff-size-40{
+  font-size:4.5rem;
+}
+.ff-size-24{
+  font-size: 2rem;
+}
+.ff-size-8{
+  font-size: 0.5em;
 }
 .font-primary{
 font-family: var(--primary-font);
