@@ -180,12 +180,17 @@
   }
   .postCardInfo{
    padding:40px;
-  
+  width:50%;
+
     flex: 1;
   }
   .postCardInfo h3{
      font-weight: bold;
-     font-size:2.8rem;
+     font-size:2.2rem;
+    word-break: keep-all;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .postCardInfo span{
     
@@ -195,19 +200,20 @@
     width: 40px;
   }
   .postCardInfo h3, .postCardInfo p{
-    padding-top:50px;
+    padding-top:10px;
     
   }
-  .postCardInfo h3{
-    word-break: keep-all;
-  }
+
   
   
   .postCardContainer{
-  
+    
+  }
+  .postCardImage{
+    width: 45%;
   }
   .recentPostCard img{
-   width:fit-content;
+   width:100%;
    height:300px;
   
   }
