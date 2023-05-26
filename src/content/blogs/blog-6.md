@@ -1,7 +1,7 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
     title: Are Video Game Movies Finally Good ?
-    subtitle: With the success of recent movies it looks like video games cn finally be seen as more then just digital game titles
+    subtitle: With the success of recent movies it looks like video games 
     publishDate: "2023-02-27"
     tags: [Coding]
     image: {
