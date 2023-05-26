@@ -170,7 +170,8 @@
   
   }
   .recentPostCard{
-    margin:0 30px;
+    width: 70%;
+    margin:0 100px;
   }
   .recentPostCard li{
     
@@ -179,7 +180,7 @@
    border:1px solid rgb(84, 82, 82);
   }
   .postCardInfo{
-   padding:40px;
+   padding:20px 40px;
   
     flex: 1;
   }
@@ -194,9 +195,12 @@
     background-color: red;
     width: 40px;
   }
-  .postCardInfo h3, .postCardInfo p{
-    padding-top:50px;
-    
+ .postCardInfo p{
+
+  }
+
+  p.subtitle{
+    font-size: 1em;
   }
   .postCardInfo h3{
     word-break: keep-all;
