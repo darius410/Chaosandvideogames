@@ -7,13 +7,16 @@ import image from "@astrojs/image";
 import node from "@astrojs/node";
 
 // https://astro.build/config
+import sitemap from "@astrojs/sitemap";
+
+// https://astro.build/config
 export default defineConfig({
+  site: 'https://chaosandvideogames.netlify.app',
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }),node({
-    mode: 'standalone',
-  })],
+  }), node({
+    mode: 'standalone'
+  }), sitemap()],
   output: "server",
-
-  debug:true,
+  debug: true
 });
