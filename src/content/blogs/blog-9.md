@@ -1,8 +1,8 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: Should AI Be used in Game Development ? ,                                                       
-    subtitle: A critical look at video game teasers and their role in marketing ,
+    title: Does coding make you anti-social ? ,                                                       
+    subtitle: Does Software development make you a emotionless robot ,
     publishDate: "2020-05-05"
     tags: [Video Games]
     image: {
