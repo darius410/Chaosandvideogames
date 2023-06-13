@@ -15,4 +15,5 @@ export default defineConfig({
   })],
   output: "server",
 
+  debug:true,
 });

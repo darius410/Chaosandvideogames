@@ -7,7 +7,7 @@
     "defaults"
   ],
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro start",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
