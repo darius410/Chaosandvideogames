@@ -11,7 +11,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://chaosandvideogames.netlify.app',
+  site: 'https://chaosandvideogames.com',
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), node({
