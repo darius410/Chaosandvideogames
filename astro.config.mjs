@@ -13,6 +13,6 @@ export default defineConfig({
   }),node({
     mode: 'standalone',
   })],
-  output: "server",
+  output: "dist",
 
 });

@@ -1,7 +1,7 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: The Game Awards catagories need to improve.
+    title: The TGA catagories need to improve.
 
     subtitle: Are the judges at TGA actually putting games in the wrong category on purpose?
     publishDate: "2019-05-14"
