@@ -18,5 +18,5 @@ export default defineConfig({
     mode: 'standalone'
   }), sitemap()],
   output: "server",
-  debug: true
+  debug: true,
 });
