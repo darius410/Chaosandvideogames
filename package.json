@@ -1,7 +1,9 @@
 {
   "name": "@example/minimal",
   "type": "module",
+  "main": "index.html",
   "version": "0.0.1",
+  "homepage": "https://chaosandvideogames.com",
   "private": true,
   "browerslist": [
     "defaults"
@@ -11,7 +13,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "gh-pages -d dist/client"
   },
   "dependencies": {
     "@astrojs/image": "^0.14.1",
@@ -19,6 +22,7 @@
     "@astrojs/sitemap": "^1.3.3",
     "astro": "^2.0.10",
     "astro-icon": "^0.8.0",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "postcss-preset-env": "^8.0.1",
     "sharp": "^0.31.3"
