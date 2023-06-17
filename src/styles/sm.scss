@@ -29,7 +29,8 @@
     
   }
   .mobileNav{
-    display:none;
+    
+      display:none;
     flex-direction: column;
     position: absolute;
     
@@ -90,10 +91,11 @@
   }
   
   .navBar{
-       &:focus{
+       &:focus,&:focus-within{
   
-      ul{
+      .mobileNav{
         display: flex;
+        
       }
   }
   }
