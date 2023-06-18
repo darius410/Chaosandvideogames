@@ -5,7 +5,7 @@
     publishDate: "2023-02-27"
     tags: [Coding]
     image: {
-        src: "../Chaosandvideogames/img/chinese tower2.jpg",
+        src: "/img/chinese tower2.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
