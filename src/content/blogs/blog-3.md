@@ -6,7 +6,7 @@
     publishDate: "2020-05-05"
     tags: [Psychology]
     image: {
-        src: "/img/bridgeToVillage.jpg",
+        src: "../Chaosandvideogames/img/bridgeToVillage.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

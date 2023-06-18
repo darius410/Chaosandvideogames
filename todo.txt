@@ -13,7 +13,10 @@ Make the homepage show
  -latest Tweets from Twitter(Images are Fine)
  -possibly even Mastadon toots
  -Youtube Videos(Maybe)
-
+    -minimiz file sizes by
+    1.compressing Images
+    2.making them webp
+    3.using the picture tag with multiple variations for all screen sizes
 
 Fix size of dark Mode Buttton
 make The Navigation Sticky on scroll
