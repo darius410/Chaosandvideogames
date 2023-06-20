@@ -74,6 +74,13 @@ declare module 'astro:content' {
   collection: "blogs",
   data: InferEntrySchema<"blogs">
 },
+"blog-10.md": {
+  id: "blog-10.md",
+  slug: "blog-10",
+  body: string,
+  collection: "blogs",
+  data: InferEntrySchema<"blogs">
+},
 "blog-2.md": {
   id: "blog-2.md",
   slug: "blog-2",
@@ -119,6 +126,13 @@ declare module 'astro:content' {
 "blog-8.md": {
   id: "blog-8.md",
   slug: "blog-8",
+  body: string,
+  collection: "blogs",
+  data: InferEntrySchema<"blogs">
+},
+"blog-9.md": {
+  id: "blog-9.md",
+  slug: "blog-9",
   body: string,
   collection: "blogs",
   data: InferEntrySchema<"blogs">

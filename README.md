@@ -39,7 +39,7 @@ If you have any feedback, suggestions, or questions regarding ChaosNVideoGames, 
 
 ## Stay Connected
 
-- Website: [https://www.chaosnvideogames.com](https://www.chaosnvideogames.com)
+- Website: [https://darius410.github.io/Chaosandvideogames/](https://darius410.github.io/Chaosandvideogames/)
 - Twitter: [@ChaosNVideoGames](https://twitter.com/ChaosDaGamer)
 - Email: contact@darius_hansley@yahoo.com
 
