@@ -21,7 +21,7 @@ export default defineConfig({
   trailingSlash: 'never',
   output: "server",
   debug: true,
-  publicDir: './blogs/'
+  publicDir: './blogs/',
     build:{
       format: 'directory',
      
