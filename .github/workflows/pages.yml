@@ -37,8 +37,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      - name: GitHub Pages Overwriter
-        uses: rayluo/github-pages-overwriter@v1.3 
-        with:
-           source-directory: /root
-           target-branch: gh-pages
+    
