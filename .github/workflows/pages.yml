@@ -20,7 +20,6 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
-      -
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         with:
@@ -38,7 +37,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-        name: GitHub Pages Overwriter
+      - name: GitHub Pages Overwriter
         uses: rayluo/github-pages-overwriter@v1.3 
         with:
            source-directory: /root
