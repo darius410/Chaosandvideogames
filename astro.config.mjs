@@ -19,7 +19,7 @@ export default defineConfig({
   }), sitemap()],
     // outDir:'./Chaosandvideogamesout',
   output: "server",
-  adapter:netlify(),
+
   debug: true,
   publicDir: './blogs/',
   base: 'Chaosandvideogames',
