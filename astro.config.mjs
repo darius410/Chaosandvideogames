@@ -22,16 +22,16 @@ export default defineConfig({
 
   debug: true,
   publicDir: './blogs/',
-  base: 'Chaosandvideogames',
+  // base: 'Chaosandvideogames',
     build:{
       format: 'directory',
      
-      assetsPrefix: 'https://Chaosandvideogames.com',
+      // assetsPrefix: 'https://Chaosandvideogames.com',
      assets:'assets',     //Puts all CSS and JS files  in here - Ex ./dist/valueGiven
     // client: './Chaosandvideogames' ,   //Makes dist folder based on the value given
     //  server:'./server'
   },
   trailingSlash: 'ignore',
-  site: 'https://darius410.github.io/Chaosandvideogames/'
+ 
 
 });

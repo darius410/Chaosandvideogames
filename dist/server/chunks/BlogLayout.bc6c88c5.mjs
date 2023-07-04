@@ -1,7 +1,7 @@
 import { c as createAstro, a as createComponent, r as renderTemplate, m as maybeRenderHead, e as renderComponent, f as renderSlot } from './astro.c3f7cf49.mjs';
-import { e as $$Image, $ as $$MainLayout } from './pages/all.5697ee2f.mjs';
+import { e as $$Image, $ as $$MainLayout } from './pages/all.b44d755d.mjs';
 
-const $$Astro$1 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$1 = createAstro("https://chaosandvideogames.com");
 const $$BlogHeader = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$BlogHeader;
@@ -46,7 +46,7 @@ const $$BlogHeader = createComponent(async ($$result, $$props, $$slots) => {
 </header>`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/layouts/components/BlogHeader.astro");
 
-const $$Astro = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro = createAstro("https://chaosandvideogames.com");
 const $$BlogLayout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$BlogLayout;

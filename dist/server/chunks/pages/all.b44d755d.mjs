@@ -237,7 +237,7 @@ const _page0 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   get: get$1
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$Astro$f = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$f = createAstro("https://chaosandvideogames.com");
 const $$HeadComp = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$f, $$props, $$slots);
   Astro2.self = $$HeadComp;
@@ -265,7 +265,7 @@ var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
 var _a;
-const $$Astro$e = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$e = createAstro("https://chaosandvideogames.com");
 const $$Footer = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$e, $$props, $$slots);
   Astro2.self = $$Footer;
@@ -546,7 +546,7 @@ ${contents}`
   };
 }
 
-const $$Astro$d = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$d = createAstro("https://chaosandvideogames.com");
 const $$Icon = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$d, $$props, $$slots);
   Astro2.self = $$Icon;
@@ -593,7 +593,7 @@ async function getUsedSprites(request) {
   return [];
 }
 
-const $$Astro$c = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$c = createAstro("https://chaosandvideogames.com");
 const $$Spritesheet = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$c, $$props, $$slots);
   Astro2.self = $$Spritesheet;
@@ -612,7 +612,7 @@ ${e}`);
 </svg>`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/node_modules/astro-icon/lib/Spritesheet.astro");
 
-const $$Astro$b = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$b = createAstro("https://chaosandvideogames.com");
 const $$SpriteProvider = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$b, $$props, $$slots);
   Astro2.self = $$SpriteProvider;
@@ -621,7 +621,7 @@ const $$SpriteProvider = createComponent(async ($$result, $$props, $$slots) => {
 ${renderComponent($$result, "Spritesheet", $$Spritesheet, {})}`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/node_modules/astro-icon/lib/SpriteProvider.astro");
 
-const $$Astro$a = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$a = createAstro("https://chaosandvideogames.com");
 const $$Sprite = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$a, $$props, $$slots);
   Astro2.self = $$Sprite;
@@ -657,7 +657,7 @@ const navData = [
 
 ];
 
-const $$Astro$9 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$9 = createAstro("https://chaosandvideogames.com");
 const $$Link = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
   Astro2.self = $$Link;
@@ -687,7 +687,7 @@ ${icon && icon.side === "right" && renderTemplate`${renderComponent($$result, "I
 </a>`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/layouts/components/Link.astro");
 
-const $$Astro$8 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$8 = createAstro("https://chaosandvideogames.com");
 const $$Navigation = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
   Astro2.self = $$Navigation;
@@ -716,7 +716,7 @@ const $$Navigation = createComponent(async ($$result, $$props, $$slots) => {
 </nav>`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/layouts/components/Navigation.astro");
 
-const $$Astro$7 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$7 = createAstro("https://chaosandvideogames.com");
 const $$MainLayout = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
   Astro2.self = $$MainLayout;
@@ -774,7 +774,7 @@ posts.reduce((acc, post ) => {
 
 }
 
-const $$Astro$6 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$6 = createAstro("https://chaosandvideogames.com");
 const $$About = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
   Astro2.self = $$About;
@@ -782,7 +782,7 @@ const $$About = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/about.astro");
 
 const $$file$3 = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/about.astro";
-const $$url$3 = "/Chaosandvideogames/about";
+const $$url$3 = "/about";
 
 const _page2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
@@ -869,7 +869,7 @@ async function getImage(transform) {
   }
   const resolved = await resolveTransform(transform);
   const attributes = await loader.getImageAttributes(resolved);
-  const isDev = (_b = (Object.assign({"BASE_URL":"/Chaosandvideogames/","MODE":"production","DEV":false,"PROD":true},{SSR:true,}))) == null ? void 0 : _b.DEV;
+  const isDev = (_b = (Object.assign({"BASE_URL":"/","MODE":"production","DEV":false,"PROD":true},{SSR:true,}))) == null ? void 0 : _b.DEV;
   const isLocalImage = !isRemoteImage(resolved.src);
   const _loader = isDev && isLocalImage ? globalThis.astroImage.defaultLoader : loader;
   if (!_loader) {
@@ -958,7 +958,7 @@ async function getPicture(params) {
   };
 }
 
-const $$Astro$5 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$5 = createAstro("https://chaosandvideogames.com");
 const $$Image = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$Image;
@@ -970,7 +970,7 @@ const $$Image = createComponent(async ($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead($$result)}<img${spreadAttributes(attrs)}${addAttribute(loading, "loading")}${addAttribute(decoding, "decoding")}>`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/node_modules/@astrojs/image/components/Image.astro");
 
-const $$Astro$4 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$4 = createAstro("https://chaosandvideogames.com");
 const $$Picture = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$Picture;
@@ -1024,7 +1024,7 @@ The "alt" attribute holds a text description of the image, which isn't mandatory
 `);
 }
 
-const $$Astro$3 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$3 = createAstro("https://chaosandvideogames.com");
 const $$PostCard = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$PostCard;
@@ -1051,11 +1051,11 @@ const $$PostCard = createComponent(async ($$result, $$props, $$slots) => {
 </article>`;
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/layouts/components/PostCard.astro");
 
-const $$Astro$2 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$2 = createAstro("https://chaosandvideogames.com");
 const $$Blog = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Blog;
-  const allBlogs = await Astro2.glob(/* #__PURE__ */ Object.assign({"../../content/blogs/blog-1.md": () => import('../blog-1.cf1a0672.mjs'),"../../content/blogs/blog-10.md": () => import('../blog-10.b17658d3.mjs'),"../../content/blogs/blog-2.md": () => import('../blog-2.5c763c58.mjs'),"../../content/blogs/blog-3.md": () => import('../blog-3.08cc7801.mjs'),"../../content/blogs/blog-4.md": () => import('../blog-4.14c86580.mjs'),"../../content/blogs/blog-5.md": () => import('../blog-5.10193332.mjs'),"../../content/blogs/blog-6.md": () => import('../blog-6.898e07f7.mjs'),"../../content/blogs/blog-7.md": () => import('../blog-7.e6b409d0.mjs'),"../../content/blogs/blog-8.md": () => import('../blog-8.d964d97a.mjs'),"../../content/blogs/blog-9.md": () => import('../blog-9.f595e132.mjs')}), () => "../../content/blogs/*.md");
+  const allBlogs = await Astro2.glob(/* #__PURE__ */ Object.assign({"../../content/blogs/blog-1.md": () => import('../blog-1.89b7fc9d.mjs'),"../../content/blogs/blog-10.md": () => import('../blog-10.5efc6c43.mjs'),"../../content/blogs/blog-2.md": () => import('../blog-2.773b4a8f.mjs'),"../../content/blogs/blog-3.md": () => import('../blog-3.ebbfc730.mjs'),"../../content/blogs/blog-4.md": () => import('../blog-4.79ec2f9f.mjs'),"../../content/blogs/blog-5.md": () => import('../blog-5.8acf4491.mjs'),"../../content/blogs/blog-6.md": () => import('../blog-6.78ae60ff.mjs'),"../../content/blogs/blog-7.md": () => import('../blog-7.f666e392.mjs'),"../../content/blogs/blog-8.md": () => import('../blog-8.530d7a8c.mjs'),"../../content/blogs/blog-9.md": () => import('../blog-9.6dccef85.mjs')}), () => "../../content/blogs/*.md");
   filterTags(allBlogs);
   const { title, publishDate, tags, author, image, src } = Astro2.props;
   return renderTemplate`${renderComponent($$result, "MainLayout", $$MainLayout, { "slot": "chaos", "title": title, "publishDate": publishDate, "image": image, "tags": tags, "author": author }, { "default": ($$result2) => renderTemplate`${maybeRenderHead($$result2)}<section class="" araia-label="All Blog Post">
@@ -1069,7 +1069,7 @@ const $$Blog = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/blogs/blog.astro");
 
 const $$file$2 = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/blogs/blog.astro";
-const $$url$2 = "/Chaosandvideogames/blogs/blog";
+const $$url$2 = "/blogs/blog";
 
 const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
@@ -1078,7 +1078,7 @@ const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   url: $$url$2
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$Astro$1 = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro$1 = createAstro("https://chaosandvideogames.com");
 const $$Store = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$Store;
@@ -1086,7 +1086,7 @@ const $$Store = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/store.astro");
 
 const $$file$1 = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/store.astro";
-const $$url$1 = "/Chaosandvideogames/store";
+const $$url$1 = "/store";
 
 const _page5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
@@ -1095,7 +1095,7 @@ const _page5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   url: $$url$1
 }, Symbol.toStringTag, { value: 'Module' }));
 
-const $$Astro = createAstro("https://darius410.github.io/Chaosandvideogames/");
+const $$Astro = createAstro("https://chaosandvideogames.com");
 const $$404 = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$404;
@@ -1106,7 +1106,7 @@ const $$404 = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/404.astro");
 
 const $$file = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/404.astro";
-const $$url = "/Chaosandvideogames/404";
+const $$url = "/404";
 
 const _page6 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
