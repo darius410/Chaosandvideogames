@@ -12,23 +12,26 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://chaosandvideogames.com',
-  integrations: [image({
-    serviceEntryPoint: '@astrojs/image/sharp'
-  }), node({
-    mode: 'standalone'
-  }), sitemap()],
-    // outDir:'./Chaosandvideogamesout',
-  trailingSlash: 'never',
-  output: "server",
-  debug: true,
-  publicDir: './blogs/',
-    build:{
-      format: 'directory',
+  // integrations: [image({
+  //   serviceEntryPoint: '@astrojs/image/sharp'
+  // }), node({
+  //   mode: 'standalone'
+  // }), sitemap()],
+  //   // outDir:'./Chaosandvideogamesout',
+  // output: "server",
+  // adapter:netfliy(),
+  // debug: true,
+  // publicDir: './blogs/',
+  // base: 'Chaosandvideogames',
+  //   build:{
+  //     format: 'directory',
      
-      
-     assets:'Chaosandvideogames/assets',     //Puts all CSS and JS files  in here - Ex ./dist/valueGiven
-     client: './Chaosandvideogames' ,   //Makes dist folder based on the value given
-    //  server:'./server'
-  },
+  //     assetsPrefix: 'https://Chaosandvideogames.com',
+  //    assets:'assets',     //Puts all CSS and JS files  in here - Ex ./dist/valueGiven
+  //   // client: './Chaosandvideogames' ,   //Makes dist folder based on the value given
+  //   //  server:'./server'
+  // },
+  // trailingSlash: 'ignore',
+  // site: 'https://darius410.github.io/Chaosandvideogames/'
 
 });

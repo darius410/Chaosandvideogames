@@ -3,7 +3,7 @@
   "type": "module",
   "main": "index.html",
   "version": "0.0.1",
-  "homepage": "https://chaosandvideogames.com",
+  "homepage": "https://chaosandvideogames.com/",
   "private": true,
   "browerslist": [
     "defaults"
