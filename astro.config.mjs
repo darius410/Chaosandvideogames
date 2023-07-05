@@ -20,7 +20,7 @@ export default defineConfig({
   }), node({
     mode: 'standalone'
   }), sitemap()],
-    // outDir:'./Chaosandvideogamesout',
+  
   output: "server",
 
   debug: true,
