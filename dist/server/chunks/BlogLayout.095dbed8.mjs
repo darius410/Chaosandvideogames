@@ -1,5 +1,5 @@
 import { c as createAstro, a as createComponent, r as renderTemplate, m as maybeRenderHead, e as renderComponent, f as renderSlot } from './astro.c3f7cf49.mjs';
-import { e as $$Image, $ as $$MainLayout } from './pages/all.69817259.mjs';
+import { e as $$Image, $ as $$MainLayout } from './pages/all.e58b78a6.mjs';
 
 const $$Astro$1 = createAstro("https://chaosandvideogames.com");
 const $$BlogHeader = createComponent(async ($$result, $$props, $$slots) => {
@@ -54,8 +54,8 @@ const $$BlogLayout = createComponent(async ($$result, $$props, $$slots) => {
   Astro2.self = $$BlogLayout;
   const { frontmatter } = Astro2.props;
   const { title, publishDate, tags, author, image } = frontmatter;
-  return renderTemplate`${renderComponent($$result, "MainLayout", $$MainLayout, { "title": title, "publishDate": publishDate, "tags": tags }, { "default": ($$result2) => renderTemplate`${renderComponent($$result2, "BlogHeader", $$BlogHeader, { "author": author, "title": title, "publishDate": publishDate, "tags": tags, "image": image, "moon": moon })}${maybeRenderHead($$result2)}<div class="post-content container">
-            
+  return renderTemplate`${renderComponent($$result, "MainLayout", $$MainLayout, { "title": title, "publishDate": publishDate, "tags": tags }, { "default": ($$result2) => renderTemplate`${renderComponent($$result2, "BlogHeader", $$BlogHeader, { "author": author, "title": title, "publishDate": publishDate, "tags": tags, "image": image })}${maybeRenderHead($$result2)}<div class="post-content container">
+            ${moon}
         ${renderSlot($$result2, $$slots["default"])}
 
         
