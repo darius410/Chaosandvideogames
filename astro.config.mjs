@@ -24,13 +24,13 @@ export default defineConfig({
   output: "server",
 
   debug: true,
-  publicDir: './blogs/',
+
   // base: 'Chaosandvideogames',
     build:{
       format: 'directory',
      
       // assetsPrefix: 'https://Chaosandvideogames.com',
-     assets:'assets',     //Puts all CSS and JS files  in here - Ex ./dist/valueGiven
+     assets:'assets',     //Puts all CSS and JS files  in here - Ex ./dist/client/valueGiven
     // client: './Chaosandvideogames' ,   //Makes dist folder based on the value given
     //  server:'./server'
   },
