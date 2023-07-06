@@ -1,5 +1,5 @@
 import { l as createVNode, F as Fragment } from './astro.c3f7cf49.mjs';
-import { $ as $$BlogLayout } from './BlogLayout.1799fa57.mjs';
+import { $ as $$BlogLayout } from './BlogLayout.4da4515d.mjs';
 import 'path-to-regexp';
 import 'fs';
 import 'tls';
@@ -9,7 +9,7 @@ import 'kleur/colors';
 import 'string-width';
 import 'slash';
 import 'html-escaper';
-import './pages/all.6d61d6e4.mjs';
+import './pages/all.69817259.mjs';
 import 'sharp';
 import 'node:fs/promises';
 import 'node:path';
@@ -23,11 +23,11 @@ import 'node:stream';
 
 const html = "<p>Veniam laboris deserunt culpa consequat tempor id exercitation fugiat velit. Cupidatat eiusmod sit ut nostrud mollit deserunt nulla elit consequat. Qui ex occaecat non minim nulla fugiat fugiat.Do ea nostrud voluptate irure tempor adipisicing pariatur pariatur culpa ad ipsum. Incididunt et minim et amet proident. Aliqua eu esse veniam sint consectetur nulla veniam esse aliquip do. Irure et id reprehenderit nisi ex aliqua officia cupidatat nulla ex adipisicing aute ut.</p>";
 
-				const frontmatter = {"layout":"../../layouts/BlogLayout.astro","title":"Five reasons to Train Your child for Esports,","subtitle":"You have to be more strict,","publishDate":"2020-05-05","tags":["Psychology"],"image":{"src":"/img/moon-7674557_1920.jpg","alt":"Alternate Text"},"author":"Darius D Hansley"};
-				const file = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/content/blogs/blog-3.md";
+				const frontmatter = {"layout":"../../layouts/BlogLayout.astro","title":"Things I Hate About Your Game Trailers","subtitle":"Keep Going !","publishDate":"2022-05-22","tags":["Psychology","Gaming"],"image":{"src":"/img/bridgeToVillage.jpg","alt":"Alternate Text"},"author":"Darius D Hansley"};
+				const file = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/content/blogs/blog-4.md";
 				const url = undefined;
 				function rawContent() {
-					return "\r\nVeniam laboris deserunt culpa consequat tempor id exercitation fugiat velit. Cupidatat eiusmod sit ut nostrud mollit deserunt nulla elit consequat. Qui ex occaecat non minim nulla fugiat fugiat.Do ea nostrud voluptate irure tempor adipisicing pariatur pariatur culpa ad ipsum. Incididunt et minim et amet proident. Aliqua eu esse veniam sint consectetur nulla veniam esse aliquip do. Irure et id reprehenderit nisi ex aliqua officia cupidatat nulla ex adipisicing aute ut.";
+					return "\r\n<p>Veniam laboris deserunt culpa consequat tempor id exercitation fugiat velit. Cupidatat eiusmod sit ut nostrud mollit deserunt nulla elit consequat. Qui ex occaecat non minim nulla fugiat fugiat.Do ea nostrud voluptate irure tempor adipisicing pariatur pariatur culpa ad ipsum. Incididunt et minim et amet proident. Aliqua eu esse veniam sint consectetur nulla veniam esse aliquip do. Irure et id reprehenderit nisi ex aliqua officia cupidatat nulla ex adipisicing aute ut.</p>";
 				}
 				function compiledContent() {
 					return html;
