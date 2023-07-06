@@ -782,7 +782,7 @@ const $$About = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/about.astro");
 
 const $$file$3 = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/about.astro";
-const $$url$3 = "/about";
+const $$url$3 = "/about/";
 
 const _page2 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
@@ -1055,7 +1055,7 @@ const $$Astro$2 = createAstro("https://chaosandvideogames.com");
 const $$Blog = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Blog;
-  const allBlogs = await Astro2.glob(/* #__PURE__ */ Object.assign({"../../content/blogs/blog-1.md": () => import('../blog-1.eb78eedb.mjs'),"../../content/blogs/blog-10.md": () => import('../blog-10.8bfd1fec.mjs'),"../../content/blogs/blog-11.md": () => import('../blog-11.af089ce0.mjs'),"../../content/blogs/blog-2.md": () => import('../blog-2.69a251e4.mjs'),"../../content/blogs/blog-3.md": () => import('../blog-3.b3688d82.mjs'),"../../content/blogs/blog-4.md": () => import('../blog-4.726b46d9.mjs'),"../../content/blogs/blog-5.md": () => import('../blog-5.3bea526b.mjs'),"../../content/blogs/blog-6.md": () => import('../blog-6.7214fa39.mjs'),"../../content/blogs/blog-7.md": () => import('../blog-7.4e040248.mjs'),"../../content/blogs/blog-8.md": () => import('../blog-8.bd48c568.mjs'),"../../content/blogs/blog-9.md": () => import('../blog-9.dd6d8872.mjs')}), () => "../../content/blogs/*.md");
+  const allBlogs = await Astro2.glob(/* #__PURE__ */ Object.assign({"../../content/blogs/blog-1.md": () => import('../blog-1.b358a4a7.mjs'),"../../content/blogs/blog-10.md": () => import('../blog-10.eec74366.mjs'),"../../content/blogs/blog-11.md": () => import('../blog-11.419c12ca.mjs'),"../../content/blogs/blog-2.md": () => import('../blog-2.66171d06.mjs'),"../../content/blogs/blog-3.md": () => import('../blog-3.4b7dfb1e.mjs'),"../../content/blogs/blog-4.md": () => import('../blog-4.0fdfa3f7.mjs'),"../../content/blogs/blog-5.md": () => import('../blog-5.dd688c6d.mjs'),"../../content/blogs/blog-6.md": () => import('../blog-6.a2a27e8b.mjs'),"../../content/blogs/blog-7.md": () => import('../blog-7.5692f205.mjs'),"../../content/blogs/blog-8.md": () => import('../blog-8.77e92801.mjs'),"../../content/blogs/blog-9.md": () => import('../blog-9.a21934ca.mjs')}), () => "../../content/blogs/*.md");
   filterTags(allBlogs);
   const { title, publishDate, tags, author, image, src } = Astro2.props;
   return renderTemplate`${renderComponent($$result, "MainLayout", $$MainLayout, { "slot": "chaos", "title": title, "publishDate": publishDate, "image": image, "tags": tags, "author": author }, { "default": ($$result2) => renderTemplate`${maybeRenderHead($$result2)}<section class="" araia-label="All Blog Post">
@@ -1069,7 +1069,7 @@ const $$Blog = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/blogs/blog.astro");
 
 const $$file$2 = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/blogs/blog.astro";
-const $$url$2 = "/blogs/blog";
+const $$url$2 = "/blogs/blog/";
 
 const _page3 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
@@ -1086,7 +1086,7 @@ const $$Store = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/store.astro");
 
 const $$file$1 = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/store.astro";
-const $$url$1 = "/store";
+const $$url$1 = "/store/";
 
 const _page5 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
@@ -1106,7 +1106,7 @@ const $$404 = createComponent(async ($$result, $$props, $$slots) => {
 }, "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/404.astro");
 
 const $$file = "C:/Users/noobk/OneDrive/Desktop/WebProjects/Practice/Projects/astro-blog/my-blog/src/pages/404.astro";
-const $$url = "/404";
+const $$url = "/404/";
 
 const _page6 = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
   __proto__: null,
