@@ -1,7 +1,7 @@
 async function getMod() {
-						return import('./blog-2.a9cac6c7.mjs');
+						return import('./blog-7.032ab99d.mjs');
 					}
-					const collectedLinks = ["/assets/global.0c54ed4c.css","/assets/lg.1481159f.css","/assets/med.81c4a824.css","/assets/reset.e49af181.css","/assets/sm.cc54964a.css"];
+					const collectedLinks = ["/assets/global.0c54ed4c.css","/assets/lg.f79fa99c.css","/assets/med.81c4a824.css","/assets/reset.e49af181.css","/assets/sm.cc54964a.css"];
 					const collectedStyles = "@@ASTRO-STYLES@@";
 					const collectedScripts = [{"props":{"src":"/assets/Navigation.astro_astro_type_script_index_0_lang.a0756a62.js","type":"module"},"children":""}];
 

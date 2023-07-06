@@ -8,7 +8,7 @@
     publishDate: "2023-02-03"
     tags: [Coding]
     image: {
-        src: "/img/moon-7674557_1920.jpg",
+        src: "../../../public/img/moon-7674557_1920.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
