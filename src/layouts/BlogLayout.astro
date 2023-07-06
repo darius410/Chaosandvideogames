@@ -3,7 +3,7 @@ import MainLayout from "./MainLayout.astro";
 import { Image } from "@astrojs/image/components";
 import BlogHeader from "./components/BlogHeader.astro";
 import { slugify } from "../js/utils";
-import moon from "../moon-7674557_1920.jpg"
+
 
 const {frontmatter} = Astro.props
 const {title , publishDate, tags, author, image} = frontmatter;
@@ -20,7 +20,7 @@ const {title , publishDate, tags, author, image} = frontmatter;
     />
 
     <div class="post-content container">
-            {moon}
+           
         <slot/>
 
         
