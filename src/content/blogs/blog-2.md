@@ -5,7 +5,7 @@
     publishDate: "2023-02-27"
     tags: [Coding]
     image: {
-        src: "/img/chinese tower2.jpg",
+        src: "../../../public/img/moon-7674557_1920.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

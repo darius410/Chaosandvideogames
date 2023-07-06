@@ -1,5 +1,5 @@
 import { c as createAstro, a as createComponent, r as renderTemplate, m as maybeRenderHead, e as renderComponent, f as renderSlot } from './astro.c3f7cf49.mjs';
-import { e as $$Image, $ as $$MainLayout } from './pages/all.e7bef4ee.mjs';
+import { e as $$Image, $ as $$MainLayout } from './pages/all.c744ee08.mjs';
 
 const $$Astro$1 = createAstro("https://chaosandvideogames.com");
 const $$BlogHeader = createComponent(async ($$result, $$props, $$slots) => {

@@ -12,7 +12,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://chaosandvideogames.com',
-
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), node({
@@ -32,7 +31,7 @@ export default defineConfig({
     // client: './Chaosandvideogames' ,   //Makes dist folder based on the value given
     //  server:'./server'
   },
-  trailingSlash: 'ignore',
+  trailingSlash: "always",
  
 
 });

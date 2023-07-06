@@ -1,6 +1,6 @@
 ---
 
-
+    
     layout: "../../layouts/BlogLayout.astro"
     title: Mastering Javascript before 30
     subtitle: The obvious answer that every developer is looking for 
@@ -8,7 +8,7 @@
     publishDate: "2023-02-03"
     tags: [Coding]
     image: {
-        src: "../../../public/img/moon-7674557_1920.jpg",
+        src: "../img/moon-7674557_1920.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
