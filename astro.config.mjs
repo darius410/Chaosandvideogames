@@ -6,7 +6,7 @@ import netlify from '@astrojs/netlify/static';
 export default defineConfig({
   site: 'https://chaosandvideogames.com',
   debug: true,
-  output: "static",
+  output: "server",
   adapter: netlify(),
   experimental: {
     redirects: true,
