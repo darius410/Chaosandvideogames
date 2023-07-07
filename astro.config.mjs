@@ -10,13 +10,13 @@ export default defineConfig({
     mode: 'standalone'
   }), sitemap()],
   
-  output: "server",
+  output: "static",
 
   debug: true,
 
   // base: 'Chaosandvideogames',
     build:{
-      format: 'directory',
+      format: 'file',
      
       // assetsPrefix: 'https://Chaosandvideogames.com',
      assets:'assets',     //Puts all CSS and JS files  in here - Ex ./dist/client/valueGiven
