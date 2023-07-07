@@ -10,7 +10,7 @@ export default defineConfig({
     mode: 'standalone'
   }), sitemap()],
   
-  output: "static",
+  output: "server",
 
   debug: true,
 
