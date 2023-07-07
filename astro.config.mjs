@@ -1,13 +1,16 @@
 import { defineConfig } from 'astro/config';
 import image from "@astrojs/image";
-import node from "@astrojs/node";
+// import node from "@astrojs/node";
 import sitemap from "@astrojs/sitemap";
+import netlify from '@astrojs/netlify/static';
 export default defineConfig({
   site: 'https://chaosandvideogames.com',
+  adapter: netlify(),
+  experimental: {
+    redirects: true,
+  },
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
-  }), node({
-    mode: 'standalone'
   }), sitemap()],
   
   output: "server",
