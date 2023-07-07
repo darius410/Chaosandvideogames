@@ -12,16 +12,16 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://chaosandvideogames.com',
+  output: "static",
+  debug: true,
+
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), node({
     mode: 'standalone'
   }), sitemap()],
   
-  output: "static",
-
-  debug: true,
-
+  
   // base: 'Chaosandvideogames',
     build:{
       format: 'directory',
