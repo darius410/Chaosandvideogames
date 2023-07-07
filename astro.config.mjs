@@ -5,6 +5,8 @@ import sitemap from "@astrojs/sitemap";
 import netlify from '@astrojs/netlify/static';
 export default defineConfig({
   site: 'https://chaosandvideogames.com',
+  debug: true,
+  output: "static",
   adapter: netlify(),
   experimental: {
     redirects: true,
@@ -13,10 +15,6 @@ export default defineConfig({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), sitemap()],
   
-  output: "server",
-
-  debug: true,
-
   // base: 'Chaosandvideogames',
     build:{
       format: 'file',
