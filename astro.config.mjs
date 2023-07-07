@@ -1,14 +1,7 @@
 import { defineConfig } from 'astro/config';
 import netlify from '@astrojs/netlify/functions';
-
-// https://astro.build/config
-import image from "@astrojs/image";
-
-// // https://astro.build/config
-// import node from "@astrojs/node";
-
-// https://astro.build/config
 import sitemap from "@astrojs/sitemap";
+import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,22 +9,17 @@ export default defineConfig({
   output: 'server',
   adapter: netlify(),
   debug: true,
-
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), sitemap()],
-  
-  
   // base: 'Chaosandvideogames',
-    build:{
-      format: 'directory',
-     
-      // assetsPrefix: 'https://Chaosandvideogames.com',
-     assets:'assets',     //Puts all CSS and JS files  in here - Ex ./dist/client/valueGiven
+  build: {
+    format: 'directory',
+    // assetsPrefix: 'https://Chaosandvideogames.com',
+    assets: 'assets' //Puts all CSS and JS files  in here - Ex ./dist/client/valueGiven
     // client: './Chaosandvideogames' ,   //Makes dist folder based on the value given
     //  server:'./server'
   },
-  trailingSlash: "always",
- 
 
+  trailingSlash: "always"
 });
