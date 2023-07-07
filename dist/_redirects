@@ -1,8 +1,0 @@
-/404            /.netlify/functions/entry    200
-/store          /.netlify/functions/entry    200
-/blogs/blog     /.netlify/functions/entry    200
-/about          /.netlify/functions/entry    200
-/               /index.html                  200
-/_image         /.netlify/functions/entry    200
-/blogs/:slug    /blogs/:slug/index.html      200
-/*              /.netlify/functions/entry    404
