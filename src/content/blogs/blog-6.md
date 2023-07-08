@@ -5,7 +5,7 @@
     publishDate: "2023-02-27"
     tags: [Coding]
     image: {
-        src: "/img/moon.jpg",
+        src: "/img/bridge.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
