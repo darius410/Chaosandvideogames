@@ -5,7 +5,7 @@
     publishDate: "2023-02-27"
     tags: [Coding]
     image: {
-        src: "../img/temple.jpg",
+        src: "/img/temple.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
