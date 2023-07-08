@@ -1,7 +1,12 @@
 # build output
-dist/
+
+   
 # generated types
-.astro
+  .astro
+
+/src
+
+todo.txt
 
 # dependencies
 node_modules/

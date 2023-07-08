@@ -22,3 +22,293 @@ make the background blur when mobile nav is in effect
 Add Logo for ChaosNVideo Games
 Fix the footer to make all items centered and stacked (Keep them spaced apart on desktop view)
 ***************************************
+
+
+6:23:35 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+6:23:17 PM: build-image version: 1ae4e4d7d5e3544ab1eb7f270391cdbb47c1e1e5 (focal)
+6:23:17 PM: buildbot version: 1ae4e4d7d5e3544ab1eb7f270391cdbb47c1e1e5
+6:23:17 PM: Fetching cached dependencies
+6:23:17 PM: Starting to download cache of 128.3MB
+6:23:19 PM: Finished downloading cache in 1.99s
+6:23:19 PM: Starting to extract cache
+6:23:20 PM: Finished extracting cache in 883ms
+6:23:20 PM: Finished fetching cache in 2.912s
+6:23:20 PM: Starting to prepare the repo for build
+6:23:20 PM: Preparing Git Reference refs/heads/master
+6:23:21 PM: Starting to install dependencies
+6:23:21 PM: Python version set to 3.8
+6:23:21 PM: Attempting Ruby version 2.7.2, read from environment
+6:23:22 PM: Using Ruby version 2.7.2
+6:23:23 PM: Started restoring cached go cache
+6:23:23 PM: Finished restoring cached go cache
+6:23:23 PM: go version go1.19.10 linux/amd64
+6:23:23 PM: Using PHP version 8.0
+6:23:24 PM: Started restoring cached Node.js version
+6:23:24 PM: Finished restoring cached Node.js version
+6:23:24 PM: v18.16.1 is already installed.
+6:23:25 PM: Now using node v18.16.1 (npm v9.5.1)
+6:23:25 PM: Enabling Node.js Corepack
+6:23:25 PM: Started restoring cached build plugins
+6:23:25 PM: Finished restoring cached build plugins
+6:23:25 PM: Started restoring cached corepack dependencies
+6:23:25 PM: Finished restoring cached corepack dependencies
+6:23:25 PM: No npm workspaces detected
+6:23:25 PM: Started restoring cached node modules
+6:23:25 PM: Finished restoring cached node modules
+6:23:25 PM: Installing npm packages using npm version 9.5.1
+6:23:27 PM: up to date, audited 601 packages in 1s
+6:23:27 PM: 247 packages are looking for funding
+6:23:27 PM:   run `npm fund` for details
+6:23:27 PM: 4 moderate severity vulnerabilities
+6:23:27 PM: To address all issues (including breaking changes), run:
+6:23:27 PM:   npm audit fix --force
+6:23:27 PM: Run `npm audit` for details.
+6:23:27 PM: npm packages installed
+6:23:27 PM: Install dependencies script success
+6:23:27 PM: Starting build script
+6:23:28 PM: Detected 1 framework(s)
+6:23:28 PM: astro at version 2.8.0
+6:23:28 PM: Section completed: initializing
+6:23:29 PM: ​
+6:23:29 PM: Netlify Build                                                 
+6:23:29 PM: ────────────────────────────────────────────────────────────────
+6:23:29 PM: ​
+6:23:29 PM: ❯ Version
+6:23:29 PM:   @netlify/build 29.15.3
+6:23:29 PM: ​
+6:23:29 PM: ❯ Flags
+6:23:29 PM:   baseRelDir: true
+6:23:29 PM:   buildId: 64a89052f9dcd000088ff2ab
+6:23:29 PM:   deployId: 64a89052f9dcd000088ff2ad
+6:23:29 PM: ​
+6:23:29 PM: ❯ Current directory
+6:23:29 PM:   /opt/build/repo
+6:23:29 PM: ​
+6:23:29 PM: ❯ Config file
+6:23:29 PM:   /opt/build/repo/netlify.toml
+6:23:29 PM: ​
+6:23:29 PM: ❯ Context
+6:23:29 PM:   production
+6:23:29 PM: ​
+6:23:29 PM: build.command from netlify.toml                               
+6:23:29 PM: ────────────────────────────────────────────────────────────────
+6:23:29 PM: ​
+6:23:29 PM: $ npm run build
+6:23:30 PM: > @example/minimal@0.0.1 build
+6:23:30 PM: > astro build
+6:23:31 PM: 10:23:31 PM [content] Types generated 510ms
+6:23:31 PM: 10:23:31 PM [build] output target: static
+6:23:31 PM: 10:23:31 PM [build] Collecting build info...
+6:23:31 PM: 10:23:31 PM [build] Completed in 559ms.
+6:23:31 PM: 10:23:31 PM [build] Building static entrypoints...
+6:23:32 PM: ../assets/HeroesAssembleLeftalic-PgJZ.otf referenced in /opt/build/repo/src/styles/global.scss didn't resolve at build time, it will remain unchanged to be resolved at runtime
+6:23:32 PM: ../assets/StigoThinPersonal-VG790.otf referenced in /opt/build/repo/src/styles/global.scss didn't resolve at build time, it will remain unchanged to be resolved at runtime
+6:23:32 PM: img/joystick-4321216.jpg referenced in /opt/build/repo/src/styles/lg.scss didn't resolve at build time, it will remain unchanged to be resolved at runtime
+6:23:32 PM: ../assets/joystick-4321216.jpg referenced in /opt/build/repo/src/styles/med.scss didn't resolve at build time, it will remain unchanged to be resolved at runtime
+6:23:33 PM: ../assets/joystick-4321216.jpg referenced in /opt/build/repo/src/styles/sm.scss didn't resolve at build time, it will remain unchanged to be resolved at runtime
+10:23:33 PM [build] Completed in 1.90s.
+6:23:33 PM: 
+6:23:33 PM:  building client 
+6:23:33 PM: Generated an empty chunk: hoisted.
+6:23:33 PM: Completed in 45ms.
+6:23:33 PM: 
+6:23:33 PM: 
+6:23:33 PM:  generating static routes 
+6:23:33 PM: ▶ src/pages/index.astro
+6:23:33 PM:   └─ /index.html (+378ms)
+6:23:33 PM: ▶ src/pages/about.astro
+6:23:33 PM:   └─ /about/index.html (+10ms)
+6:23:33 PM: ▶ src/pages/blogs/blog.astro
+6:23:33 PM:   └─ /blogs/blog/index.html (+44ms)
+6:23:33 PM: ▶ src/pages/blogs/[slug].astro
+6:23:33 PM:   ├─ /blogs/blog-1/index.html (+9ms)
+6:23:33 PM:   ├─ /blogs/blog-10/index.html (+14ms)
+6:23:33 PM:   ├─ /blogs/blog-2/index.html (+19ms)
+6:23:33 PM:   ├─ /blogs/blog-3/index.html (+25ms)
+6:23:33 PM:   ├─ /blogs/blog-4/index.html (+29ms)
+6:23:33 PM:   ├─ /blogs/blog-5/index.html (+34ms)
+6:23:33 PM:   ├─ /blogs/blog-6/index.html (+38ms)
+6:23:33 PM:   ├─ /blogs/blog-7/index.html (+42ms)
+6:23:33 PM:   ├─ /blogs/blog-8/index.html (+46ms)
+6:23:33 PM:   └─ /blogs/blog-9/index.html (+51ms)
+6:23:33 PM: ▶ src/pages/store.astro
+6:23:33 PM:   └─ /store/index.html (+4ms)
+6:23:33 PM: ▶ src/pages/404.astro
+6:23:33 PM:   └─ /404.html (+141ms)
+6:23:33 PM:  optimizing 4 images in batches of 32 
+6:23:33 PM: 10:23:33 PM [@astrojs/image] ../img/moon-7674557_1920.jpg image could not be fetched
+6:23:33 PM: 10:23:33 PM [@astrojs/image] /img/bridgeToVillage.jpg image could not be fetched
+6:23:34 PM: Completed in 241ms.
+6:23:34 PM: 
+6:23:34 PM: Completed in 0.88s.
+6:23:34 PM: 
+6:23:34 PM: @astrojs/sitemap: `sitemap-index.xml` is created.
+6:23:34 PM: 10:23:34 PM [build] 15 page(s) built in 3.41s
+6:23:34 PM: 10:23:34 PM [build] Complete!
+6:23:34 PM: ​
+6:23:34 PM: (build.command completed in 4.4s)
+6:23:34 PM: ​
+6:23:34 PM: Functions bundling                                            
+6:23:34 PM: ────────────────────────────────────────────────────────────────
+6:23:34 PM: ​
+6:23:34 PM: Packaging Functions from .netlify/functions-internal directory:
+6:23:34 PM:  - _empty-middleware.mjs
+6:23:34 PM:  - entry.mjs
+6:23:34 PM:  - renderers.mjs
+6:23:34 PM: ​
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/renderers.mjs:5:7:
+6:23:34 PM:       5 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/entry.mjs:8:7:
+6:23:34 PM:       8 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/renderers.mjs:5:7:
+6:23:34 PM:       5 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/endpoint@_@js.339bc51b.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/index@_@astro.d526cd01.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/about@_@astro.fab72163.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/blog@_@astro.84ea7404.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/_slug_@_@astro.80d66c89.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/store@_@astro.1c9b34fd.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/404@_@astro.37977203.mjs:7:7:
+6:23:34 PM:       7 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: ▲ [WARNING] Ignoring this import because node_modules/path-to-regexp/dist/index.js was marked as having no side effects
+6:23:34 PM:     .netlify/functions-internal/chunks/pages/about.astro.3ac56ae1.mjs:6:7:
+6:23:34 PM:       6 │ import 'path-to-regexp';
+6:23:34 PM:         ╵        ~~~~~~~~~~~~~~~~
+6:23:34 PM:   sideEffects is false in the enclosing package.json file
+6:23:34 PM:     node_modules/path-to-regexp/package.json:45:2:
+6:23:34 PM:       45 │   sideEffects: false,
+6:23:34 PM:          ╵   ~~~~~~~~~~~~~
+6:23:34 PM: 10 of 22 warnings shown (disable the message limit with --log-limit=0)
+6:23:35 PM: ​
+6:23:35 PM: ❯ Functions bundled with warnings:
+6:23:35 PM:    - entry.zip
+6:23:35 PM:    - renderers.zip
+6:23:35 PM: ​
+6:23:35 PM: ❯ The following Node.js modules use dynamic expressions to include files:
+6:23:35 PM:    - astro
+6:23:35 PM:    - svgo
+6:23:35 PM: ​
+6:23:35 PM:   Because files included with dynamic expressions aren't bundled with your serverless functions by default,
+  this may result in an error when invoking a function. To resolve this error, you can mark these Node.js
+6:23:35 PM:   modules as external in the [functions] section of your `netlify.toml` configuration file:
+6:23:35 PM: ​
+6:23:35 PM:   [functions]
+6:23:35 PM:     external_node_modules = [astro, svgo]
+6:23:35 PM: ​
+6:23:35 PM:   Visit https://ntl.fyi/dynamic-imports for more information.
+6:23:35 PM: ​
+6:23:35 PM: ​
+6:23:35 PM: (Functions bundling completed in 907ms)
+6:23:35 PM: ​
+6:23:35 PM: Deploy site                                                   
+6:23:35 PM: ────────────────────────────────────────────────────────────────
+6:23:35 PM: ​
+6:23:35 PM: Section completed: deploying
+6:23:35 PM: ​
+6:23:35 PM: Configuration error                                           
+6:23:35 PM: ────────────────────────────────────────────────────────────────
+6:23:35 PM: ​
+6:23:35 PM:   Error message
+6:23:35 PM:   Deploy did not succeed: Deploy directory 'dist/client' does not exist
+6:23:35 PM: ​
+6:23:35 PM:   Resolved config
+6:23:35 PM:   build:
+6:23:35 PM:     command: npm run build
+6:23:35 PM:     commandOrigin: config
+6:23:35 PM:     environment:
+6:23:35 PM:       - DEPRECATED
+6:23:35 PM:     publish: /opt/build/repo/dist/client
+6:23:35 PM:     publishOrigin: config
+6:23:35 PM:   redirects:
+6:23:35 PM:     - from: /*
+      status: 200
+      to: client/index.html
+  redirectsOrigin: config
+Caching artifacts
+6:23:35 PM: Started saving node modules
+6:23:35 PM: Finished saving node modules
+6:23:35 PM: Started saving build plugins
+6:23:35 PM: Finished saving build plugins
+6:23:35 PM: Started saving corepack cache
+6:23:35 PM: Finished saving corepack cache
+6:23:35 PM: Started saving pip cache
+6:23:35 PM: Finished saving pip cache
+6:23:35 PM: Started saving emacs cask dependencies
+6:23:35 PM: Finished saving emacs cask dependencies
+6:23:35 PM: Started saving maven dependencies
+6:23:35 PM: Finished saving maven dependencies
+6:23:35 PM: Started saving boot dependencies
+6:23:35 PM: Finished saving boot dependencies
+6:23:35 PM: Started saving rust rustup cache
+6:23:35 PM: Finished saving rust rustup cache
+6:23:35 PM: Started saving go dependencies
+6:23:35 PM: Finished saving go dependencies
+6:23:35 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+6:23:35 PM: Failing build: Failed to build site
+6:23:36 PM: Finished processing build request in 19.302s

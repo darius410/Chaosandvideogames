@@ -1,11 +1,11 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
     title: The downsides of Youtube studying
-    subtitle: Let yourself Go...Again,
+    subtitle: Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?
     publishDate: "2023-02-27"
     tags: [Coding]
     image: {
-        src: "/img/chinese tower2.jpg",
+        src: "/img/temple.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

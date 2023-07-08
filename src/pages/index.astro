@@ -18,8 +18,16 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 
 		<MainLayout title="Index Page" > 
 			
-			<!--  -->
 
+			<div class="flex column homeContainer ">
+				
+				<!--  -->
+		<!-- <section class="favoritePost absolute flex">
+			<div >
+				<img src="./img/favPost1.png"  class="" width="">
+			</div>
+
+		</section> -->
 
 
 
@@ -28,7 +36,7 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 		
 				
 
-				<ul class="recentPostCard flex column ">
+				<ul class="recentPostCard  flex column ">
 					<div class="w-full flex column recentPostContainer">
 							<div class="w-full row flex recentPostShader">
 								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
@@ -45,10 +53,11 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 								<div class="postCardInfo">	
 									<span></span>
 									<h3>{v.data.title}</h3>
+									<p class="subtitle">{v.data.subtitle}</p>
 									<p>{formatDate(v.data.publishDate)}</p>
 								</div>
 						
-							<div >
+							<div class="postCardImage" >
 								<img
 								src = {v.data.image.src}
 
@@ -63,6 +72,10 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 					))
 						}
 				</ul>
+				
+				
+				</div>
+
 					
 			
 		

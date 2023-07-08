@@ -6,7 +6,7 @@
     publishDate: "2020-05-05"
     tags: [Psychology]
     image: {
-        src: "/img/bridgeToVillage.jpg",
+        src: "/img/moon-7674557_1920.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

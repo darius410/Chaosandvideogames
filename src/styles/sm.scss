@@ -135,7 +135,7 @@
    align-content: stretch;
     align-items: stretch;
     height:200px;
-    background-image: url(../../public/img/joystick-4321216.jpg);
+    background-image: url(../assets/joystick-4321216.jpg);
     background-size: cover;
     width:100%;
     isolation: isolate;
@@ -182,12 +182,19 @@
   }
   .postCardInfo{
    padding:40px;
-  
+  width:50%;
+
     flex: 1;
   }
   .postCardInfo h3{
      font-weight: bold;
-     font-size:2.8rem;
+     font-size:2.2rem;
+    word-break: keep-all;
+    white-space:wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 30px;
+
   }
   .postCardInfo span{
     
@@ -196,20 +203,34 @@
     background-color: red;
     width: 40px;
   }
-  .postCardInfo h3, .postCardInfo p{
-    padding-top:50px;
-    
+  
+  
+  .postCardInfo p{
+    padding-top: 20px;;
   }
-  .postCardInfo h3{
-    word-break: keep-all;
+
+  p.subtitle{
+    position: relative;
+    font-size: 1em;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    max-height: 50%;
+    display: none;
+
   }
+
   
   
   .postCardContainer{
-  
+    
+  }
+  .postCardImage{
+    width: 45%;
   }
   .recentPostCard img{
-   width:fit-content;
+   width:100%;
    height:300px;
   
   }
