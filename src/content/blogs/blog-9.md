@@ -4,9 +4,10 @@
     title: Does coding make you anti-social ? ,                                                       
     subtitle: Does Software development make you a emotionless robot ,
     publishDate: "2020-05-05"
+    url: "../blog-9"
     tags: [Video Games]
     image: {
-        src: "/img/bridgeToVillage.jpg",
+        src: "/img/japan.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

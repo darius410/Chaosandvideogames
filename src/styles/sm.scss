@@ -118,16 +118,25 @@
   }
   
   
-  .darkLightMode{
+  .darkLightModeButton{
     margin:.3em 1em;
     background-color:#FFF;
     border-style: none;
     height: 65px;
     z-index: 2;
   }
+
   
   
   /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+  .homeContainer{
+
+    margin:0px 30px;
+  }
+
+
+
+
   .recentPostContainer{
     display: flex;
     flex-direction: row;
@@ -172,7 +181,7 @@
   
   }
   .recentPostCard{
-    margin:0 30px;
+  
   }
   .recentPostCard li{
     
@@ -272,6 +281,10 @@
       font-family: 'Sofia Sans Extra Condensed', sans-serif;
       word-break: keep-all;
      
+  }
+  .card{
+    margin-top:50px;
+      
   }
   .blogP{
     padding-bottom: 2em;

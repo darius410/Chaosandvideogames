@@ -4,9 +4,10 @@
     title: Things I Hate About Your Game Trailers
     subtitle: Keep Going !
     publishDate: "2022-05-22"
+    url: "../blog-4"
     tags: [Psychology,Gaming]
     image: {
-        src: "/img/bridgeToVillage.jpg" ,
+        src: "/img/lost-places.jpg" ,
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

@@ -34,7 +34,6 @@
   font-family: 'Stigo', sans-serif;
 }
 
-
 body {
   min-height:100vh;
   display: grid;
@@ -53,6 +52,9 @@ position: relative;
 }
 .overflow-hidden{
 overflow:hidden;
+}
+.mx-blog{
+  margin:0px 400px;
 }
 .w-full{
 width:100%;
@@ -101,6 +103,10 @@ font-family: var(--secondary-font);
 .dark-mode{
   background-color:var(--primary-dark);
   color: var(--primary-dark-text);
+}
+.button-dark-mode{
+  background-color:var(--primary-dark);
+  color: white;
 }
 /* NAV */
 .navContainer{

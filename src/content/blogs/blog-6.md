@@ -4,8 +4,9 @@
     subtitle: With the success of recent movies it looks like video games 
     publishDate: "2023-02-27"
     tags: [Coding]
+    url: "../blog-6"
     image: {
-        src: "/img/bridge.jpg",
+        src: "/img/catontree.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

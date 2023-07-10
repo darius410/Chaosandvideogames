@@ -3,32 +3,42 @@ import MainLayout from "../../layouts/MainLayout.astro";
 // import { getCollection, getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
 import  PostCard  from "../../layouts/components/PostCard.astro"
+
+
+
+ const allBlogPost = await Astro.glob("../../content/blogs/*.md");
+ const filteredTags = filterTags(allBlogPost)
+    
+       
+
 import { filterTags } from "../../js/utils";
 
-const allBlogs = await Astro.glob("../../content/blogs/*.md");
 
-const filteredTags = filterTags(allBlogs)
 
-const {title , publishDate, tags, author, image, src} = Astro.props;
+
+
 
 
 
 ---
 
-<MainLayout slot="chaos" {title} {publishDate} {image} {tags} {author}>
+<MainLayout slot="chaos" title="my Blog" >
 <section class="" araia-label="All Blog Post">
 
         <h1>All Blog Post</h1>
         
 
-</section>
-        {
-        allBlogs.map((post) => 
-            <PostCard frontmatter = {post.frontmatter} url={post.url } tagType="h4" />
-
-        )
-            }
+   <div class="mx-blog">
+       {
+            allBlogPost.map((post) =>
+                <PostCard frontmatter = {post.frontmatter} url={post.url } tagType="h4" />
+            )
+                }
+   </div>
     
+</section>
+
+     
 
 
 </MainLayout>

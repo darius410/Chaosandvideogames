@@ -5,9 +5,10 @@
 
     subtitle: Are the judges at TGA actually putting games in the wrong category on purpose?
     publishDate: "2019-05-14"
+    url: "../blog-10"
     tags: [Psychology,Gaming]
     image: {
-        src: https://source.unsplash.com/random/800x800/,
+        src: /img/joystick-4321216.jpg,
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

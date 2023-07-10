@@ -5,9 +5,10 @@
 
     subtitle: Keep Going !
     publishDate: "2019-05-14"
+    url: "../blog-5"
     tags: [Psychology,Gaming]
     image: {
-        src: https://source.unsplash.com/random/800x800/,
+        src: /img/japan.jpg,
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

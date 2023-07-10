@@ -7,16 +7,26 @@ import Link from "../layouts/components/Link.astro";
 
 
 		<MainLayout title="404 Page" > 
-			<h1>Oops, you weren't supposed to see this</h1>
-			
-            <Link href="/"
-                    text="Back To Home"
-                    icon={{ 
-                        name:"ph:house-line",
-                        side:"left",
-                       
-                    }}
-                    />
+			<div class="" style={{
+                display:"grid",
+                placeItems:"center",
+                textAlign:"center",
+                gap:"100px"
+                
+
+            }}>
+                <h1>Oops, you weren't supposed to see this</h1>
+                
+                            <Link   href="/",
+                                    style="Primary"
+                                    text="Back To Home",
+                                    icon={{ 
+                                        name:"ph:house-line",
+                                        side:"left",
+                                       
+                                    }}
+                                    />
+            </div>
 		</MainLayout>
 
 	

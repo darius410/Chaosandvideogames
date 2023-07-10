@@ -35,13 +35,13 @@ Contributions to ChaosNVideoGames are welcome! If you have insights, articles, o
 
 ## Feedback and Suggestions
 
-If you have any feedback, suggestions, or questions regarding ChaosNVideoGames, feel free to open an issue or reach out to us. We value your input and are constantly striving to improve the content and user experience.
+If you have any feedback, suggestions, or questions regarding ChaosAndVideoGames, feel free to open an issue or reach out to us. We value your input and are constantly striving to improve the content and user experience.
 
 ## Stay Connected
 
-- Website: [https://darius410.github.io/Chaosandvideogames/](https://darius410.github.io/Chaosandvideogames/)
-- Twitter: [@ChaosNVideoGames](https://twitter.com/ChaosDaGamer)
-- Email: contact@darius_hansley@yahoo.com
+- Website: [https://www.Chaosandvideogames.com]
+- Twitter: [@CHA0S44](https://twitter.com/ChaosDaGamer)
+- Email: @darius_hansley@yahoo.com
 
-We hope you enjoy your visit to ChaosNVideoGames and find the content informative, inspiring, and insightful in exploring the world of video game companies, game development, and video game psychology!
+I hope you enjoy your visit to ChaosAndVideoGames and find the content informative, inspiring, and insightful in exploring the world of video game companies, game development, and video game psychology!
 

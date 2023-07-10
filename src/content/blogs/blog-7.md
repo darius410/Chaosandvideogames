@@ -4,9 +4,10 @@
     title: Five books to increase your gaming ability ,                                                       
     subtitle: You have to be more strict,
     publishDate: "2020-05-05"
+    url: "../blog-7"
     tags: [Psychology]
     image: {
-        src: "/img/bridgeToVillage.jpg",
+        src: "/img/bridge.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

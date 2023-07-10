@@ -1,4 +1,7 @@
 TO DO FOR DEV ************
+**NOTE** In the front matter of each blog is a URL that directs the user when clicked,this is supposed to be dynamic
+but since that isn't working for now its must be hard coded into every new blog post.
+
 Make the blog page have pagination that loads as you scroll- TOP PRIORITY
 Make the Blog Page capable of filtering through tags and show any blogs with those tags -MINOR PRORITY
 
