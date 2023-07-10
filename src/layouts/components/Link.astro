@@ -12,7 +12,7 @@ interface Props{
         name:string;
         side: "left" | "right";
     };
-    isFilled:boolean;
+    isFilled?:boolean;
     borderVisible?:boolean;
     classes?:string;
 }
@@ -22,8 +22,8 @@ const {
     href,
     style,
     icon,
-    isFilled,
-    borderVisible,
+    isFilled = true,
+    borderVisible= false,
     classes,
     ...rest
 } = Astro.props as Props;

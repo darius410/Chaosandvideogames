@@ -6,8 +6,8 @@ import Link from "./Link.astro";
 import { filterTags } from "../../js/utils";
 
 
-const { frontmatter, url,tagType } = Astro.props;
-const { subtitle , desc, title , publishDate, author, tags, image} = frontmatter
+const { frontmatter,tagType } = Astro.props;
+const { subtitle , desc, title , publishDate, author,url, tags, image} = frontmatter;
 
 const Tag = tagType;
 
@@ -15,11 +15,11 @@ const Tag = tagType;
 
 
 <article class="card">
-    
+     <a href={ url } tabindex="1">   
     <small>{author} - {publishDate}</small>
     <h2>{ title }</h2>
     <Tag onClick={filterTags} class="tags" > {tags} </Tag> 
-        <a  href={ url } >   
+       
             <Image 
                 src = {image.src}
                 alt = {image.alt}
@@ -35,10 +35,7 @@ const Tag = tagType;
     <div class="descContainer">
         <p>{desc}
             
-        <Link class="" 
-        href={url}
-        text="Read More" 
-    />
+      
         </p>
 
     

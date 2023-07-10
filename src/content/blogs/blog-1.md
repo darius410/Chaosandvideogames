@@ -6,6 +6,7 @@
     subtitle: The obvious answer that every developer is looking for 
     desc: To master Javascript before the age of thirty is a pretty easy goal to set for.Until I realized that it is just an overall unrealistic gaol to have in mind.
     publishDate: "2023-02-03"
+    url: "../blog-1"
     tags: [Coding]
     image: {
         src: "/img/moon.jpg",
