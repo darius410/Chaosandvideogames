@@ -6,7 +6,9 @@ import Link from './Link.astro';
 ---
 
 
-<nav aria-label="Primary Navigation" class="navContainer flex" tabindex="0">
+<nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
+
+    <!--    toggle dark mode button -->
     <button  
     arial-label="Toggle Dark Mode" 
     class="darkLightMode" 
@@ -17,14 +19,15 @@ import Link from './Link.astro';
         
     </button>
     
-
-    <a href="/" class="siteLogo" aria-label="Site Logo"> ChaosNVideoGames </a>
+    <!--  SITE LOGO -->
+         <a href="/" class="siteLogo font-avengers" aria-label="Site Logo"> ChaosAndVideoGames </a>
         
 
-    <div class="navBar" tabindex="0" >
+         <!-- NAVIGATION FOR MOBILE AND SEKTOP -->
+    <div class="navigation" tabindex="0" >
     <!-- <img src="img/menu.png" class="menuIcon"/> -->
-
-         <ul class="mobileNav">
+     
+    <ul class="desktopNav">
         {
             navData.map((v) => (
         <li><Link 
@@ -38,6 +41,23 @@ import Link from './Link.astro';
         ))
             }
     </ul>
+        
+         <div class="navBar" tabindex="0">
+             <ul class="mobileNav">
+                     {
+                navData.map((v) => (
+                     <li><Link
+                text={v.name}
+                href={v.path}
+                style="Secondary"
+                isFilled={false}
+                data-navLink
+               
+                     /></li>
+                     ))
+                }
+             </ul>
+         </div>
 
   
     
