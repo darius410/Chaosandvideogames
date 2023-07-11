@@ -14,13 +14,7 @@
   }
   
   /* NAV */
-  .navContainer{
-      
-      flex-direction: row;
-      justify-content:space-between;
-      width: 100%;
-     
-  }
+
   .navBar{
      width: 80px;
       height: 50px;
@@ -109,7 +103,7 @@
   
   align-self: center;
   font-size: 3em;
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
   font-weight: 200;
   position: relative;
   margin: 0 auto;
@@ -165,10 +159,7 @@
     
   
   }
-  .recentPostCard{
-    /* CONTROLS THE WIDTH  SPACE OF  THE LEFT AND RIGHT SIDES FOR THE MAIN PAGE*/
-    margin:0 70px;
-  }
+
   .recentPostCard li{
     
     height: 300px;

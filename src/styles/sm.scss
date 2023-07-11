@@ -14,18 +14,17 @@
   }
   
   /* NAV */
-  .navContainer{
-      
-      flex-direction: row;
-      justify-content:space-between;
-      width: 100%;
-     
-  }
+
+  
+.desktopNav{
+  display:none;
+}
   .navBar{
      width: 80px;
       height: 50px;
       position: relative;
       background-color: #323941;
+   
     
   }
   .mobileNav{
@@ -111,7 +110,7 @@
   
   align-self: center;
   font-size: 3em;
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
   font-weight: 200;
   position: relative;
   margin: 0 auto;
@@ -128,7 +127,8 @@
 
   
   
-  /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+  /* 
+  !HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE */
   .homeContainer{
 
     margin:0px 30px;
@@ -247,7 +247,8 @@
   
   
   
-  /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+  /* 
+  !FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
   
   
   .copyrightContainer{
@@ -273,7 +274,8 @@
     
   }
   
-  /* ****************************************************************************************************** */
+  /* 
+  *BLOG CLASSES BLOG CLASSES BLOG */
   p{
      
       font-size: 2.5rem;
@@ -282,10 +284,7 @@
       word-break: keep-all;
      
   }
-  .card{
-    margin-top:50px;
-      
-  }
+
   .blogP{
     padding-bottom: 2em;
   }

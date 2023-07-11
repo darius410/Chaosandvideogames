@@ -20,18 +20,44 @@
     }
   
   /* NAV */
-  .navContainer{
-      
-      flex-direction: row;
-      justify-content:space-between;
-      width: 100%;
-     
+
+  .navigation{
+    display: flex;
+    position: relative;
   }
+.desktopNav{
+    display:flex;
+    align-self: stretch;
+     margin: 0 1em;
+    align-self: center;
+   margin-right:200px;
+    position: relative;
+    gap:40px;
+    li{
+      font-size:x-large;
+    }
+   
+}
+.siteLogo{
+  
+  align-self: center;
+  font-size: 3em;
+
+  font-weight: 200;
+  position: relative;
+  margin: 0 auto;
+  padding:0 0 0 200px;
+  }
+
   .navBar{
-     width: 80px;
+    
+      width: 80px;
       height: 50px;
       position: relative;
       background-color: #323941;
+        @media(min-width:64em){
+        display: none;
+        }
     
   }
   .mobileNav{
@@ -110,15 +136,6 @@
   }
   .menuIcon:focus {
     display: flex;
-  }
-  .siteLogo{
-  
-  align-self: center;
-  font-size: 3em;
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
-  font-weight: 200;
-  position: relative;
-  margin: 0 auto;
   }
   
   

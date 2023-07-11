@@ -2,6 +2,7 @@
 import MainLayout from "../../layouts/MainLayout.astro";
 // import { getCollection, getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
+import {Icon} from "astro-icon"
 import  PostCard  from "../../layouts/components/PostCard.astro"
 
 
@@ -23,12 +24,38 @@ import { filterTags } from "../../js/utils";
 ---
 
 <MainLayout slot="chaos" title="my Blog" >
-<section class="" araia-label="All Blog Post">
+<section class=" homeContainer text-center flex column" araia-label="All Blog Post">
 
-        <h1>All Blog Post</h1>
+    <div class="w-full flex column recentPostContainer">
+        <div class="w-full row flex recentPostShader">
+            <h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">All<span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
+        </div>
         
+    </div>
 
-   <div class="mx-blog">
+    <!-- <form class="w-half flex">
+        <Icon name="search" width="40"></Icon>
+        <input class="searchInput" type="text" placeholder="Enter your name">
+      </form> -->
+
+      <div class="search-box">
+        <div class="search-icon">
+            <Icon name="search" width="40"></Icon>
+
+        </div>
+        <form action="" class="search-form">
+          <input type="text" placeholder="Search" id="search" autocomplete="off">
+        </form>
+        <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
+         xml:space="preserve">
+            <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
+            <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
+          </svg>
+        <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
+      </div>
+
+
+   <div class="homeContainer flex column items-center justify-items-center">
        {
             allBlogPost.map((post) =>
                 <PostCard frontmatter = {post.frontmatter} url={post.url } tagType="h4" />
