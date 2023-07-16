@@ -10,7 +10,7 @@
     tags: [Coding]
     image: {
         src: "/img/moon.jpg",
-        alt: "Alternate Text",
+        alt: "A boat in a ocean of water sitting below a bright moon",
     } 
     author: Darius D Hansley
 
