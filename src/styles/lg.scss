@@ -148,7 +148,8 @@
   }
   
   
-  /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+  /* 
+   !HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE */
   .recentPost{
     
     height:500px;
@@ -259,7 +260,7 @@
   width:80%;
   height:100px;
   justify-content:space-between;
-  border-top:solid 1px grey;
+  border-top:solid 1px rgb(84, 82, 82);
   margin-top: 50px;
   padding-top:20px;
   }
@@ -280,19 +281,20 @@
   /* ************************************* BLOG DESIGN ********************************************* */
   p{
      
-      font-size: 2.5rem;
+      font-size: 2rem;
       word-break:keep-all;
       font-family: 'Sofia Sans Extra Condensed', sans-serif;
-      word-break: keep-all;
+    
      
   }
   .blogP{
     padding-bottom: 2em;
   }
   .container{
-  margin:0px 3em 2em 3em;  
-  
-  }
+    margin:0px 15em;  
+    max-width:200px;
+    min-width:800px;
+    }
   .blogContainer{
   margin:0px 2em; 
   
