@@ -18,11 +18,13 @@ const { title, publishDate, description , tags, author, image} = frontmatter;
     {image}
     ></BlogHeader>
 
-    <div class="post-content container">
-           
-        <slot/>
-
+    <div class="lineBorderX">
         
+        <div class="container">
+        
+            <slot/>
+        
+        </div>
     </div>
 
 </>

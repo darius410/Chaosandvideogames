@@ -86,6 +86,7 @@ overflow:hidden;
 .w-full{
 width:100%;
 }
+
 .w-half{
   width: 50%;
 }
@@ -157,11 +158,7 @@ p{
   font-size: 1.5rem;
  
 }
-.container{
-margin:0px 15em;  
-max-width:200px;
-min-width:500px;
-}
+
 
 .blogCard{
   margin-top:50px;
@@ -320,6 +317,18 @@ margin-bottom: 2em;
 .sideways{
     transform: rotate(-90deg);
     writing-mode: horizontal-tb;
+    letter-spacing: 0px;
+}
+
+.lineBorderX{
+ border-width: 0;
+    @media (min-width:26em) {
+     
+    border-color:rgb(84, 82, 82);
+    border-style:solid;
+    border-width: 0px 1px 0px 1px;
+    }
+
 }
 
 // ?SEARCH BOX CLASSES  //
