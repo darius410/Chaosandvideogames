@@ -119,11 +119,14 @@
   }
   
   
-  /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+  /* 
+  !HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+  
+  
   .recentPost{
     
     height:300px;
-    background-image: url("../assets/joystick-4321216.jpg");
+    background-image: url("../img/joystick-4321216.jpg");
     background-size: cover;
     
     isolation: isolate;
@@ -227,7 +230,7 @@
   width:80%;
   height:100px;
   justify-content:space-between;
-  border-top:solid 1px 1px rgb(84, 82, 82);
+  border-top:solid 1px rgb(84, 82, 82);
   margin-top: 50px;
   padding-top:20px;
   }
