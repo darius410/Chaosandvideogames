@@ -19,13 +19,14 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 		<MainLayout title="Index Page" role="main" > 
 			
 
+
 			<div class="flex column homeContainer lineBorderX">
 				
 			
 				<section class="flex favBlog">
 					<div class="" >
 						
-						<img src="img/controller.png"  class="" width="">
+						<img src="img/controller.png"  class="" width="" alt="A playstation game controller that looks to be drawn with pencil">
 
 							<h3 class="font-stigo absolute ">Are AI Tools in video games usefull ?</h3>
 					</div>
@@ -35,22 +36,22 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 
 
 
-			<!-- recent post -->
+				<!-- recent post -->
 		
 				
 
-				<ul class="recentPostCard  flex column ">
-					<div class="w-full flex column recentPostContainer">
+				<ul class="recentPostCard  flex column" role="list">
+					 <div class="w-full flex column recentPostContainer">
 							<div class="w-full row flex recentPostShader">
 								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
 							</div>
 							
-					</div>
+					</div> 
 
 
 					{
 					recentBlogs.map((v) => (
-					<li>
+					<li role="listitem">
 						<a href={`/blogs/${slugify(v.slug)}/`}>
 							<div class="postCardContainer flex">
 								<div class="postCardInfo">	
@@ -60,15 +61,15 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 									<p>{formatDate(v.data.publishDate)}</p>
 								</div>
 						
-							<div class="postCardImage" >
-								<img
-								src = {v.data.image.src}
+								<div class="postCardImage" >
+									<img
+									src = {v.data.image.src}
+									alt = {v.data.image.alt}
+									/>
+								</div>
+								
 
-								>
 							</div>
-							
-
-						</div>
 						</a>
 					</li>	
 					
@@ -76,14 +77,9 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 						}
 				</ul>
 				
-				
-				</div>
-
-					
-			
+			</div>
+		</MainLayout>	
 		
-		
-		</MainLayout>
 
 	
 
