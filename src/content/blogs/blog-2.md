@@ -1,7 +1,8 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
     title: The downsides of Youtube studying
-    subtitle: Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?
+    subtitle: Why studying On Youtube is a flaw?
+    desc: Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?
     publishDate: "2023-02-27"
     url: "../blog-2"
     tags: [Coding]

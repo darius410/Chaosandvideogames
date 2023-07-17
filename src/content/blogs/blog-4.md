@@ -2,7 +2,8 @@
     layout: "../../layouts/BlogLayout.astro"
 
     title: Things I Hate About Your Game Trailers
-    subtitle: Keep Going !
+    subtitle: What I hate about game trailers these days
+    desc: Video game trailers are my all time favorite part of the game awards,but there are certain trailers that have a repeat pattern of showing nothing worthwhile. 
     publishDate: "2022-05-22"
     url: "../blog-4"
     tags: [Psychology,Gaming]

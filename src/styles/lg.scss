@@ -150,6 +150,11 @@
   
   /* 
    !HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE */
+
+.favBlog{
+  margin:0 100px;
+}
+   
   .recentPost{
     
     height:500px;
@@ -227,9 +232,7 @@
   }
   
   
-  .postCardContainer{
-  
-  }
+
   .recentPostCard img{
    width:fit-content;
    height:300px;
@@ -289,6 +292,7 @@
   }
   .blogP{
     padding-bottom: 2em;
+    font-size: 2.1em;
   }
   .container{
     margin:0px 15em;  

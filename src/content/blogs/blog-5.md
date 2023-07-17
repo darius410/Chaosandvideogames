@@ -1,9 +1,10 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: The ethical considerations of using (AI) in video game development. 
+    title: The ethical conerns of using AI in video game development. 
 
-    subtitle: Keep Going !
+    subtitle: Can AI destroy the creative process of making video games ?
+    desc: The topic of how using AI in video games effects the brain is something that I never thought I would have to look deeply into, considering that most games already have an AI implemented in them such as fighting games and even first person shooters of all kinds.
     publishDate: "2019-05-14"
     url: "../blog-5"
     tags: [Psychology,Gaming]
@@ -14,26 +15,44 @@
     author: Darius D Hansley
 ---
 
-Im not a Dr or a researcher when it comes to these things but I often say that the psychology that is used to biuld the video game is often better then playing the game itself.Forgive me for liking the idea of how a games art direction effects player choices and enjoyment in the game.But the topic of how using AI in video games effects the brain is something that I never thought I would have to look deeply into, considering that most games already have an AI implemented in them such as fighting games and even first person shooters of all kinds.
-Granted its a hard coded AI that adapts to the players movement and button presses but true AI comes in the form of machine learning concepts and analyzing the players data to make adjustments to gameplay.I would argue that draw distance in video games is a form of AI since the game inside has to consider that players location and decide what elements should be displayed on screen for the sake of having the game run smooth.
+<p class="blogP">
+    Im not a Dr or a researcher when it comes to these things but I often say that the psychology that is used to biuld the video game is often better then playing the game itself.Forgive me for liking the idea of how a games art direction effects player choices and enjoyment in the game.But the topic of how using AI in video games effects the brain is something that I never thought I would have to look deeply into, considering that most games already have an AI implemented in them such as fighting games and even first person shooters of all kinds.
+    Granted its a hard coded AI that adapts to the players movement and button presses but true AI comes in the form of machine learning concepts and analyzing the players data to make adjustments to gameplay.I would argue that draw distance in video games is a form of AI since the game inside has to consider that players location and decide what elements should be displayed on screen for the sake of having the game run smooth.
+</p>
 
-But what happens to the player when they realize that the game they are playing is using AI so much that they are unable to challange themselves or connect to the characters emotionally based on the responses sounding to robotic.You would think this stuff doesn't matter but its just as bad as talking to a voice operator over the phone rather then just talking to a human being on the other side that can understand emotional queues.
+<p class="blogP">But what happens to the player when they realize that the game they are playing is using AI so much that they are unable to challange themselves or connect to the characters emotionally based on the responses sounding to robotic.You would think this stuff doesn't matter but its just as bad as talking to a voice operator over the phone rather then just talking to a human being on the other side that can understand emotional queues.</p>
 
-Here I have gathered a list of ethical and dangerous things to consider regarding the use of AI in video games whether its assisting the player or working against the player. As well as a few reference to articles and research papers that discuss these in further detail because who doesn't love to read(that's why you're here right?).
+<p class="blogP">Here I have gathered a list of ethical and dangerous things to consider regarding the use of AI in video games whether its assisting the player or working against the player. As well as a few reference to articles and research papers that discuss these in further detail because who doesn't love to read(that's why you're here right?).</p>
+<ul>
+<li>Ethical concerns regarding AI programming:</li>
+<li>Impact on emotional response:</li>
+<li>Dependence on AI</li>
+<li>Autonomy and control</li>
+<li>Immersion and realism;</li>
+<li>Emotional response:</li>
+<li>Bias and representation:</li>
+<li>Ethical implications:</li>
+<li>Psychological impact:</li>
+<li>Player experience</li>
+<li>Privacy:</li>
 
-Impact on player immersion:
-Ethical concerns regarding AI programming:
-Impact on emotional response:
-Dependence on AI
-Autonomy and control
-Immersion and realism;
-Emotional response:
-Bias and representation:
-Ethical implications:
-Psychological impact:
-Player experience
-Privacy:
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
 
 These are allot of topics but I'm only going to go through the ones that I know wont make this article a one hour read.
 
@@ -87,6 +106,3 @@ Some potential research papers to consider for a good read
 
 7. "AI in Video Games: Understanding its Role and Impact" by Andrew Przybylski and C. Shawn Green, which provides an overview of the potential effects of AI on the player experience in video games.
 
-<p>
-
-</p>
