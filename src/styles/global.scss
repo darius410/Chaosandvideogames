@@ -12,6 +12,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family:'Bricks';
+  src: url('/fonts/BricksExtraBold.otf') format('opentype');
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root{
    --primary-dark:hsl(214,14%,20%);
@@ -52,6 +59,9 @@ a, a:visited, a:hover {
 }
 .font-stigo{
   font-family: 'Stigo', sans-serif;
+}
+.font-bricks{
+font-family: 'Bricks',sans-serif;
 }
 
 body {
