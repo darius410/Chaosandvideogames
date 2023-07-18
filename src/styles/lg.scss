@@ -309,18 +309,7 @@
       top:287px;
       position: absolute;
   }
-  .blogInfo:after{
-    content: "";
-    position: absolute;
-    height: 7px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
-    width:100px;
-    transform: rotate(-90deg);
-    writing-mode: horizontal-tb;
-    bottom:180px;
-    left:25%;
-  }
+
   .blogTitle{
   position:absolute;
   left:-50px;
@@ -341,19 +330,7 @@
     position:absolute;
   
   }
-  .socialMediaIcons:after{
-    content: "";
-    position: absolute;
-    height: 7px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
-    width:150px;
-    transform: rotate(-90deg);
-    writing-mode: horizontal-tb;
-    bottom:10px;
-    right:-185%;
-    top:20em;
-  }
+
   .socialMediaIcons li{
     padding-bottom:10px;
   }

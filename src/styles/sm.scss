@@ -36,7 +36,7 @@
     top:150%;
     right: 0;
     z-index: 2;
-    background-color: aqua;
+    background-color: white;
     width: 100vw;
     height: 50vh;
   
@@ -45,9 +45,10 @@
   }
   .mobileNav li{
     padding-top: 20px;
-    
+    color:black;
     margin:20px;
     font-size: 1.5rem;
+    
   }
   
   .navBar::before, .navBar::after{
@@ -58,7 +59,7 @@
     position:absolute;
     left: 15%;
     top: 50%;
-    background: #e10f0f;
+    background:white;
     transition:
       transform 0.2s ease,
       top 0.2s ease;
@@ -109,7 +110,7 @@
   .siteLogo{
   
   align-self: center;
-  font-size: 3em;
+  font-size: 1.6em;
 
   font-weight: 200;
   position: relative;
@@ -313,9 +314,9 @@
   .blogInfo:after{
     content: "";
     position: absolute;
-    height: 7px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    height: 1px;
+    border-bottom: 0px solid rgb(84, 82, 82);;
+    border-top: 1px solid rgb(84, 82, 82);
     width:100px;
     transform: rotate(-90deg);
     writing-mode: horizontal-tb;
@@ -345,9 +346,9 @@
   .socialMediaIcons:after{
     content: "";
     position: absolute;
-    height: 7px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    height: 0px;
+    border-bottom: 0px solid rgb(84, 82, 82);
+    border-top: 1px solid rgb(84, 82, 82);
     width:150px;
     transform: rotate(-90deg);
     writing-mode: horizontal-tb;
