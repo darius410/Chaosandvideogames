@@ -7,7 +7,7 @@
     url: "../blog-2"
     tags: [Coding]
     image: {
-        src: "/img/temple.jpg",
+        src: "/img/a_cartoon_style_drawing_of_a_computer.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
