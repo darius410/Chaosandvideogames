@@ -6,7 +6,7 @@
     tags: [Coding]
     url: "../blog-6"
     image: {
-        src: "/img/catontree.jpg",
+        src: "/img/a_cartoon_style_collage_of_video_game_characters.png",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
