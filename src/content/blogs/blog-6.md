@@ -7,7 +7,7 @@
     url: "../blog-6"
     image: {
         src: "/img/a_cartoon_style_collage_of_video_game_characters.png",
-        alt: "Alternate Text",
+        alt: "A cartoon style collage of nintendo video game characters",
     } 
     author: Darius D Hansley
 ---
