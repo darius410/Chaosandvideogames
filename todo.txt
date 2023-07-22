@@ -31,3 +31,9 @@ Add Logo for ChaosNVideo Games
 Fix the footer to make all items centered and stacked (Keep them spaced apart on desktop view)
 ***************************************
 
+
+
+TO DO FOR SEO 
+********************************
+fIND A WAY TO MAKE BLOG URL NOT = /BLOG-12,/BLOG-11,etc 
+try to make it so the page title is in the url instead
