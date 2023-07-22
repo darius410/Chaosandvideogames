@@ -1,7 +1,7 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: Please stop making fun of other programming languages ,                                                       
+    title: Stop making fun of other programming languages ,                                                       
     subtitle: It all in good fun, but eventually someone will get their feelings hurt 
     desc: It's all in good fun, but eventually someone will get their feelings hurt  
     publishDate: "2020-05-05"
