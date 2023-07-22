@@ -1,6 +1,7 @@
 # ChaosNVideoGames
 
-Welcome to ChaosNVideoGames, a blog site dedicated to exploring video game companies, understanding game development, and learning about video game psychology. This platform aims to provide insightful articles, analysis, and discussions about various aspects of the gaming industry, with a particular focus on the psychological aspects of video games.
+This includes information about how video game companies operate as well as how developers make the decisions that go into the final version of the game upon its release.
+Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games. 
 
 ## Features
 
@@ -23,19 +24,9 @@ The blog covers a wide range of topics related to video game companies, game dev
 - Discussions on game marketing, monetization models, and industry trends.
 - Exploring the impact of video games on psychology, player behavior, and immersion.
 - Understanding player motivations, emotions, and the psychology of game design.
-
-## Contributing
-
-Contributions to ChaosNVideoGames are welcome! If you have insights, articles, or ideas that align with the site's focus, feel free to contribute. Here's how you can contribute:
-
-1. Fork the repository and create a new branch for your contributions.
-2. Write your article or make improvements to existing content.
-3. Ensure your content follows the site's writing guidelines and maintains a high standard of quality.
-4. Submit a pull request, and your contribution will be reviewed and considered for merging.
-
 ## Feedback and Suggestions
 
-If you have any feedback, suggestions, or questions regarding ChaosAndVideoGames, feel free to open an issue or reach out to us. We value your input and are constantly striving to improve the content and user experience.
+If you have any feedback, suggestions, or questions regarding ChaosAndVideoGames, feel free to open an issue or reach out to me. Currently there is no way to comment on blogs so feel free to email me.
 
 ## Stay Connected
 
@@ -43,5 +34,5 @@ If you have any feedback, suggestions, or questions regarding ChaosAndVideoGames
 - Twitter: [@CHA0S44](https://twitter.com/ChaosDaGamer)
 - Email: @darius_hansley@yahoo.com
 
-I hope you enjoy your visit to ChaosAndVideoGames and find the content informative, inspiring, and insightful in exploring the world of video game companies, game development, and video game psychology!
+I hope you enjoy your visit to Cmy blog and find the content informative, inspiring, and insightful in exploring the world of video game companies, game development, and video game psychology!
 
