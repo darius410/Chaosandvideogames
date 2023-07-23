@@ -3,7 +3,6 @@ html {
     font-size: 16px;
     overflow-x: hidden;
   }
-
   
   *, *:before, *:after {
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
@@ -18,9 +17,9 @@ html {
   ol, ul {
     list-style: none;
   }
-  
+   
   img {
-    max-width: 100%;
+  /*  max-width: 100%; */
     height: auto;
   }
   a, a:hover, a:focus, a:active a:visited{
