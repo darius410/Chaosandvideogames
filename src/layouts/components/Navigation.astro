@@ -9,23 +9,14 @@ import Link from './Link.astro';
 <nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
 
     <!--    toggle dark mode button -->
-            <!-- <button  
+            <button  
             arial-label="Toggle Dark Mode On/Off" 
-            class="darkLightMode" 
+            class="darkLightMode theme-switch" 
             id="darkLightButton" 
+            aria-pressed="false"
             type="button"> 
                 
-                    <Icon pack="uit" width='2em' name="toggle-on"  />  
-                
-            </button> -->
-
-            <button
-        class="theme-switch"
-        type="button"
-        aria-pressed="false"
-        aria-label="Use Dark Mode"
-        >
-  <svg
+            <svg
        xmlns="http://www.w3.org/2000/svg"
        width="24"
        height="24"
@@ -57,8 +48,11 @@ import Link from './Link.astro';
     <path
           d="M12 1v2m0 18v2M4 4l2 2m12 12 2 2M1 12h2m18 0h2M4 20l2-2M18 6l2-2"
           />
-  </svg>
-</button>
+  </svg> 
+                
+            </button>
+
+    
 
 
     
@@ -111,6 +105,32 @@ import Link from './Link.astro';
 import "../../js/nav.js"
    
 
+( () => {
+    
+	let theme = 'light';
+
+	/**
+	 * Function to toggle between themes
+	 *
+	 * @param {MouseEvent} event
+	 */
+	const onToggleTheme = ( { currentTarget } ) => {
+		const newTheme = theme === 'light' ? 'dark' : 'light';
+		theme = newTheme;
+
+		document.documentElement.setAttribute( 'data-theme', newTheme );
+		currentTarget.setAttribute( 'aria-pressed', newTheme === 'dark' );
+	};
+
+	// Get switch button and add click event
+	const btn = document.querySelector( `.theme-switch` );
+	if ( ! btn ) return;
+	btn.addEventListener( 'click', onToggleTheme, false );
+  
+  
+
+}
+ )();
 
     
 </script>
