@@ -15,7 +15,7 @@
 ---
 
 
-<p>Nostrud consectetur exercitation sunt laboris esse occaecat in sunt id pariatur enim. Occaecat qui et mollit ipsum. Sunt sit ad quis magna qui quis velit non nulla consectetur officia. Aliqua non in sint labore aliqua tempor officia duis. Esse duis eiusmod ea sit incididunt anim ex. Veniam duis aliqua pariatur proident ad pariatur.</p>
+<p>Can we please Stop Making Fun Of Other languages for the sake of newer developers out there?</p>
 
 <p>Eu nisi excepteur commodo dolor duis minim mollit velit. Anim aliquip minim quis fugiat quis proident. Consequat do quis elit esse Lorem qui velit exercitation tempor dolore anim labore voluptate. Laborum ut nostrud et ut elit eu non cillum dolor consectetur quis.Tempor pariatur incididunt quis ad eu eiusmod labore sit ea irure cillum occaecat magna ipsum. Anim voluptate qui amet enim cupidatat. Do amet do commodo fugiat proident mollit enim sit commodo elit deserunt proident elit officia. Sunt amet officia voluptate ut eu minim dolor officia do consequat ipsum. Consequat aliqua id proident ad ad exercitation exercitation voluptate qui magna magna nostrud veniam magna.</p>
 
@@ -25,5 +25,5 @@
 
 <p>Despite these issues, there are still plenty of ways that video game teasers can be effective in marketing. For example, teasers can be used to introduce gamers to new franchises or concepts, building excitement for something that is completely new and unknown. They can also be used to generate interest in smaller or more niche titles that might not otherwise get a lot of attention.</p>
 
-<p>Cupidatat non sunt culpa exercitation culpa aliqua laborum dolore commodo ad minim. Reprehenderit enim esse ad tempor proident non ea. Nulla aliqua mollit ex esse anim amet. Est occaecat in magna aliqua sunt quis labore exercitation. Veniam minim enim officia cillum in laborum nostrud laborum dolore. Fugiat ullamco minim voluptate aliqua quis laboris proident mollit nostrud aliquip velit pariatur.
+<p>Cupidatat non sunt culpa exercitation culpa aliquniam minim enim officia cillum in laborum nostrud laborum dolore. Fugiat ullamco minim voluptate aliqua quis laboris proident mollit nostrud aliquip velit pariatur.a laborum dolore commodo ad minim. Reprehenderit enim esse ad tempor proident non ea. Nulla aliqua mollit ex esse anim amet. Est occaecat in magna aliqua sunt quis labore exercitation. Ve
 </p>
