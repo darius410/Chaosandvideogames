@@ -15,7 +15,7 @@
 ---
 
 
-<p>Can we please Stop Making Fun Of Other languages for the sake of newer developers out there?</p>
+<p>Stop Making Fun Of Other languages</p>
 
 <p>Eu nisi excepteur commodo dolor duis minim mollit velit. Anim aliquip minim quis fugiat quis proident. Consequat do quis elit esse Lorem qui velit exercitation tempor dolore anim labore voluptate. Laborum ut nostrud et ut elit eu non cillum dolor consectetur quis.Tempor pariatur incididunt quis ad eu eiusmod labore sit ea irure cillum occaecat magna ipsum. Anim voluptate qui amet enim cupidatat. Do amet do commodo fugiat proident mollit enim sit commodo elit deserunt proident elit officia. Sunt amet officia voluptate ut eu minim dolor officia do consequat ipsum. Consequat aliqua id proident ad ad exercitation exercitation voluptate qui magna magna nostrud veniam magna.</p>
 
