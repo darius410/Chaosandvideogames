@@ -317,6 +317,12 @@
     left:-300px;
     top:580px;
     position: absolute;
+
+    @media (min-width:64em) {
+      left:-23px;
+      top:840px;
+      position: absolute;
+    }
 }
   .blogInfo:after{
     content: "";
