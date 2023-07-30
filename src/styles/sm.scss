@@ -109,7 +109,7 @@
   .siteLogo{
   
   align-self: center;
-  font-size: 5em;
+  font-size: calc(2em + 30px);
 
   font-weight: 200;
   position: relative;
@@ -289,7 +289,7 @@
 
   .blogP{
     padding-bottom: 2em;
-      font-size: 4rem;
+      font-size: 5em;
       word-break:keep-all;
       font-family: 'Sofia Sans Extra Condensed', sans-serif;
       letter-spacing: 1px;
@@ -305,11 +305,12 @@
   
   
   }
+ 
   .blogInfo{
-      left:-70px;
-      top:287px;
-      position: absolute;
-  }
+    left:-300px;
+    top:580px;
+    position: absolute;
+}
   .blogInfo:after{
     content: "";
     position: absolute;
@@ -324,18 +325,23 @@
   }
   .blogTitle{
   position:absolute;
-  left:-50px;
-  top:3.7em;
-  width: 350px;
+  left:-120px;
+  top:9.3em;
+  width: 600px;
   
-  line-height: 50px;
-  font-size:3rem;
+  line-height: 60px;
+  font-size:4rem;
   
   }
   .blogImage{
       position: relative;
-      left:180px;
+      left:300px;
     
+  }
+  .nameDate{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 5rem;
+   
   }
   .socialContainer{
     right:-20px;
