@@ -5,6 +5,8 @@ import { formatDate,slugify } from "../js/utils";
 export const prerender = true;
 import { Image } from "@astrojs/image/components";
 
+const {title , publishDate, tags, author, image}  = Astro.props;
+
 
 const allBlogs = await getCollection('blogs')
 const recentBlogs = [...allBlogs].sort(
@@ -20,10 +22,10 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 			
 
 
-			<div class="flex column homeContainer lineBorderX">
+			<div class="flex column homeContainer lineBorderX " style="margin-top:100px;">
 				
 			
-				<section class="flex favBlog">
+				<!-- <section class="flex favBlog">
 					<div class="" >
 						
 						<img src="img/controller.png"  class="" width="" alt="A playstation game controller that looks to be drawn with pencil">
@@ -31,7 +33,32 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 							<h3 class="font-stigo absolute ">Are AI Tools in video games usefull ?</h3>
 					</div>
 
-				</section> 
+				</section>  -->
+
+				<section class="blogHeader container">
+				
+					 <h2 class="homeTitle sideways ">welcome To My Blog</h2>
+				
+				
+					<Image
+					src = {'/img/controller.png'}
+					alt = {'vbuvu'}
+					width = "600"
+					height = "800"
+					aspectRatio = "4:2"
+					format = "webp"
+					fit = "cover"
+					quality={80}
+					class="blogImage"
+				/>  
+				
+				<div class="socialContainer" aria-label="Social Icons Navigation">
+			
+	
+				
+				</div>
+				
+				</section>
 			
 
 				<ul class="recentPostCard  flex column" role="list">
@@ -74,7 +101,18 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 			</div>
 		</MainLayout>	
 		
+<style>
+	.homeTitle{
+		position:absolute;
+  left:-180px;
+  top:3em;
+  width: 650px;
+  margin-top:100px;
+  line-height: 50px;
+  font-size:6rem;
+	}
 
+</style>
 	
 
 		 
