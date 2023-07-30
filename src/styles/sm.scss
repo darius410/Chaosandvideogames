@@ -338,14 +338,9 @@
   
   line-height: 60px;
   font-size:4rem;
-    @media (min-width:64em) {
-      position:absolute;
-      left:-200px;
-      top:5.5em;
-      width: 700px;
-      line-height: 90px;
-      font-size:6rem;
-    }
+  @media (min-width:64em) {
+        
+  }
   
   }
   .blogImage{
@@ -356,6 +351,10 @@
   .nameDate{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 5rem;
+    @media (min-width:64em) {
+      font-family: 'Sofia Sans Extra Condensed', sans-serif;
+      font-size: 1.5rem;
+    }
    
   }
   .socialContainer{
