@@ -1,6 +1,7 @@
 ---
 
 import {Image} from '@astrojs/image/components';
+import { Picture } from '@astrojs/image/components';
 import { slugify, formatDate } from '../../js/utils';
 const {title , publishDate, tags, author, image}  = Astro.props;
 ---
@@ -15,7 +16,7 @@ const {title , publishDate, tags, author, image}  = Astro.props;
      <h2 class="blogTitle sideways ">{title}</h2>
 
 
-    <Image
+    <!-- <Image
     src = {image.src}
     alt = {image.alt}
     width = "300"
@@ -25,7 +26,20 @@ const {title , publishDate, tags, author, image}  = Astro.props;
     fit = "contain"
     quality={80}
     class="blogImage"
-/>  
+/>   -->
+<Picture 
+src = {image.src}
+alt = {image.alt}
+widths={[700]}
+height = "400"
+aspectRatio = "1:2"
+sizes="((min-width: 12em)) and ((max-width:107em)) 30em"
+
+format = "webp"
+fit = "cover"
+quality={80}
+
+/>
 
 <div class="socialContainer" aria-label="Social Icons Navigation">
 <ul class="socialMediaIcons">
@@ -60,7 +74,3 @@ const {title , publishDate, tags, author, image}  = Astro.props;
 
 </header>
         
-<style>
-
-
-</style>

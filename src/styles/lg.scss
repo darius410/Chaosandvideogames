@@ -42,7 +42,7 @@
   
   align-self: center;
   
-
+  font-size: 5em;
   font-weight: 200;
   position: relative;
   margin: 0 auto;
@@ -266,7 +266,10 @@
   }
   .blogP{
     padding-bottom: 2em;
-    font-size: 2.1em;
+      font-size: 2.6em;
+      word-break:keep-all;
+      font-family: 'Sofia Sans Extra Condensed', sans-serif;
+      letter-spacing: 1px;
   }
   .container{
     margin:0px 15em;  
@@ -278,26 +281,31 @@
   
   
   }
-  .blogInfo{
-      left:-70px;
-      top:287px;
-      position: absolute;
-  }
 
   .blogTitle{
-  position:absolute;
-  left:-50px;
-  top:3.7em;
-  width: 350px;
-  
-  line-height: 50px;
-  font-size:3rem;
-  
-  }
+    position:absolute;
+    left:-200px;
+    top:5.5em;
+    width: 700px;
+    
+    line-height: 90px;
+    font-size:6rem;
+    
+    }
   .blogImage{
       position: relative;
       left:180px;
     
+  } 
+  .blogInfo{
+    left:-100px;
+    top:850px;
+    position: absolute;
+}
+.nameDate{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 1.5rem;
+   
   }
   .socialContainer{
     right:-20px;
