@@ -22,28 +22,8 @@
       background-color: #323941;
     
   }
-  .mobileNav{
-    display:none;
-    flex-direction: column;
-    position: absolute;
-    
-    top:150%;
-    right: 0;
-    z-index: 2;
-    background-color: aqua;
-    width: 100vw;
-    height: 50vh;
-  
-    align-items:center;
-    
-  }
-  .mobileNav li{
-    padding-top: 20px;
-    
-    margin:20px;
-    font-size: 1.5rem;
-  }
-  
+
+
   .navBar::before, .navBar::after{
     content: '';
     display: inline-block;
@@ -102,7 +82,7 @@
   .siteLogo{
   
   align-self: center;
-  font-size: 3em;
+
 
   font-weight: 200;
   position: relative;
@@ -204,7 +184,7 @@
 
   p.subtitle{
     position: relative;
-    font-size: 0.8em;
+    font-size: 2rem;
     white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;

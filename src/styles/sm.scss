@@ -29,17 +29,16 @@
   }
   .mobileNav{
     
-      display:none;
+     display:none;
     flex-direction: column;
     position: absolute;
     
-    top:150%;
-    right: 0;
+    top:175%;
+    right: 0px;
     z-index: 2;
     background-color: white;
-    width: 100vw;
+    width: 133vw;
     height: 50vh;
-  
     align-items:center;
     
   }
@@ -47,7 +46,7 @@
     padding-top: 20px;
     color:black;
     margin:20px;
-    font-size: 1.5rem;
+    font-size: 3.3rem;
     
   }
   
@@ -110,7 +109,7 @@
   .siteLogo{
   
   align-self: center;
-  font-size: 1.6em;
+  font-size: 5em;
 
   font-weight: 200;
   position: relative;
@@ -120,9 +119,6 @@
   
   .darkLightMode{
     margin:.3em 1em;
-  
-   
-    
     z-index: 2;
   }
   
@@ -225,7 +221,7 @@
 
   p.subtitle{
     position: relative;
-    font-size: 1em;
+    font-size: 2em;
     white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -284,7 +280,7 @@
   *BLOG CLASSES BLOG CLASSES BLOG */
   p{
      
-      font-size: 2rem;
+      font-size: 3rem;
       word-break:keep-all;
       font-family: 'Sofia Sans Extra Condensed', sans-serif;
       letter-spacing: 1px;
