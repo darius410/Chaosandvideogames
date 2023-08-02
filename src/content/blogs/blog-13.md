@@ -8,7 +8,7 @@
     url: "../blog-13"
     tags: [Coding]
     image: {
-        src: "/img/astronaut.jpg",
+        src: "/img/startup.jpg",
         alt: "An astronaut standing in a puddle of with a bright moon behind him.The puddle beneath him shows a reflection of himself as well as the moon behind him.",
     } 
     author: Darius D Hansley
