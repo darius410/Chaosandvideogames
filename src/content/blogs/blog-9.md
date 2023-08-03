@@ -1,14 +1,15 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: Does coding make you anti-social ? ,                                                       
-    subtitle: Does Software development make you a emotionless robot ,
-    publishDate: "2020-05-05"
+    title: Does coding make you anti-social ?                                                     
+    subtitle: Does Software development make you a emotionless robot?1
+    desc: Is it possible that a having a passion can lead to being the most awkward person in the room?
+    publishDate: "2023-06-23"
     url: "../blog-9"
-    tags: [Video Games]
+    tags: [Coding]
     image: {
         src: "/img/japan.jpg",
-        alt: "Alternate Text",
+        alt: "A person with their back turned while walking down an alley in the streets of Tokyo.Their are lights on the surrounding buildings that make up for the night time environment",
     } 
     author: Darius D Hansley
 ---

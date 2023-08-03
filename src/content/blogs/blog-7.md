@@ -3,7 +3,7 @@
 
     title: Five books to increase your gaming ability ,                                                       
     subtitle: You have to be more strict,
-    publishDate: "2020-05-05"
+    publishDate: "2023-05-18"
     url: "../blog-7"
     tags: [Psychology]
     image: {

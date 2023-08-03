@@ -18,7 +18,7 @@
 </p>
 
  
-<h2>The history of video game movie adaptations and their mixed success</h2>
+<h2 class="blogH2">The history of video game movie adaptations and their mixed success</h2>
 
 
 
@@ -32,7 +32,7 @@
 </p>
 
 
-<h1>Are there any good ones out there?</h1>
+<h1 class="blogH2">Are there any good ones out there?</h1>
 
 
 <p class="blogP">Often times people will bring up games like Resident Evil and Tomb raider when mentioning movies that are successfull. But In my opinion those movies are only succesfull at NOT MAKING THE AUDIENCE UPSET just enough so that the movie isn't poorly reviewed.For example,the resident evil movies that star Mia Jolavich have almost no reference to the original games but they offer name drops and a plot that is familiar to the originals.Not to mention the tone overall doesn't come off as scary because the main character is confident in her abilities to shoot machine guys while running down the side of a skyscraper.Nothing about this movie stood out as resident evil since it didnt involve being stuck in a mansion and solving obscure puzzles the entire time.</p>
@@ -49,7 +49,7 @@
 
 <p class="blogP">How ever all of these games are still consider to be controversial among fans of the original games. I believe this is simply because gamers don't want to see references to things they already know exist but rather see a story that is familiar but with a new twist.BUT even if you do that you may end up having a movie that doesn't stick to the source material and that will be the biggest complaint.If you don't believe me ask a gamer about thier opinion on the mortal kombat movie and how close to the original game is paired with it.Again,allot of great references to things we know but one change to the story element and it was all over.The main character was an unknown fighter not from any games,and all of the great characters were out of touch with who we fell in love with over the years.This didn't do good with the fact that currently the latest Mortal Kombat Game (MK11) is not well received by the current fanbase,even from professional players.Granted poeple will never not buy a mortal kombat game but it still shows how something like a failed movie can have people look at a franchise differently.</p>
 
-<h2>The recent trend of improving video game movie adaptations</h2>
+<h2 class="blogH2">The recent trend of improving video game movie adaptations</h2>
 
 <p class="blogP">
     However there have been some great examples of video games being in the film media. With shows like CyberpunkEdgerunners, Arkane, and of course The last of us. I truly believe that we are now in the age where video game media might be worth watching and can potentially bring in more fans of the game.
@@ -60,7 +60,7 @@
 Translating Game Mechanics to Film: One of the main reasons for the decline of movie adaptations of video games is the consistent quality of  bad acting, poor direction, and weak storytelling. Video games are interactive and allow players to control the story and characters, while movies are passive and rely on a linear narrative.filmmakers may feel pressure to stick closely to the formula of the original game, leading to a movie that feels derivative and unoriginal. This can be a turn-off for audiences who may be looking for something fresh and exciting. This means that what works well in a video game may not translate smoothly to a movie, and vice versa.
 </p>
 
-<h2>CONCLUSION</h2>
+<h2 class="blogH2">CONCLUSION</h2>
 <p class="blogP">
     
 The overall future of video game movies are looking to be much brighter considering the success of the titles that I mentioned above however I think its still important to remember the key factor in making a good video game movie is communication.If the studio and the creator of the game itself can synergize together it will make video game movies popular and not just what people refer to as a popcorn flick to waste time and money on.One small example of this is the new announcement of DC movies being directed by James Gunn. Granted these are comic books but recently James Gunn decided to make a video explaining his plan to basically making DC movies better by making sure everyone involved with the project is aware of how things should be and will be going forward and how to not have movies that don't 'vibe' with the audience.Again those aren't video games but its an example of how fictional media needs to be represented on the screen properly otherwise it will be a waste of every ones time and upset core audience and of course the investors.
