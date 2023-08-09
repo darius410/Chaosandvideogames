@@ -26,6 +26,8 @@ Fix size of dark Mode Buttton
 make The Navigation Sticky on scroll
 make the background blur when mobile nav is in effect
 
+All <p> and <h> tags need to be responsive for all screen sizes for blog post 
+
 Add Logo for ChaosNVideo Games
 Fix the footer to make all items centered and stacked (Keep them spaced apart on desktop view)
 ***************************************
