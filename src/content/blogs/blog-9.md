@@ -2,7 +2,7 @@
     layout: "../../layouts/BlogLayout.astro"
 
     title: Does coding make you anti-social ?                                                     
-    subtitle: Does Software development make you a emotionless robot?1
+    subtitle: Does Software development make you a emotionless robot?
     desc: Is it possible that a having a passion can lead to being the most awkward person in the room?
     publishDate: "2023-06-23"
     url: "../blog-9"
@@ -15,7 +15,7 @@
 ---
 
 
-<p>Nostrud consectetur exercitation sunt laboris esse occaecat in sunt id pariatur enim. Occaecat qui et mollit ipsum. Sunt sit ad quis magna qui quis velit non nulla consectetur officia. Aliqua non in sint labore aliqua tempor officia duis. Esse duis eiusmod ea sit incididunt anim ex. Veniam duis aliqua pariatur proident ad pariatur.</p>
+<p>Is it possible that a having a passion can lead to being the most awkward person in the room?</p>
 
 <p>Eu nisi excepteur commodo dolor duis minim mollit velit. Anim aliquip minim quis fugiat quis proident. Consequat do quis elit esse Lorem qui velit exercitation tempor dolore anim labore voluptate. Laborum ut nostrud et ut elit eu non cillum dolor consectetur quis.Tempor pariatur incididunt quis ad eu eiusmod labore sit ea irure cillum occaecat magna ipsum. Anim voluptate qui amet enim cupidatat. Do amet do commodo fugiat proident mollit enim sit commodo elit deserunt proident elit officia. Sunt amet officia voluptate ut eu minim dolor officia do consequat ipsum. Consequat aliqua id proident ad ad exercitation exercitation voluptate qui magna magna nostrud veniam magna.</p>
 

@@ -8,7 +8,6 @@ Make the Blog Page capable of filtering through tags and show any blogs with tho
 Intergrate a like system (Facebook maybe) at the bottom of every blog post - MINOR PRIORITY
 
 
-SEO INTERGRATION - provide the proper tags and meta dat for this site to rank in google search
 
 A11y - Make the site accessable to screen readers and other factors that may impact a user
 *****************************
@@ -35,5 +34,6 @@ Fix the footer to make all items centered and stacked (Keep them spaced apart on
 
 TO DO FOR SEO 
 ********************************
+SEO INTERGRATION - provide the proper tags and meta data for this site to rank in google search
 fIND A WAY TO MAKE BLOG URL NOT = /BLOG-12,/BLOG-11,etc 
-try to make it so the page title is in the url instead
+try to make it so the page title is in the url instead 

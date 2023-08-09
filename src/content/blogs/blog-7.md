@@ -2,7 +2,7 @@
     layout: "../../layouts/BlogLayout.astro"
 
     title: Five books to increase your gaming ability ,                                                       
-    subtitle: You have to be more strict,
+    subtitle: A list of books to boost your understanding of video game concepts
     publishDate: "2023-05-18"
     url: "../blog-7"
     tags: [Psychology]
