@@ -194,77 +194,84 @@ declare module 'astro:content' {
   slug: "blog-1";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-10.md": {
 	id: "blog-10.md";
   slug: "blog-10";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-11.md": {
 	id: "blog-11.md";
   slug: "blog-11";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
+} & { render(): Render[".md"] };
+"blog-12.md": {
+	id: "blog-12.md";
+  slug: "blog-12";
+  body: string;
+  collection: "blogs";
+  data: any
 } & { render(): Render[".md"] };
 "blog-2.md": {
 	id: "blog-2.md";
   slug: "blog-2";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-3.md": {
 	id: "blog-3.md";
   slug: "blog-3";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-4.md": {
 	id: "blog-4.md";
   slug: "blog-4";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-5.md": {
 	id: "blog-5.md";
   slug: "blog-5";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-6.md": {
 	id: "blog-6.md";
   slug: "blog-6";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-7.md": {
 	id: "blog-7.md";
   slug: "blog-7";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-8.md": {
 	id: "blog-8.md";
   slug: "blog-8";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 "blog-9.md": {
 	id: "blog-9.md";
   slug: "blog-9";
   body: string;
   collection: "blogs";
-  data: InferEntrySchema<"blogs">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -276,5 +283,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }

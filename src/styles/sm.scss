@@ -14,41 +14,45 @@
   }
   
   /* NAV */
-  .navContainer{
-      
-      flex-direction: row;
-      justify-content:space-between;
-      width: 100%;
-     
-  }
+
+  
+.desktopNav{
+  display:none;
+
+    @media (min-width:64em){
+      display:flex;
+
+    }
+}
   .navBar{
      width: 80px;
       height: 50px;
       position: relative;
       background-color: #323941;
+   
     
   }
   .mobileNav{
     
-      display:none;
+     display:none;
     flex-direction: column;
     position: absolute;
     
-    top:150%;
-    right: 0;
+    top:175%;
+    right: 0px;
     z-index: 2;
-    background-color: aqua;
-    width: 100vw;
+    background-color: white;
+    width: 133vw;
     height: 50vh;
-  
     align-items:center;
     
   }
   .mobileNav li{
     padding-top: 20px;
-    
+    color:black;
     margin:20px;
-    font-size: 1.5rem;
+    font-size: 3.3rem;
+    
   }
   
   .navBar::before, .navBar::after{
@@ -59,7 +63,7 @@
     position:absolute;
     left: 15%;
     top: 50%;
-    background: #e10f0f;
+    background:white;
     transition:
       transform 0.2s ease,
       top 0.2s ease;
@@ -110,8 +114,8 @@
   .siteLogo{
   
   align-self: center;
-  font-size: 3em;
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-size: calc(2em + 30px);
+
   font-weight: 200;
   position: relative;
   margin: 0 auto;
@@ -120,14 +124,23 @@
   
   .darkLightMode{
     margin:.3em 1em;
-    background-color:#FFF;
-    border-style: none;
-    height: 65px;
     z-index: 2;
   }
   
   
-  /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE*/
+
+  
+  
+  /* 
+  !HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE */
+  .homeContainer{
+
+    // margin:0px 200px;
+  }
+
+
+
+
   .recentPostContainer{
     display: flex;
     flex-direction: row;
@@ -135,7 +148,7 @@
    align-content: stretch;
     align-items: stretch;
     height:200px;
-    background-image: url(../assets/joystick-4321216.jpg);
+    background-image: url(../img/joystick-4321216.jpg);
     background-size: cover;
     width:100%;
     isolation: isolate;
@@ -155,6 +168,7 @@
   z-index:-1;
   opacity:0.7;
   mix-blend-mode: multiply;
+  
   }
   .recentPostH2{
     min-height:500px;
@@ -166,13 +180,13 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 5rem;
    
-    color:#FFF;
+    
     text-align:center;
     
   
   }
   .recentPostCard{
-    margin:0 30px;
+  
   }
   .recentPostCard li{
     
@@ -188,7 +202,7 @@
   }
   .postCardInfo h3{
      font-weight: bold;
-     font-size:2.2rem;
+     font-size:2rem;
     word-break: keep-all;
     white-space:wrap;
     overflow: hidden;
@@ -206,12 +220,13 @@
   
   
   .postCardInfo p{
-    padding-top: 20px;;
+    padding-top: 10px;
+    font-size: 1em;;
   }
 
   p.subtitle{
     position: relative;
-    font-size: 1em;
+    font-size: 2em;
     white-space: wrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -230,7 +245,8 @@
     width: 45%;
   }
   .recentPostCard img{
-   width:100%;
+    object-fit: cover;
+    width:100%;
    height:300px;
   
   }
@@ -238,7 +254,8 @@
   
   
   
-  /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
+  /* 
+  !FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
   
   
   .copyrightContainer{
@@ -246,7 +263,7 @@
   width:80%;
   height:100px;
   justify-content:space-between;
-  border-top:solid 1px grey;
+  border-top:solid 1px rgb(84, 82, 82);
   margin-top: 50px;
   padding-top:20px;
   }
@@ -264,38 +281,60 @@
     
   }
   
-  /* ****************************************************************************************************** */
+  /* 
+  *BLOG CLASSES BLOG CLASSES BLOG */
   p{
      
-      font-size: 2.5rem;
+      font-size: 3rem;
       word-break:keep-all;
       font-family: 'Sofia Sans Extra Condensed', sans-serif;
-      word-break: keep-all;
+      letter-spacing: 1px;
      
   }
+
   .blogP{
     padding-bottom: 2em;
+      font-size: 5em;
+      word-break:keep-all;
+      font-family: 'Sofia Sans Extra Condensed', sans-serif;
+      letter-spacing: 1px;
+          @media (min-width:64em) {
+            font-size: 2.6em;
+            padding-bottom: 2em;
+           word-break:keep-all;
+           font-family: 'Sofia Sans Extra Condensed', sans-serif;
+           letter-spacing: 1px;
+          }
   }
+
   .container{
-  margin:0px 3em 2em 3em;  
-  
-  }
+   
+    max-width:200px;
+    min-width:800px;
+    }
   .blogContainer{
   margin:0px 2em; 
   
   
   }
+ 
   .blogInfo{
-      left:-70px;
-      top:287px;
+    left:-300px;
+    top:580px;
+    position: absolute;
+
+    @media (min-width:64em) {
+      left:-23px;
+      top:840px;
       position: absolute;
-  }
+    }
+}
   .blogInfo:after{
     content: "";
     position: absolute;
-    height: 7px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    height: 1px;
+    border-bottom: 0px solid rgb(84, 82, 82);;
+    border-top: 1px solid rgb(84, 82, 82);
     width:100px;
     transform: rotate(-90deg);
     writing-mode: horizontal-tb;
@@ -304,18 +343,30 @@
   }
   .blogTitle{
   position:absolute;
-  left:-50px;
-  top:3.7em;
-  width: 350px;
+  left:-120px;
+  top:9.3em;
+  width: 600px;
   
-  line-height: 50px;
-  font-size:3rem;
+  line-height: 60px;
+  font-size:4rem;
+  @media (min-width:64em) {
+        
+  }
   
   }
   .blogImage{
       position: relative;
-      left:180px;
+      left:300px;
     
+  }
+  .nameDate{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 5rem;
+    @media (min-width:64em) {
+      font-family: 'Sofia Sans Extra Condensed', sans-serif;
+      font-size: 1.5rem;
+    }
+   
   }
   .socialContainer{
     right:-20px;
@@ -325,12 +376,11 @@
   .socialMediaIcons:after{
     content: "";
     position: absolute;
-    height: 7px;
-    border-bottom: 2px solid #000;
-    border-top: 2px solid #000;
+    height: 0px;
+    border-bottom: 0px solid rgb(84, 82, 82);
+    border-top: 1px solid rgb(84, 82, 82);
     width:150px;
     transform: rotate(-90deg);
-    writing-mode: horizontal-tb;
     bottom:10px;
     right:-185%;
     top:20em;

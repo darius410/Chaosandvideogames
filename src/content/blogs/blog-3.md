@@ -3,10 +3,12 @@
 
     title: Five reasons to Train Your child for Esports,
     subtitle: You have to be more strict,
+    desc: You know you child can do thier schoolwork before gaming, why not train them to get paid for it?
     publishDate: "2020-05-05"
+    url: "../blog-3"
     tags: [Psychology]
     image: {
-        src: "/img/moon-7674557_1920.jpg",
+        src: "/img/alley.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley

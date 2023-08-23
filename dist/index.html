@@ -2,12 +2,15 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale=1 ">
+    <link rel="icon" type="image/svg+xml" href="/faviconx32.png">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0 ">
     <meta name="generator" content="Astro v2.8.0">
-    <title>Index Page</title>
-    <meta name="description" content="This is the description">
-
+    <title>Chaos And Video Games Homepage</title>
+    <meta name="description" content="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/faviconx32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/faviconx16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,27 +19,30 @@
 
  
    
-<link rel="stylesheet" href="/_astro/global.99aca20b.css" />
-<link rel="stylesheet" href="/_astro/sm.f6038762.css" />
-<link rel="stylesheet" href="/_astro/med.e0de1aef.css" />
-<link rel="stylesheet" href="/_astro/lg.38818dd5.css" />
-<link rel="stylesheet" href="/_astro/reset.49e8993f.css" /><script type="module" src="/_astro/hoisted.e56eb612.js"></script></head>
+<link rel="stylesheet" href="/_astro/global.3a1ddcaf.css" />
+<link rel="stylesheet" href="/_astro/sm.49aafab0.css" />
+<link rel="stylesheet" href="/_astro/med.24f349b2.css" />
+<link rel="stylesheet" href="/_astro/lg.65b53051.css" />
+<link rel="stylesheet" href="/_astro/reset.49e8993f.css" /><script type="module" src="/_astro/hoisted.a45d0546.js"></script></head>
 	<body>
-        <nav aria-label="Primary Navigation" class="navContainer flex" tabindex="0">
-    <button arial-label="Toggle Dark Mode" class="darkLightMode" id="darkLightButton" type="button"> 
+        <nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
+
+    <!--    toggle dark mode button -->
+    <button arial-label="Toggle Dark Mode On/Off" class="darkLightMode" id="darkLightButton" type="button"> 
         
             <svg viewBox="0 0 24 24" width="2em" astro-icon="uit:toggle-on"><path fill="currentColor" d="M16.5 6.5h-9a5.5 5.5 0 0 0 0 11h9a5.5 5.5 0 0 0 0-11zm0 10h-9a4.5 4.5 0 1 1 0-9h9a4.5 4.5 0 1 1 0 9zm0-7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm0 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>  
         
     </button>
     
-
-    <a href="/" class="siteLogo" aria-label="Site Logo"> ChaosNVideoGames </a>
+    <!--  SITE LOGO -->
+         <a href="/" class="siteLogo font-bricks" aria-label="Site Logo"> ChaosAndVideoGames </a>
         
 
-    <div class="navBar" tabindex="0">
+         <!-- NAVIGATION FOR MOBILE AND SEKTOP -->
+    <div class="navigation" tabindex="0">
     <!-- <img src="img/menu.png" class="menuIcon"/> -->
-
-         <ul class="mobileNav">
+     
+    <ul class="desktopNav">
         <li><a href="/about/" class="link Secondary" data-navLink>
 
 
@@ -53,16 +59,30 @@ Blog
 </span>
 
 
-</a></li><li><a href="/store/" class="link Secondary" data-navLink>
+</a></li>
+    </ul>
+        
+         <div class="navBar" tabindex="0">
+             <ul class="mobileNav">
+                     <li><a href="/about/" class="link Secondary" data-navLink>
 
 
 <span>
-Store
+About
+</span>
+
+
+</a></li><li><a href="/blogs/blog/" class="link Secondary" data-navLink>
+
+
+<span>
+Blog
 </span>
 
 
 </a></li>
-    </ul>
+             </ul>
+         </div>
 
   
     
@@ -73,50 +93,48 @@ Store
 	 
 			
 
-			<div class="flex column homeContainer ">
+
+			<div class="flex column homeContainer lineBorderX">
 				
-				<!--  -->
-		<!-- <section class="favoritePost absolute flex">
-			<div >
-				<img src="./img/favPost1.png"  class="" width="">
-			</div>
+			
+				<section class="flex favBlog">
+					<div class="">
+						
+						<img src="img/controller.png" class="" width="" alt="A playstation game controller that looks to be drawn with pencil">
 
-		</section> -->
-
-
-
-
-			<!-- recent post -->
-		
-				
-
-				<ul class="recentPostCard  flex column ">
-					<div class="w-full flex column recentPostContainer">
-							<div class="w-full row flex recentPostShader">
-								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
-							</div>
-							
+							<h3 class="font-stigo absolute ">Are AI Tools in video games usefull ?</h3>
 					</div>
 
+				</section> 
+			
 
-					<li>
+				<ul class="recentPostCard  flex column" role="list">
+					 <div class="w-full flex column recentPostContainer">
+							<div class="w-full row flex recentPostShader">
+								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8">Blog Post</span></h2>
+							</div>
+							
+					</div> 
+
+
+					<li role="listitem">
 						<a href="/blogs/blog-2/">
 							<div class="postCardContainer flex">
 								<div class="postCardInfo">	
 									<span></span>
 									<h3>The downsides of Youtube studying</h3>
-									<p class="subtitle">Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?</p>
+									<p class="subtitle">Why studying On Youtube is a flaw?</p>
 									<p>2/27/2023</p>
 								</div>
 						
-							<div class="postCardImage">
-								<img src="/img/temple.jpg">
-							</div>
-							
+								<div class="postCardImage">
+									<img src="/img/temple.jpg" alt="Alternate Text">
+								</div>
+								
 
-						</div>
+							</div>
 						</a>
-					</li><li>
+					</li><li role="listitem">
 						<a href="/blogs/blog-6/">
 							<div class="postCardContainer flex">
 								<div class="postCardInfo">	
@@ -126,14 +144,14 @@ Store
 									<p>2/27/2023</p>
 								</div>
 						
-							<div class="postCardImage">
-								<img src="/img/bridge.jpg">
-							</div>
-							
+								<div class="postCardImage">
+									<img src="/img/catontree.jpg" alt="Alternate Text">
+								</div>
+								
 
-						</div>
+							</div>
 						</a>
-					</li><li>
+					</li><li role="listitem">
 						<a href="/blogs/blog-1/">
 							<div class="postCardContainer flex">
 								<div class="postCardInfo">	
@@ -143,23 +161,17 @@ Store
 									<p>2/3/2023</p>
 								</div>
 						
-							<div class="postCardImage">
-								<img src="/img/moon.jpg">
-							</div>
-							
+								<div class="postCardImage">
+									<img src="/img/moon.jpg" alt="A boat in a ocean of water sitting below a bright moon">
+								</div>
+								
 
-						</div>
+							</div>
 						</a>
 					</li>
 				</ul>
 				
-				
-				</div>
-
-					
-			
-		
-		
+			</div>
 		
 
    

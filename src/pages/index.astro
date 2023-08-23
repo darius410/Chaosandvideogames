@@ -5,6 +5,8 @@ import { formatDate,slugify } from "../js/utils";
 export const prerender = true;
 import { Image } from "@astrojs/image/components";
 
+const {title , publishDate, tags, author, image}  = Astro.props;
+
 
 const allBlogs = await getCollection('blogs')
 const recentBlogs = [...allBlogs].sort(
@@ -16,38 +18,61 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 ---
 
 
-		<MainLayout title="Index Page" > 
+		<MainLayout title="Chaos And Video Games Homepage" role="main" description="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games." > 
 			
 
-			<div class="flex column homeContainer ">
+
+			<div class="flex column homeContainer lineBorderX " style="margin-top:100px;">
 				
-				<!--  -->
-		<!-- <section class="favoritePost absolute flex">
-			<div >
-				<img src="./img/favPost1.png"  class="" width="">
-			</div>
+			
+				<!-- <section class="flex favBlog">
+					<div class="" >
+						
+						<img src="img/controller.png"  class="" width="" alt="A playstation game controller that looks to be drawn with pencil">
 
-		</section> -->
+							<h3 class="font-stigo absolute ">Are AI Tools in video games usefull ?</h3>
+					</div>
 
+				</section>  -->
 
-
-
-			<!-- recent post -->
-		
+				<section class="blogHeader container">
 				
+					 <h2 class="homeTitle sideways ">welcome To My Blog</h2>
+				
+				
+					<Image
+					src = {'/img/controller.png'}
+					alt = {'vbuvu'}
+					width = "600"
+					height = "800"
+					aspectRatio = "4:2"
+					format = "webp"
+					fit = "cover"
+					quality={80}
+					class="blogImage"
+				/>  
+				
+				<div class="socialContainer" aria-label="Social Icons Navigation">
+			
+	
+				
+				</div>
+				
+				</section>
+			
 
-				<ul class="recentPostCard  flex column ">
-					<div class="w-full flex column recentPostContainer">
+				<ul class="recentPostCard  flex column" role="list">
+					 <div class="w-full flex column recentPostContainer">
 							<div class="w-full row flex recentPostShader">
-								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
+								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8">Blog Post</span></h2>
 							</div>
 							
-					</div>
+					</div> 
 
 
 					{
 					recentBlogs.map((v) => (
-					<li>
+					<li role="listitem">
 						<a href={`/blogs/${slugify(v.slug)}/`}>
 							<div class="postCardContainer flex">
 								<div class="postCardInfo">	
@@ -57,15 +82,15 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 									<p>{formatDate(v.data.publishDate)}</p>
 								</div>
 						
-							<div class="postCardImage" >
-								<img
-								src = {v.data.image.src}
+								<div class="postCardImage" >
+									<img
+									src = {v.data.image.src}
+									alt = {v.data.image.alt}
+									/>
+								</div>
+								
 
-								>
 							</div>
-							
-
-						</div>
 						</a>
 					</li>	
 					
@@ -73,15 +98,21 @@ const oneBlog = await getEntryBySlug('blogs',"blog-2")
 						}
 				</ul>
 				
-				
-				</div>
-
-					
-			
+			</div>
+		</MainLayout>	
 		
-		
-		</MainLayout>
+<style>
+	.homeTitle{
+		position:absolute;
+  left:-180px;
+  top:3em;
+  width: 650px;
+  margin-top:100px;
+  line-height: 50px;
+  font-size:6rem;
+	}
 
+</style>
 	
 
 		 

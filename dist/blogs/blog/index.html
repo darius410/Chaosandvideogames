@@ -2,12 +2,15 @@
 <html lang="en">
     <head>
     <meta charset="utf-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <meta name="viewport" content="width=device-width, initial-scale= 1, maximum-scale=1 ">
+    <link rel="icon" type="image/svg+xml" href="/faviconx32.png">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0 ">
     <meta name="generator" content="Astro v2.8.0">
-    <title>Created with Astro 2.0</title>
-    <meta name="description" content="This is the description">
-
+    <title>All Blogs About Gaming</title>
+    <meta name="description" content="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.This includes information about how video game companies operate as well as how developers make the decisions that go into the final version of the game upon its release.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games. ">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/faviconx32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/faviconx16.png">
+<link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,27 +19,30 @@
 
  
    
-<link rel="stylesheet" href="/_astro/global.99aca20b.css" />
-<link rel="stylesheet" href="/_astro/sm.f6038762.css" />
-<link rel="stylesheet" href="/_astro/med.e0de1aef.css" />
-<link rel="stylesheet" href="/_astro/lg.38818dd5.css" />
-<link rel="stylesheet" href="/_astro/reset.49e8993f.css" /><script type="module" src="/_astro/hoisted.e56eb612.js"></script></head>
+<link rel="stylesheet" href="/_astro/global.3a1ddcaf.css" />
+<link rel="stylesheet" href="/_astro/sm.49aafab0.css" />
+<link rel="stylesheet" href="/_astro/med.24f349b2.css" />
+<link rel="stylesheet" href="/_astro/lg.65b53051.css" />
+<link rel="stylesheet" href="/_astro/reset.49e8993f.css" /><script type="module" src="/_astro/hoisted.a45d0546.js"></script></head>
 	<body>
-        <nav aria-label="Primary Navigation" class="navContainer flex" tabindex="0">
-    <button arial-label="Toggle Dark Mode" class="darkLightMode" id="darkLightButton" type="button"> 
+        <nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
+
+    <!--    toggle dark mode button -->
+    <button arial-label="Toggle Dark Mode On/Off" class="darkLightMode" id="darkLightButton" type="button"> 
         
             <svg viewBox="0 0 24 24" width="2em" astro-icon="uit:toggle-on"><path fill="currentColor" d="M16.5 6.5h-9a5.5 5.5 0 0 0 0 11h9a5.5 5.5 0 0 0 0-11zm0 10h-9a4.5 4.5 0 1 1 0-9h9a4.5 4.5 0 1 1 0 9zm0-7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm0 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>  
         
     </button>
     
-
-    <a href="/" class="siteLogo" aria-label="Site Logo"> ChaosNVideoGames </a>
+    <!--  SITE LOGO -->
+         <a href="/" class="siteLogo font-bricks" aria-label="Site Logo"> ChaosAndVideoGames </a>
         
 
-    <div class="navBar" tabindex="0">
+         <!-- NAVIGATION FOR MOBILE AND SEKTOP -->
+    <div class="navigation" tabindex="0">
     <!-- <img src="img/menu.png" class="menuIcon"/> -->
-
-         <ul class="mobileNav">
+     
+    <ul class="desktopNav">
         <li><a href="/about/" class="link Secondary" data-navLink>
 
 
@@ -53,16 +59,30 @@ Blog
 </span>
 
 
-</a></li><li><a href="/store/" class="link Secondary" data-navLink>
+</a></li>
+    </ul>
+        
+         <div class="navBar" tabindex="0">
+             <ul class="mobileNav">
+                     <li><a href="/about/" class="link Secondary" data-navLink>
 
 
 <span>
-Store
+About
+</span>
+
+
+</a></li><li><a href="/blogs/blog/" class="link Secondary" data-navLink>
+
+
+<span>
+Blog
 </span>
 
 
 </a></li>
-    </ul>
+             </ul>
+         </div>
 
   
     
@@ -71,14 +91,40 @@ Store
 </nav>
 		
 	
-<section class="" araia-label="All Blog Post">
+<section class=" homeContainer text-center flex column lineBorderX" araia-label="All Blog Post">
 
-        <h1>All Blog Post</h1>
+    <div class="w-full flex column recentPostContainer">
+        <div class=" w-half row flex recentPostShader">
+            <h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">All<span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
+        </div>
         
+    </div>
 
-</section>
-        <article class="card">
-    
+    <!-- <form class="w-half flex">
+        <Icon name="search" width="40"></Icon>
+        <input class="searchInput" type="text" placeholder="Enter your name">
+      </form> -->
+
+      <div class="search-box">
+        <div class="search-icon">
+          
+            <svg viewBox="0 0 24 24" width="40" astro-icon="search"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+
+        </div>
+        <form action="" class="search-form">
+          <input type="text" placeholder="Search" id="search" autocomplete="off">
+        </form>
+        <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;" xml:space="preserve">
+            <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"></path>
+            <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"></path>
+          </svg>
+        <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
+      </div>
+
+
+   <div class="homeContainer flex column items-center justify-items-center">
+       <article class="blogCard items-center justify-items-center">
+     <a href="../blog-1" tabindex="1">   
     <small>Darius D Hansley - 2023-02-03</small>
     <h2>Mastering Javascript before 30</h2>
     <h4 onClick="function filterTags (posts, {
@@ -98,28 +144,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Coding</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/moon_Z1W2Qyq.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="A boat in a ocean of water sitting below a bright moon" fit="cover" class="" width="500" height="400" src="/_astro/moon_2h4KyB.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>To master Javascript before the age of thirty is a pretty easy goal to set for.Until I realized that it is just an overall unrealistic gaol to have in mind.
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-10" tabindex="1">   
     <small>Darius D Hansley - 2019-05-14</small>
     <h2>The TGA catagories need to improve.</h2>
     <h4 onClick="function filterTags (posts, {
@@ -139,28 +177,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">PsychologyGaming</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/_Z2lnWI5.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/joystick-4321216_ZH8R3r.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-11" tabindex="1">   
     <small>Darius D Hansley - 2020-05-05</small>
     <h2>Your FPS game lacks impact to me ,</h2>
     <h4 onClick="function filterTags (posts, {
@@ -180,28 +210,53 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Psychology</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/bridgeToVillage_M0BKv.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/alley_uxbuP.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-12" tabindex="1">   
+    <small>Darius D Hansley - 2020-05-05</small>
+    <h2>Please stop making fun of other programming languages ,</h2>
+    <h4 onClick="function filterTags (posts, {
+    filterTags = true,
+    limit = undefined,
+
     
+} = {} ) {
+posts.reduce((acc, post ) => {
+    post.frontmatter;
+
+    if(filterTags) return acc;
+
+    acc.push(post);
+
+    return acc;
+}, [] );
+
+}" class="tags">Coding</h4> 
+       
+            <img alt="An astronaut standing in a puddle of with a bright moon behind him.The puddle beneath him shows a reflection of himself as well as the moon behind him." fit="cover" class="" width="500" height="400" src="/_astro/astronaut_Z1gDvi1.jpeg" loading="lazy" decoding="async">
+    </a>
+    <div class="descContainer">
+        <p>It&#39;s all in good fun, but eventually someone will get their feelings hurt
+            
+      
+        </p>
+
+    
+    </div>
+    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-2" tabindex="1">   
     <small>Darius D Hansley - 2023-02-27</small>
     <h2>The downsides of Youtube studying</h2>
     <h4 onClick="function filterTags (posts, {
@@ -221,28 +276,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Coding</h4> 
-        <a>   
+       
             <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/temple_1fdmMM.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>
+        <p>Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-3" tabindex="1">   
     <small>Darius D Hansley - 2020-05-05</small>
     <h2>Five reasons to Train Your child for Esports,</h2>
     <h4 onClick="function filterTags (posts, {
@@ -262,28 +309,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Psychology</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/moon-7674557_1920_ZUbUmX.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/alley_uxbuP.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>
+        <p>You know you child can do thier schoolwork before gaming, why not train them to get paid for it?
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-4" tabindex="1">   
     <small>Darius D Hansley - 2022-05-22</small>
     <h2>Things I Hate About Your Game Trailers</h2>
     <h4 onClick="function filterTags (posts, {
@@ -303,30 +342,22 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">PsychologyGaming</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/bridgeToVillage_M0BKv.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/lost-places_Z1lBOFL.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>
+        <p>Video game trailers are my all time favorite part of the game awards,but there are certain trailers that have a repeat pattern of showing nothing worthwhile.
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-5" tabindex="1">   
     <small>Darius D Hansley - 2019-05-14</small>
-    <h2>The ethical considerations of using (AI) in video game development.</h2>
+    <h2>The ethical conerns of using AI in video game development.</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -344,28 +375,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">PsychologyGaming</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/_Z2lnWI5.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/japan_npcjp.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>
+        <p>The topic of how using AI in video games effects the brain is something that I never thought I would have to look deeply into, considering that most games already have an AI implemented in them such as fighting games and even first person shooters of all kinds.
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-6" tabindex="1">   
     <small>Darius D Hansley - 2023-02-27</small>
     <h2>Are Video Game Movies Finally Good ?</h2>
     <h4 onClick="function filterTags (posts, {
@@ -385,28 +408,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Coding</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/bridge_B1KtK.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/catontree_ZHL0Fo.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-7" tabindex="1">   
     <small>Darius D Hansley - 2020-05-05</small>
     <h2>Five books to increase your gaming ability ,</h2>
     <h4 onClick="function filterTags (posts, {
@@ -426,28 +441,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Psychology</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/bridgeToVillage_M0BKv.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="A Monk walking barefoot in the streets of vietnam with his back turned to the camera" fit="cover" class="" width="500" height="400" src="/_astro/monk_1mpiJF.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-8" tabindex="1">   
     <small>Darius D Hansley - 2020-05-05</small>
     <h2>Are Video games Teasers Losing Purpose? ,</h2>
     <h4 onClick="function filterTags (posts, {
@@ -467,28 +474,20 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Video Games</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/bridgeToVillage_M0BKv.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/lost-places_Z1lBOFL.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
-</article><article class="card">
-    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-9" tabindex="1">   
     <small>Darius D Hansley - 2020-05-05</small>
     <h2>Does coding make you anti-social ? ,</h2>
     <h4 onClick="function filterTags (posts, {
@@ -508,27 +507,27 @@ posts.reduce((acc, post ) => {
 }, [] );
 
 }" class="tags">Video Games</h4> 
-        <a>   
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/bridgeToVillage_M0BKv.jpeg" loading="lazy" decoding="async">
+       
+            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/japan_npcjp.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
         <p>
             
-        <a class="link" class="">
-
-
-<span>
-Read More
-</span>
-
-
-</a>
+      
         </p>
 
     
     </div>
     
 </article>
+   </div>
+    
+</section>
+
+     
+
+
+
 
    
 	 <footer class="copyrightContainer flex">

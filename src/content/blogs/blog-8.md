@@ -3,10 +3,11 @@
 
     title: Are Video games Teasers Losing Purpose? ,                                                       
     subtitle: A critical look at video game teasers and their role in marketing ,
-    publishDate: "2020-05-05"
+    publishDate: "2023-04-14"
+    url: "../blog-8"
     tags: [Video Games]
     image: {
-        src: "/img/bridgeToVillage.jpg",
+        src: "/img/lost-places.jpg",
         alt: "Alternate Text",
     } 
     author: Darius D Hansley
