@@ -262,10 +262,10 @@
   
   width:80%;
   height:100px;
-  justify-content:space-between;
+  justify-content:space-around;
   border-top:solid 1px rgb(84, 82, 82);
   margin-top: 50px;
-  padding-top:20px;
+  padding-top:50px;
   }
   .copyrightText p{
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
@@ -275,11 +275,18 @@
   }
   .footerIconsSocial {
     flex:1 200px;
+    margin:110px 0px 0px 0px ;
   }
-  .footerSocialIcons li{
-    display:inline;
+  .footerSocialIcons {
     
+
+             li{
+              display:inline;
+              padding-inline: 10px;
+                  svg{width:40px;
+                  height:40px}
   }
+}
   
   /* 
   *BLOG CLASSES BLOG CLASSES BLOG */
