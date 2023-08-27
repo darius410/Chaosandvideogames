@@ -34,7 +34,7 @@
   }
   .mobileNav{
     
-     display:none;
+    display:none;
     flex-direction: column;
     position: absolute;
     
@@ -42,16 +42,19 @@
     right: 0px;
     z-index: 2;
     background-color: white;
-    width: 133vw;
+    width: 100vw;
     height: 50vh;
-    align-items:center;
+   
     
   }
   .mobileNav li{
-    padding-top: 20px;
-    color:black;
+    padding:20px 0px 0px 20px;
+    color:white;
     margin:20px;
     font-size: 3.3rem;
+    
+    background-color: #343941;
+    
     
   }
   
