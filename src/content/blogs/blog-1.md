@@ -31,7 +31,7 @@
 <p class="blogP">
 My first Book
 </p>
-https://www.oreilly.com/library/view/sams-teach-yourself/9780135166963/
+<a href="https://www.oreilly.com/library/view/sams-teach-yourself/9780135166963/">Teach Yourself Javascript in 24 hours</a>
 
 
 <p class="blogP">Switching from the book to my phone to look at a youtube video that I downloaded just to keep my perspective of concepts fresh.Yet overall one thing was still unclear in my head,how the hell do I ACTUALLY use Javascript? Granted the concept of objects are pretty straight forward once you force yourself to remember real world objects.Functions are easy to see and are to ways to write code without repeating yourself.And notably every loop is basically the same with it's own drawbacks to watch out for.Yet for some reason the idea of how to put my own code together isn't something that my brain was capable of understanding.Considering that every time I look at someone else code it would just be a huge wall of text with words that look familiar but have no understanding.I actually started to compare it to learning another human speaking language like Japanese,however I'm not sure which one is harder to learn</p>
