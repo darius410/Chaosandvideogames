@@ -5,7 +5,7 @@ but since that isn't working for now its must be hard coded into every new blog 
 Make the blog page have pagination that loads as you scroll- TOP PRIORITY
 Make the Blog Page capable of filtering through tags and show any blogs with those tags -MINOR PRORITY
 
-Intergrate a like system (Facebook maybe) at the bottom of every blog post - MINOR PRIORITY
+
 
 
 
