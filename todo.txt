@@ -15,12 +15,6 @@ A11y - Make the site accessable to screen readers and other factors that may imp
 
 
 TO DO FOR DESIGN *****************
-Make the homepage show
- 
- -latest Tweets from Twitter(Images are Fine)
- -possibly even Mastadon toots
- -Youtube Videos(Maybe)
-
 
 
 make The Navigation Sticky on scroll

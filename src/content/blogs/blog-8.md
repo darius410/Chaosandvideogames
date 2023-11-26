@@ -1,7 +1,7 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
 
-    title: Are Video games Teasers Losing Purpose? ,                                                       
+    title: Are Video game Teasers Losing Purpose? ,                                                       
     subtitle: A critical look at video game teasers and their role in marketing ,
     publishDate: "2023-04-14"
     url: "../blog-8"
