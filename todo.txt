@@ -1,37 +1,25 @@
 TO DO FOR DEV ************
-**NOTE** In the front matter of each blog is a URL that directs the user when clicked,this is supposed to be dynamic
+
+--In the front matter of each blog is a URL that directs the user when clicked,this is supposed to be dynamic
 but since that isn't working for now its must be hard coded into every new blog post.
 
-Make the blog page have pagination that loads as you scroll- TOP PRIORITY
-Make the Blog Page capable of filtering through tags and show any blogs with those tags -MINOR PRORITY
-
-
-
-
-
-A11y - Make the site accessable to screen readers and other factors that may impact a user
-*****************************
-
+--Make the blog page have pagination that loads as you scroll- TOP PRIORITY
+--Make the Blog Page capable of filtering through tags and show any blogs with those tags -MINOR PRORITY
 
 
 TO DO FOR DESIGN *****************
 
+--make The Navigation Sticky on scroll
+--make the background blur when mobile nav is in effect
 
-make The Navigation Sticky on scroll
-make the background blur when mobile nav is in effect
+--Make the search bar have a flat bottom and no rounded corners
 
-Make the search bar have a flat bottom and no rounded corners
+--All <p> and <h> tags need to be responsive for all screen sizes for blog post 
 
-All <p> and <h> tags need to be responsive for all screen sizes for blog post 
-
-Add Logo for ChaosNVideo Games
-
-***************************************
-
-
+--Add Logo for ChaosNVideo Games
 
 TO DO FOR SEO 
 ********************************
-SEO INTERGRATION - provide the proper tags and meta data for this site to rank in google search
-fIND A WAY TO MAKE BLOG URL NOT = /BLOG-12,/BLOG-11,etc 
-try to make it so the page title is in the url instead 
+--SEO INTERGRATION - provide the proper tags and meta data for this site to rank in google search
+--fIND A WAY TO MAKE BLOG URL NOT = /BLOG-12,/BLOG-11,etc 
+--try to make it so the page title is in the url instead 
