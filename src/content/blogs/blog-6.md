@@ -2,6 +2,8 @@
     layout: "../../layouts/BlogLayout.astro"
     title: Are Video Game Movies Finally Good ?
     subtitle: With the success of recent movies it looks like video games 
+    desc : Originally I was going to make a blog post called 'WHY VIDEO GAME MOVIES WILL NEVER BE GOOD'. But I decided to change the title after having just seen Tetris the movie.
+    
     publishDate: "2023-02-27"
     tags: [Coding]
     url: "../blog-6"

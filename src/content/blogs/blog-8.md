@@ -3,6 +3,8 @@
 
     title: Are Video game Teasers Losing Purpose? ,                                                       
     subtitle: A critical look at video game teasers and their role in marketing ,
+    desc: Video game teasers have been a staple of the industry for decades, providing gamers with a sneak peek of what's to come and building excitement for upcoming releases. But in recent years, some have questioned whether these teasers are losing their purpose in marketing.
+    
     publishDate: "2023-04-14"
     url: "../blog-8"
     tags: [Video Games]

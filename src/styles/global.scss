@@ -134,6 +134,10 @@ width:100%;
 .pl-8{
   padding-left: 0.5em;
 }
+.px-22{
+  margin-left: 22rem;
+  margin-right: 22rem;
+}
 
 .ff-size-40{
   font-size:4.5rem;
@@ -224,7 +228,7 @@ font-size:3rem;
 .descContainer{
 
   @media(min-width:64em){
-    padding:0px 100px;
+    padding:0px 400px;
   }
 }
 a{
