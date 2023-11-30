@@ -2,7 +2,7 @@
 import MainLayout from "../../layouts/MainLayout.astro";
 // import { getCollection, getEntryBySlug } from "astro:content";
 import { Image } from "@astrojs/image/components";
-import {Icon} from "astro-icon"
+
 import  PostCard  from "../../layouts/components/PostCard.astro"
 
 
@@ -13,6 +13,7 @@ import  PostCard  from "../../layouts/components/PostCard.astro"
        
 
 import { filterTags } from "../../js/utils";
+import SearchBar from "../../layouts/components/searchBar.astro";
 
 
 
@@ -38,23 +39,7 @@ import { filterTags } from "../../js/utils";
         <input class="searchInput" type="text" placeholder="Enter your name">
       </form> -->
 
-      <div class="search-box">
-        <div class="search-icon">
-          
-            <Icon name="search" width="40"></Icon>
-
-        </div>
-        <form action="" class="search-form">
-          <input type="text" placeholder="Search" id="search" autocomplete="off">
-        </form>
-        <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;"
-         xml:space="preserve">
-            <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"/>
-            <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"/>
-          </svg>
-        <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
-      </div>
-
+        <SearchBar />
 
    <div class="homeContainer flex column items-center justify-items-center">
        {
