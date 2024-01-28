@@ -1,7 +1,7 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
     title:Why We Need To Start Supporting Small Streamers
-    subtitle: Top Streamers are already earning their keep ,it's time to make a fair share
+    subtitle: Top Streamers are already earning their keep ,it's time to make a fair share,
     desc : As the title reads, I truly think that 2024 is the year we start supporting other streamers and content creators who are not hugely popular and instead give 
     more appreciation to people who have just as much passion and enthusiasm for gaming as the top streamers who always get rewarded. 
     
