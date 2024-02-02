@@ -7,8 +7,8 @@
     tags: [Gaming]
     url: "../blog-15"
     image: {
-        src: "/img/.png",
-        alt: "",
+        src: "/img/developers.png",
+        alt: "A group of people in a cartoon style drawing standing together with various faces",
     } 
     author: Darius D Hansley
 ---
@@ -20,7 +20,6 @@ Often times when a game gets praised, the director of the company usually except
 
 <p class="blogP">
 A simple way to put it is like this...when you think of Amazon you think of Jeff Bezos. Not the team of staff that are in call centers,not the people who manage refunds, not the people who work in the Amazon warehouse for ten to twelve hours straight or even the vendors who are selling on the site itself,you only think of the person at the top who has a reputable name for themselves.Again,If someone has done allot of hard work to make a company then by all means,they should be at the top.But let's be honest the only reward that Jeff's staff might get is an office christmas party and some slight pay raises over the next few months if they are not laid off. The same can be said for the game companies that we know of. Usually the director is the one who accepts the award and praise on behalf of the staff. But it would be nice once in awhile to see some of the developers atleast having a nice smile or a reaction to seeing thier hard work pay off</p>
-
 
 
 <h2 class="blogH2">WHAT INSPIRED THIS ARTICLE?</h2>
