@@ -42,8 +42,6 @@ This One is obvious but the first way to support developers would be through soc
 <h2 class="blogH2">Forums /Fan Clubs</h2>
 <h2 class="blogH2">Reviews</h2>
 <h2 class="blogH2">Fan Content Like Drawings</h2>
-<h2 class="blogH2">Constructive Feedback</h2>
 <h2 class="blogH2">Try To Interview Someone</h2>
 <h2 class="blogH2">Highlight things that you like about the game</h2>
-
 <h2 class="blogH2">Good Ole Fashion Email</h2>
