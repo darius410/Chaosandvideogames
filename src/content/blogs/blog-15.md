@@ -36,8 +36,13 @@ How can we support developers who have no real say in what the final outcome of 
 
 <h2 class="blogH2">Share Social Media Post</h2>
 <p class="blogP">
-This one is obvious but the first way to support developers would be through social media platforms.Every game company has a social media presence of some kind and more then likely have more then just a twitter account.If you can somehow manage to find the social media accounts for the game company your a fan of them please send a tweet to them and let them know how much you love their game.
-This is the number one place to start since their is a chance that you might find an individual developer who works there and is willing to let the world know their job title. part of thePlease.do not send hate tweets or inappropriate messages like "your game is trash".Phrases like that don't actually help with improving the game itself and honestly just hurts the person in charge of running the social media and makes the staff not want to do thier job.
+This one is obvious but the first way to support developers would be through social media platforms.Every game company has a social media presence of some kind and more then likely have more then just a twitter account.If you can somehow manage to find the social media accounts for the game company your a fan of, please send a tweet to them and let them know how much you love their game.Or even better say exactly what you like about the game specifically so that the person who worked hard on that one thing knows your talking about them and not just the company as a whole.
+
+"Shout out to the person on the design team that took the time to add the minor detail that most video games never do"
+
+Even if there is a chance that an entire team of developers worked together to make that feature or detail rather then one sole individual this is critical in helping developers know how much you appreciate their efforts made.Also regardless of how bad Twitter (X) may be when it comes to opinions it's a great place to start since their is a chance that you might find an individual developer who works there and is willing to let the world know their job title at the company.
+
+Please do not send hate tweets or inappropriate messages like "your game is trash".Phrases like that don't actually help with improving the game itself and honestly just hurts the person in charge of running the social media and makes the staff not want to do thier job.
 </p>
 
 <h2 class="blogH2">Forums /Fan Clubs</h2>
@@ -45,6 +50,10 @@ This is the number one place to start since their is a chance that you might fin
 Reddit is a good place to have full conversations with people you wouldn't expect to meet.There are professionals in every area that spend their free time responding to questions that get asked from the public.Since Reddit is also a social media platform I would say the same rules apply as far as making a statement or positive comment about what you like about that game.Not only that but there are subreddits that can go even further to the specific things you wish to discuss with other people.Don't let people tell you that Reddit is a bad place to interact with since everything in the world today can be taken at the same level.I've found that the best way to support developers is to come together as a group.Now.would be a great time to dicuss things you dont like about the game or any balance changes you think are needed.Just make sure.you present your opinions as actual options rather then angry rants ,otherwise be ready to face against other opinions from people just like you who also enjoy the game.
 
 <h2 class="blogH2">Reviews</h2>
+This one can be very hit or miss considering almost everyone has a YouTube channel in which they play a game and give their review of it. Personally to.me this is the least effective since most reviews in video games try hard to make the viewer laugh with some meme related jokes or have an emotional response that leads to them typing comments that don't help the developer team at at all.
+
+However if you make small video shorts detailing something in the game you like rather then an hour long video you can get your point across and get decent viewership ( if that is also your goal).
+I promise you,unless you are working at IGN or a reputable company that does reviews,no developer is going to listen for a complete hour straight about what you like.or.dislike about the game especially if your just some random youtube personality.Personally again, I think that hour long reviews are just long rambles that no one wants to.listen to even if you paid them.to.watch it.Its really easy to get your point across with just a few words in under 2 minutes.
 
 <h2 class="blogH2">Fan Content Like Drawings</h2>
 <h2 class="blogH2">Try To Interview Someone</h2>
