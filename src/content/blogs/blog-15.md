@@ -36,11 +36,16 @@ How can we support developers who have no real say in what the final outcome of 
 
 <h2 class="blogH2">Share Social Media Post</h2>
 <p class="blogP">
-This One is obvious but the first way to support developers would be through social media platforms.Every game company has a social media presence of some kind and more then likely have more then just a twitter account.
+This one is obvious but the first way to support developers would be through social media platforms.Every game company has a social media presence of some kind and more then likely have more then just a twitter account.If you can somehow manage to find the social media accounts for the game company your a fan of them please send a tweet to them and let them know how much you love their game.
+This is the number one place to start since their is a chance that you might find an individual developer who works there and is willing to let the world know their job title. part of thePlease.do not send hate tweets or inappropriate messages like "your game is trash".Phrases like that don't actually help with improving the game itself and honestly just hurts the person in charge of running the social media and makes the staff not want to do thier job.
 </p>
 
 <h2 class="blogH2">Forums /Fan Clubs</h2>
+
+Reddit is a good place to have full conversations with people you wouldn't expect to meet.There are professionals in every area that spend their free time responding to questions that get asked from the public.Since Reddit is also a social media platform I would say the same rules apply as far as making a statement or positive comment about what you like about that game.Not only that but there are subreddits that can go even further to the specific things you wish to discuss with other people.Don't let people tell you that Reddit is a bad place to interact with since everything in the world today can be taken at the same level.I've found that the best way to support developers is to come together as a group.Now.would be a great time to dicuss things you dont like about the game or any balance changes you think are needed.Just make sure.you present your opinions as actual options rather then angry rants ,otherwise be ready to face against other opinions from people just like you who also enjoy the game.
+
 <h2 class="blogH2">Reviews</h2>
+
 <h2 class="blogH2">Fan Content Like Drawings</h2>
 <h2 class="blogH2">Try To Interview Someone</h2>
 <h2 class="blogH2">Highlight things that you like about the game</h2>
