@@ -56,8 +56,16 @@ However if you make small video shorts detailing something in the game you like 
 I promise you,unless you are working at IGN or a reputable company that does reviews,no developer is going to listen for a complete hour straight about what you like.or.dislike about the game especially if your just some random youtube personality.Personally again, I think that hour long reviews are just long rambles that no one wants to.listen to even if you paid them.to.watch it.Its really easy to get your point across with just a few words in under 2 minutes.
 
 <h2 class="blogH2">Fan Content Like Drawings</h2>
+I cannot express how much this goes above and beyond in terms of showing support. If there is a favorite character that you like you should draw them and show how much you like the overall design of the character.
+I know some.of you are saying "But what if I can't draw?" Guess what.It doesn't matter either way! You don't have to be an amazing artist with incredible detail in order to draw something you like.Drawing a doodle of your favorite character and showing the image to the Internet on whichever social platform you choose is still a fantastic way of showing how much you care.Just be sure to mention that you don't draw allot but liked the character so much that you were willing to try.
+ 
+
 <h2 class="blogH2">Try To Interview Someone</h2>
-<h2 class="blogH2">Highlight things that you like about the game</h2>
+This is not an impossible task but it is still very hard considering most developers aren't really known to have the free time to do an interview unless they are applying for a job.
+The first thing you should try is making sure you can get a hold of a developer based on their social media. If you can't find a single developers social then maybe you can message the companies social networks and ask if anyone on their team is willing to have an interview with you.
+
+
 <h2 class="blogH2">Good Ole Fashion Email</h2>
+This last one is a bit hard to do considering most developers don't have their email included in their social profiles for a good reason. Ultimately you may be able to get away with sending a message to them on Twitter or Facebook (if you find them).Most developers will probably keep their main email for things like resumes,so if you happen to get the opportunity to find someones email you may get a good opportunity to communicate with them.Maybe you can use the email as a way to ask for an interview like we mentioned earlier.
 
 By doing these following actions you can better help support unknown developers.Remember the objective is not to get the person's name in the spotlight or to make them known to the public but instead to show appreciation to those who work hard without any recognition.As I've said before most developers are undervalued at the company they work for and sometimes need to hear appreciation from fans to keep them motivated and happy.
