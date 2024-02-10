@@ -59,3 +59,5 @@ I promise you,unless you are working at IGN or a reputable company that does rev
 <h2 class="blogH2">Try To Interview Someone</h2>
 <h2 class="blogH2">Highlight things that you like about the game</h2>
 <h2 class="blogH2">Good Ole Fashion Email</h2>
+
+By doing these following actions you can better help support unknown developers.Remember the objective is not to get the person's name in the spotlight or to make them known to the public but instead to show appreciation to those who work hard without any recognition.As I've said before most developers are undervalued at the company they work for and sometimes need to hear appreciation from fans to keep them motivated and happy.
