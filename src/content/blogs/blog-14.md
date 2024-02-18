@@ -7,7 +7,7 @@
     tags: [Gaming]
     url: "../blog-14"
     image: {
-        src: "/img/someone streaming on game.png",
+        src: "/img/streamer.png",
         alt: "A logo of the Twitch Streaming Platform",
     } 
     author: Darius D Hansley

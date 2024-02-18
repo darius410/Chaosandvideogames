@@ -4,7 +4,7 @@ TO DO FOR DEV ************
 but since that isn't working for now its must be hard coded into every new blog post.
 --Make the blog page have pagination that loads as you scroll- TOP PRIORITY
 --Make the Blog Page capable of filtering through tags and show any blogs with those tags -MINOR PRORITY
-
+--Add a two suggested reads at the bottom of every blog to promote more reading material
 
 TO DO FOR DESIGN *****************
 
