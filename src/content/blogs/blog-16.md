@@ -30,7 +30,7 @@ Most of us know how typical AI works in video games,or if not video games just A
 So because of this limitation it impossible to produce AI that can be non repetitive or bias in it's decision making.So I ask you to imagine a fighting game(or even a souls like game if you want) that acts based on your responses and after either winning or losing the fight learns to not allow you to do certain attacks or moves and would actually punish you without just doing random attacks. 
 </p>
 
-<h2 class="blogH2">The Good Things<h2/>
+<h2 class="blogH2">The Good Things</h2>
 
 <p class="blogP">
 Here are examples of how this could possibly be a great idea. Again consider the other half of players who don't understand fighting games to begin  with.
