@@ -36,8 +36,10 @@ So because of this limitation it impossible to produce AI that can be non repeti
 Here are examples of how this could possibly be a great idea. Again consider the other half of players who don't understand fighting games to begin  with.
 </p>
 
+<p class="blogP">
 --> Instead of the CPU acting on your input it would act on the sequences of inputs and try to find a pattern instead.
 </p>
+
 <p class="blogP">
 An example of this is when you are playing a boss in a fighting game and when you go to grab him,he breaks the grab.When you try to do a low hit it automatically blocks low.When you do a super it either grabs you out of it or blocks it even though you combo-ed into it.There are plenty of fighting games that are notorious for having almost impossible boss fights and ways of beating them.
 </p>
