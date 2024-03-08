@@ -20,7 +20,7 @@
 Getting Sellers in my Twitch Chat
 </p>
 
-<h2 class="blogH2">Is It Possible ?</h2>
+<h2 class="blogH2">You're not an entrepenuar </h2>
 
 <p class="blogP">
 Look,I get it we all want to make extra money or have a side hustle.
