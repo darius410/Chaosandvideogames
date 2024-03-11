@@ -1,11 +1,11 @@
 ---
     layout: "../../layouts/BlogLayout.astro"
-    title: Can Fighting Game AI Replace Real Opponents?
+    title: No One wants to Buy Your Overlays
     subtitle: No One Wants To Buy Your Overlays
     desc : Look,I get it we all want to make extra money or have a side hustle.
     publishDate: "2024-02-26"
     tags: [Gaming]
-    url: "../blog-16"
+    url: "../blog-17"
     image: {
         src: "/img/cyborg.png",
         alt: "A cartoon style drawing of a half human, half cyborg man holding a sword in his right hand",
