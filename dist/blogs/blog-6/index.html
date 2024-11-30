@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/svg+xml" href="/faviconx32.png">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0 ">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale= 1 "/> -->
     <meta name="generator" content="Astro v2.8.0">
     <title>Are Video Game Movies Finally Good ?</title>
     <meta name="description" content="This is the description">
@@ -20,39 +20,55 @@
  
    
 <script type="module">
-</script><link rel="stylesheet" href="/_astro/global.3a1ddcaf.css" /><link rel="stylesheet" href="/_astro/lg.65b53051.css" /><link rel="stylesheet" href="/_astro/med.24f349b2.css" /><link rel="stylesheet" href="/_astro/reset.49e8993f.css" /><link rel="stylesheet" href="/_astro/sm.49aafab0.css" /><script src="/_astro/Navigation.astro_astro_type_script_index_0_lang.a0c7f309.js" type="module"></script></head>
+</script><link rel="stylesheet" href="/_astro/global.8a078e27.css" /><link rel="stylesheet" href="/_astro/lg.d0df9c78.css" /><link rel="stylesheet" href="/_astro/med.cdc052d2.css" /><link rel="stylesheet" href="/_astro/reset.948aae4a.css" /><link rel="stylesheet" href="/_astro/sm.5e4c9859.css" /><script src="/_astro/Navigation.astro_astro_type_script_index_0_lang.dbe1f269.js" type="module"></script></head>
 	<body>
         <nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
 
     <!--    toggle dark mode button -->
-    <button arial-label="Toggle Dark Mode On/Off" class="darkLightMode" id="darkLightButton" type="button"> 
-        
-            <svg viewBox="0 0 24 24" width="2em" astro-icon="uit:toggle-on"><path fill="currentColor" d="M16.5 6.5h-9a5.5 5.5 0 0 0 0 11h9a5.5 5.5 0 0 0 0-11zm0 10h-9a4.5 4.5 0 1 1 0-9h9a4.5 4.5 0 1 1 0 9zm0-7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm0 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>  
-        
-    </button>
+            <button aria-label="Toggle Dark Mode On/Off" class="darkLightMode theme-switch align-self-center" id="darkLightButton" aria-pressed="false" type="button"> 
+                
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"></path>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <circle cx="12" cy="12" r="5"></circle>
+    <path d="M12 1v2m0 18v2M4 4l2 2m12 12 2 2M1 12h2m18 0h2M4 20l2-2M18 6l2-2"></path>
+  </svg> 
+                
+            </button>
+
+    
+
+
     
     <!--  SITE LOGO -->
-         <a href="/" class="siteLogo font-bricks" aria-label="Site Logo"> ChaosAndVideoGames </a>
+         <a href="/" class="siteLogo font-arcade-classic" aria-label="Site Logo"> ChaosAndVideoGames </a>
         
 
-         <!-- NAVIGATION FOR MOBILE AND SEKTOP -->
+         <!-- NAVIGATION FOR MOBILE AND DESKTOP -->
     <div class="navigation" tabindex="0">
     <!-- <img src="img/menu.png" class="menuIcon"/> -->
      
     <ul class="desktopNav">
-        <li><a href="/about/" class="link Secondary" data-navLink>
+        <li><a href="/about/" class="link font-rajdhani" data-navLink>
 
 
 <span>
+    
 About
+
+
 </span>
 
 
-</a></li><li><a href="/blogs/blog/" class="link Secondary" data-navLink>
+</a></li><li><a href="/blogs/blog/" class="link font-rajdhani" data-navLink>
 
 
 <span>
-Blog
+    
+Blogs
+
+
 </span>
 
 
@@ -61,19 +77,25 @@ Blog
         
          <div class="navBar" tabindex="0">
              <ul class="mobileNav">
-                     <li><a href="/about/" class="link Secondary" data-navLink>
+                     <li class="font-avengers"><a href="/about/" class="link font-rajdhani" data-navLink>
 
 
 <span>
+    
 About
+
+
 </span>
 
 
-</a></li><li><a href="/blogs/blog/" class="link Secondary" data-navLink>
+</a></li><li class="font-avengers"><a href="/blogs/blog/" class="link font-rajdhani" data-navLink>
 
 
 <span>
-Blog
+    
+Blogs
+
+
 </span>
 
 
@@ -99,7 +121,21 @@ Blog
      <h2 class="blogTitle sideways ">Are Video Game Movies Finally Good ?</h2>
 
 
-    <img alt="Alternate Text" fit="contain" class="blogImage" width="300" height="400" src="/_astro/catontree_V7h2x.webp" loading="lazy" decoding="async">  
+    <!-- <Image
+    src = {image.src}
+    alt = {image.alt}
+    width = "300"
+    height = "400"
+    aspectRatio = "4:2"
+    format = "webp"
+    fit = "contain"
+    quality={80}
+    class="blogImage"
+/>   -->
+<picture>
+	<source type="image/avif" srcset="/_astro/a_cartoon_style_collage_of_video_game_characters_K5714.avif 900w" sizes="((min-width: 12em)) and ((max-width:107em)) 30em"><source type="image/webp" srcset="/_astro/a_cartoon_style_collage_of_video_game_characters_kgjvv.webp 900w" sizes="((min-width: 12em)) and ((max-width:107em)) 30em"><source type="image/png" srcset="/_astro/a_cartoon_style_collage_of_video_game_characters_WKiQO.png 900w" sizes="((min-width: 12em)) and ((max-width:107em)) 30em">
+	<img alt="A cartoon style collage of nintendo video game characters" fit="cover" src="/_astro/a_cartoon_style_collage_of_video_game_characters_WKiQO.png" loading="lazy" decoding="async" height="400" format="webp" quality="80">
+</picture>
 
 <div class="socialContainer" aria-label="Social Icons Navigation">
 <ul class="socialMediaIcons">
@@ -132,29 +168,39 @@ Blog
         
         <div class="container">
         
-            <p>To be clear this is a blog post about Video games that become movies rather then movies that become video games because I do believe there is a hard difference even though they are basically the same. Originally I was going to make a blog post called ‘WHY VIDEO GAME MOVIES WILL NEVER BE GOOD’. But I decided to change the title after having just seen Tetris the movie. A movie that I thought would more than likely be a failure due to previous video game movie titles not doing that well either. However, the Tetris movie surprised me by keeping my attention throughout the entire movie doing parts that normally would put most people to sleep due to the amount of talking that I predicted would have to go into such a movie. I honestly thought that it would have more of the structural tone of a documentary rather than a fun little movie that tells a story about the struggles that were in place to have Tetris become a purchasable game globally.
-Not to say that I didn’t have any faith in video games movies, in fact, it’s my hope that video game movies continue to be as great as they are. Currently next on my list is actually the super Mario movie regardless of any inconsistencies with the voice of the red hat wearing hero that we are all used to.But because I have already heard of how well the movie is following the trend of Sonic The hedgehog and Detective Pikachu, it excites me to write this post in regards to how video game movies are trending to be seen as actual things to look forward to seeing in theaters just like any other marvel movie. But even Marvel movies are capable of flopping in terms of audience reception.</p>
-<pre is:raw="" class="astro-code github-dark" style="background-color: #24292e; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color: #e1e4e8">1. </span></span></code></pre>
-<p>The history of video game movie adaptations and their mixed success</p>
-<p>It should be obvious that video games with bad adaptations first started in the early days of gaming, probably around the late 80 leading in the early 90’s. To be fair the idea of having an item paired with a movie franchis was absolutely amazing.Who didn’t rush to get the rare pokemon cards for the first Pokemon movie? If a movie came out it was sure to be followed by sort of product advertising on Food,toys,clothing,etc.Yet for some reason video games were the worst things to pair together with a movie,even though it was the best era in gaming history when the ‘console wars’ were a thing.</p>
-<p>Again we are not talking about the pairing of games based on movies but instead movies based on games.So where you say Superman 64 I say Doom 2005 okay?
-The first movie that started this trend of bad Video game Movies for me personally was the Assassins Creed Movie. To summarize my feelings about the idea itself, just know the very second I saw the teaser trailer for this movie I thought to myself “I didn’t ask for this”.
-I have been a member of the AC fanboy all the way up to the Assassin Creed 3.Letting the non existent faction into my real life by remembering the three rules like my own and even dressing like the characters in some way through high school.Because why not wear a white hood with every outfit to represent my teen angst which was definitely not a phase in my life. Trust me when I tell you that being a big fan of the franchise and feeling absolutely nothing as a piece of media with a (insert budget size here) sized budget hits the box office.It actually made me sad that I knew the movie wasn’t going to be a success. How did I know ? Because the Assassins Creed franchise was already suffering with a divisive fan base over whether the new games are better and I doubt a movie starring a popular actor is going to fix that.Not to mention Assassin’s Creed is a movie that will only apply to fans of the game rather then anyone who wants something to see on a Friday Night.If it was a stand alone movie about A creed of Assassins that had nothing to do with a game title maybe it would have performed better.John Wick currently has 4 movies based on this concept all of which are aimed for anyone who is a movie lover rather then targeting the late night gamers who like Call Of Duty and action games..</p>
-<pre is:raw="" class="astro-code github-dark" style="background-color: #24292e; overflow-x: auto;" tabindex="0"><code><span class="line"><span style="color: #e1e4e8">1. </span></span></code></pre>
-<p>Are there any good ones out there?</p>
-<p>Often times people will bring up games like Resident Evil and Tomb raider when mentioning movies that are successfull. But In my opinion those movies are only succesfull at NOT MAKING THE AUDIENCE UPSET just enough so that the movie isn’t poorly reviewed.For example,the resident evil movies that star Mia Jolavich have almost no reference to the original games but they offer name drops and a plot that is familiar to the originals.Not to mention the tone overall doesn’t come off as scary because the main character is confident in her abilities to shoot machine guys while running down the side of a skyscraper.Nothing about this movie stood out as resident evil since it didnt involve being stuck in a mansion and solving obscure puzzles the entire time.
-There are other movies that I did enjoy that fell into the category of ‘It wasn’t good, but at least they got the concept right’.
-Agent 47 (2015)
-Need For Speed (2014)
-Prince Of Persia Sands of time (2010)</p>
-<p>How ever all of these games are still consider to be controversial among fans of the original games. I believe this is simply because gamers don’t want to see references to things they already know exist but rather see a story that is familiar but with a new twist.BUT even if you do that you may end up having a movie that doesn’t stick to the source material and that will be the biggest complaint.If you don’t believe me ask a gamer about thier opinion on the mortal kombat movie and how close to the original game is paired with it.Again,allot of great references to things we know but one change to the story element and it was all over.The main character was an unknown fighter not from any games,and all of the great characters were out of touch with who we fell in love with over the years.This didn’t do good with the fact that currently the latest Mortal Kombat Game (MK11) is not well received by the current fanbase,even from professional players.Granted poeple will never not buy a mortal kombat game but it still shows how something like a failed movie can have people look at a franchise differently.</p>
-<p>The recent trend of improving video game movie adaptations
-However there have been some great examples of video games being in the film media. With shows like CyberpunkEdgerunners, Arkane, and of course The last of us. I truly believe that we are now in the age where video game media might be worth watching and can potentially bring in more fans of the game.Granted
-Cyberpunk was dead on arrival but with shows that actaully do good there is a potential chance that we can see more games adopted for theatre on a friday night release.But I want to be clear about something,THIS STILL DOES NOT MEAN THAT ALL WILL BE SUCCESSFUL. The biggest factor in wether a movie adaptation would work is if the Director and the game studio have clear communication between each other. Because otherwise it could lead to another Monster Hunter movie Situation.Long Story Short the movie was banned in china because of racial jokes being mentioned which is odd considering Monster Hunter is very Popular in other countries besides just America.Video Games for most aren’t just a way to distract yourself from the world but for some can be a lifestyle choice as they develop bonds with video game characters and even the video game company itself.So yes, I would love to see a AAA title like Minecraft, or even Fortnite go into a movie,but it has to have more enticing things in the movie trailer other then having famous actors playing certain characters the way Marvel Movies have presented themselves. As we speak the Dungeons and Dragons Movie is currently a great success but I dont think it is because the characters are performed by famous actors but rather the director or head producer has a sense of humor along with past experience in making movies enjoyable.I do not play D&#x26;D but its success has made me consider watching it.I won’t be coverted to a player of the game but the movie makes me happy to know that an audience of players are being represented properly.If you a fan of Halo then you know what it’s like to currently have the latest game and even the newest TV show both fail to capture its current and even potentially newer audience by not taking the fan base seriously.The guy that directed the Halo TV show has never played the games and the person who made the Witcher TV show has never read the books the game is based off of.Why this is allowed I honestly don’t know since gamers can spot a faker or someone who pretends to like games but really doesn’t.Another factor that I have not included as far as producing a good video game movie is.</p>
-<p>Translating Game Mechanics to Film: One of the main reasons for the decline of movie adaptations of video games is the consistent quality of  bad acting, poor direction, and weak storytelling. Video games are interactive and allow players to control the story and characters, while movies are passive and rely on a linear narrative.filmmakers may feel pressure to stick closely to the formula of the original game, leading to a movie that feels derivative and unoriginal. This can be a turn-off for audiences who may be looking for something fresh and exciting. This means that what works well in a video game may not translate smoothly to a movie, and vice versa.</p>
-<p>CONCLUSION</p>
-<p>The overall future of video game movies are looking to be much brighter considering the success of the titles that I mentioned above however I think its still important to remember the key factor in making a good video game movie is communication.If the studio and the creator of the game itself can synergize together it will make video game movies popular and not just what people refer to as a popcorn flick to waste time and money on.One small example of this is the new announcement of DC movies being directed by James Gunn. Granted these are comic books but recently James Gunn decided to make a video explaining his plan to basically making DC movies better by making sure everyone involved with the project is aware of how things should be and will be going forward and how to not have movies that don’t ‘vibe’ with the audience.Again those aren’t video games but its an example of how fictional media needs to be represented on the screen properly otherwise it will be a waste of every ones time and upset core audience and of course the investors.</p>
-<p>But the real question is can we take movies…and turn them into video games like 007</p>
+            <p class="blogP">
+    To be clear this is a blog post about Video games that become movies rather then movies that become video games because I do believe there is a hard difference even though they are basically the same. Originally I was going to make a blog post called 'WHY VIDEO GAME MOVIES WILL NEVER BE GOOD'. But I decided to change the title after having just seen Tetris the movie. A movie that I thought would more than likely be a failure due to previous video game movie titles not doing that well either. However, the Tetris movie surprised me by keeping my attention throughout the entire movie doing parts that normally would put most people to sleep due to the amount of talking that I predicted would have to go into such a movie. I honestly thought that it would have more of the structural tone of a documentary rather than a fun little movie that tells a story about the struggles that were in place to have Tetris become a purchasable game globally.
+    Not to say that I didn't have any faith in video games movies, in fact, it's my hope that video game movies continue to be as great as they are. Currently next on my list is actually the super Mario movie regardless of any inconsistencies with the voice of the red hat wearing hero that we are all used to.But because I have already heard of how well the movie is following the trend of Sonic The hedgehog and Detective Pikachu, it excites me to write this post in regards to how video game movies are trending to be seen as actual things to look forward to seeing in theaters just like any other marvel movie. But even Marvel movies are capable of flopping in terms of audience reception.
+</p>
+<h2 class="blogH2">The history of video game movie adaptations and their mixed success</h2>
+<p class="blogP">It should be obvious that video games with bad adaptations first started in the early days of gaming, probably around the late 80 leading in the early 90's. To be fair the idea of having an item paired with a movie franchis was absolutely amazing.Who didn't rush to get the rare pokemon cards for the first Pokemon movie? If a movie came out it was sure to be followed by sort of product advertising on Food,toys,clothing,etc.Yet for some reason video games were the worst things to pair together with a movie,even though it was the best era in gaming history when the 'console wars' were a thing.</p>
+<p class="blogP">Again we are not talking about the pairing of games based on movies but instead movies based on games.So where you say Superman 64 I say Doom 2005 okay?</p>
+<p class="blogP">
+    The first movie that started this trend of bad Video game Movies for me personally was the Assassins Creed Movie. To summarize my feelings about the idea itself, just know the very second I saw the teaser trailer for this movie I thought to myself "I didn't ask for this".
+    I have been a member of the AC fanboy all the way up to the Assassin Creed 3.Letting the non existent faction into my real life by remembering the three rules like my own and even dressing like the characters in some way through high school.Because why not wear a white hood with every outfit to represent my teen angst which was definitely not a phase in my life. Trust me when I tell you that being a big fan of the franchise and feeling absolutely nothing as a piece of media with a (insert budget size here) sized budget hits the box office.It actually made me sad that I knew the movie wasn't going to be a success. How did I know ? Because the Assassins Creed franchise was already suffering with a divisive fan base over whether the new games are better and I doubt a movie starring a popular actor is going to fix that.Not to mention Assassin's Creed is a movie that will only apply to fans of the game rather then anyone who wants something to see on a Friday Night.If it was a stand alone movie about A creed of Assassins that had nothing to do with a game title maybe it would have performed better.John Wick currently has 4 movies based on this concept all of which are aimed for anyone who is a movie lover rather then targeting the late night gamers who like Call Of Duty and action games..
+</p>
+<h1 class="blogH2">Are there any good ones out there?</h1>
+<p class="blogP">Often times people will bring up games like Resident Evil and Tomb raider when mentioning movies that are successfull. But In my opinion those movies are only succesfull at NOT MAKING THE AUDIENCE UPSET just enough so that the movie isn't poorly reviewed.For example,the resident evil movies that star Mia Jolavich have almost no reference to the original games but they offer name drops and a plot that is familiar to the originals.Not to mention the tone overall doesn't come off as scary because the main character is confident in her abilities to shoot machine guys while running down the side of a skyscraper.Nothing about this movie stood out as resident evil since it didnt involve being stuck in a mansion and solving obscure puzzles the entire time.</p>
+<p class="blogP">There are other movies that I did enjoy that fell into the category of 'It wasn't good, but at least they got the concept right'.</p>
+<ul>
+<li>Agent 47 (2015)</li>
+<li>Need For Speed (2014)</li>
+<li>Prince Of Persia Sands of time (2010)</li>
+</ul>
+<p class="blogP">How ever all of these games are still consider to be controversial among fans of the original games. I believe this is simply because gamers don't want to see references to things they already know exist but rather see a story that is familiar but with a new twist.BUT even if you do that you may end up having a movie that doesn't stick to the source material and that will be the biggest complaint.If you don't believe me ask a gamer about thier opinion on the mortal kombat movie and how close to the original game is paired with it.Again,allot of great references to things we know but one change to the story element and it was all over.The main character was an unknown fighter not from any games,and all of the great characters were out of touch with who we fell in love with over the years.This didn't do good with the fact that currently the latest Mortal Kombat Game (MK11) is not well received by the current fanbase,even from professional players.Granted poeple will never not buy a mortal kombat game but it still shows how something like a failed movie can have people look at a franchise differently.</p>
+<h2 class="blogH2">The recent trend of improving video game movie adaptations</h2>
+<p class="blogP">
+    However there have been some great examples of video games being in the film media. With shows like CyberpunkEdgerunners, Arkane, and of course The last of us. I truly believe that we are now in the age where video game media might be worth watching and can potentially bring in more fans of the game.
+    Granted Cyberpunk was dead on arrival but with shows that actaully do good there is a potential chance that we can see more games adopted for theatre on a friday night release.But I want to be clear about something,THIS STILL DOES NOT MEAN THAT ALL WILL BE SUCCESSFUL. The biggest factor in wether a movie adaptation would work is if the Director and the game studio have clear communication between each other. Because otherwise it could lead to another Monster Hunter movie Situation.Long Story Short the movie was banned in china because of racial jokes being mentioned which is odd considering Monster Hunter is very Popular in other countries besides just America.Video Games for most aren't just a way to distract yourself from the world but for some can be a lifestyle choice as they develop bonds with video game characters and even the video game company itself.So yes, I would love to see a AAA title like Minecraft, or even Fortnite go into a movie,but it has to have more enticing things in the movie trailer other then having famous actors playing certain characters the way Marvel Movies have presented themselves. As we speak the Dungeons and Dragons Movie is currently a great success but I dont think it is because the characters are performed by famous actors but rather the director or head producer has a sense of humor along with past experience in making movies enjoyable.I do not play D&#x26;D but its success has made me consider watching it.I won't be coverted to a player of the game but the movie makes me happy to know that an audience of players are being represented properly.If you a fan of Halo then you know what it's like to currently have the latest game and even the newest TV show both fail to capture its current and even potentially newer audience by not taking the fan base seriously.The guy that directed the Halo TV show has never played the games and the person who made the Witcher TV show has never read the books the game is based off of.Why this is allowed I honestly don't know since gamers can spot a faker or someone who pretends to like games but really doesn't.Another factor that I have not included as far as producing a good video game movie is.
+</p>
+<p class="blogP">
+</p><p>Translating Game Mechanics to Film: One of the main reasons for the decline of movie adaptations of video games is the consistent quality of  bad acting, poor direction, and weak storytelling. Video games are interactive and allow players to control the story and characters, while movies are passive and rely on a linear narrative.filmmakers may feel pressure to stick closely to the formula of the original game, leading to a movie that feels derivative and unoriginal. This can be a turn-off for audiences who may be looking for something fresh and exciting. This means that what works well in a video game may not translate smoothly to a movie, and vice versa.</p>
+<p></p>
+<h2 class="blogH2">CONCLUSION</h2>
+<p class="blogP">
+</p><p>The overall future of video game movies are looking to be much brighter considering the success of the titles that I mentioned above however I think its still important to remember the key factor in making a good video game movie is communication.If the studio and the creator of the game itself can synergize together it will make video game movies popular and not just what people refer to as a popcorn flick to waste time and money on.One small example of this is the new announcement of DC movies being directed by James Gunn. Granted these are comic books but recently James Gunn decided to make a video explaining his plan to basically making DC movies better by making sure everyone involved with the project is aware of how things should be and will be going forward and how to not have movies that don’t ‘vibe’ with the audience.Again those aren’t video games but its an example of how fictional media needs to be represented on the screen properly otherwise it will be a waste of every ones time and upset core audience and of course the investors.</p>
+<p></p>
+<p class="blogP">But the real question is can we take movies...and turn them into video games like 007 </p>
         
         </div>
     </div>
@@ -162,31 +208,42 @@ Cyberpunk was dead on arrival but with shows that actaully do good there is a po
 
 
    
-	 <footer class="copyrightContainer flex">
+	 <footer class="copyrightContainer flex column text-center">
     <div class="copyrightText">
-          <p>Copyright &copy;</p>
+          
+          <a href="/" class="siteLogo font-arcade-classic" aria-label="Site Logo"> ChaosAndVideoGames </a>
 
-    
     </div>
 
     <ul class="footerSocialIcons">
-      <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M7.826 10.083a.784.784 0 0 0-.468-.175h-.701v4.198h.701a.786.786 0 0 0 .469-.175c.155-.117.233-.292.233-.525v-2.798c.001-.233-.079-.408-.234-.525zM19.236 3H4.764C3.791 3 3.002 3.787 3 4.76v14.48c.002.973.791 1.76 1.764 1.76h14.473c.973 0 1.762-.787 1.764-1.76V4.76A1.765 1.765 0 0 0 19.236 3zM9.195 13.414c0 .755-.466 1.901-1.942 1.898H5.389V8.665h1.903c1.424 0 1.902 1.144 1.903 1.899v2.85zm4.045-3.562H11.1v1.544h1.309v1.188H11.1v1.543h2.142v1.188h-2.498a.813.813 0 0 1-.833-.792V9.497a.813.813 0 0 1 .792-.832h2.539l-.002 1.187zm4.165 4.632c-.531 1.235-1.481.99-1.906 0l-1.548-5.818h1.309l1.193 4.569l1.188-4.569h1.31l-1.546 5.818z"></path></svg>
-      </li>
+      <a href="https://dev.to/darius410">
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M7.826 10.083a.784.784 0 0 0-.468-.175h-.701v4.198h.701a.786.786 0 0 0 .469-.175c.155-.117.233-.292.233-.525v-2.798c.001-.233-.079-.408-.234-.525zM19.236 3H4.764C3.791 3 3.002 3.787 3 4.76v14.48c.002.973.791 1.76 1.764 1.76h14.473c.973 0 1.762-.787 1.764-1.76V4.76A1.765 1.765 0 0 0 19.236 3zM9.195 13.414c0 .755-.466 1.901-1.942 1.898H5.389V8.665h1.903c1.424 0 1.902 1.144 1.903 1.899v2.85zm4.045-3.562H11.1v1.544h1.309v1.188H11.1v1.543h2.142v1.188h-2.498a.813.813 0 0 1-.833-.792V9.497a.813.813 0 0 1 .792-.832h2.539l-.002 1.187zm4.165 4.632c-.531 1.235-1.481.99-1.906 0l-1.548-5.818h1.309l1.193 4.569l1.188-4.569h1.31l-1.546 5.818z"></path></svg>
+        </li>
+      </a>
          
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188" fill="currentColor"></circle><path fill="currentColor" d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
-      </li>
+      <a href="https://www.linkedin.com/in/darius-hansley-96b752147/">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188" fill="currentColor"></circle><path fill="currentColor" d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
+        </li>
+      </a>
       
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6l5.207 3.005l-5.212 2.995z"></path></svg>
-      </li>
+      <a href="">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6l5.207 3.005l-5.212 2.995z"></path></svg>
+        </li>
+      </a>
       
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z" clip-rule="evenodd"></path></svg>
-      </li>
+      <a href="https://github.com/darius410">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z" clip-rule="evenodd"></path></svg>
+        </li>
+      </a>
       
-      <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
-      </li>
+      <a href="https://www.twitch.tv/gameswithchaos">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+        </li>
+      </a>
       
       </ul>
 

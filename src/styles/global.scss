@@ -13,12 +13,21 @@
   font-style: normal;
 }
 @font-face {
-  font-family:'Bricks';
-  src: url('/fonts/BricksExtraBold.otf') format('opentype');
+  font-family:'ArcadeClassic';
+  src: url('/fonts/ARCADECLASSIC.TTF') format('truetype');
   /* Additional font properties (optional) */
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family:'RajdhaniBold';
+  src: url('/fonts/rajdhani.bold.ttf') format('truetype');
+  /* Additional font properties (optional) */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 :root{
    --primary-dark:hsl(214,14%,20%);
@@ -68,9 +77,14 @@ a, a:visited, a:hover {
 .font-stigo{
   font-family: 'Stigo', sans-serif;
 }
-.font-bricks{
-font-family: 'Bricks',sans-serif;
+.font-arcade-classic{
+font-family: 'ArcadeClassic',sans-serif;
 }
+.font-rajdhani{
+  font-family: 'RajdhaniBold',sans-serif;
+}
+  
+
 
 body {
   min-height:100vh;

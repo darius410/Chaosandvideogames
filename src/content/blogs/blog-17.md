@@ -16,13 +16,13 @@
  
 <h2 class="blogH2">WHAT INSPIRED THIS ARTICLE?</h2>
 
-<p class="blogP">
+<p class="blogP text-center">
 Getting Sellers in my Twitch Chat
 </p>
 
 <h2 class="blogH2">You're not an entrepenuar </h2>
 
 <p class="blogP">
-Look,I get it we all want to make extra money or have a side hustle.
+Look,I get it we all want to make extra money or have a side hustle.But Your need to advertise computer graphics in someone else twitch channel without first becoming a community member
 </p>
 

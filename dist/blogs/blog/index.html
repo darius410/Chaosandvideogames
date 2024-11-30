@@ -3,7 +3,7 @@
     <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/svg+xml" href="/faviconx32.png">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0 ">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale= 1 "/> -->
     <meta name="generator" content="Astro v2.8.0">
     <title>All Blogs About Gaming</title>
     <meta name="description" content="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.This includes information about how video game companies operate as well as how developers make the decisions that go into the final version of the game upon its release.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games. ">
@@ -19,43 +19,59 @@
 
  
    
-<link rel="stylesheet" href="/_astro/global.3a1ddcaf.css" />
-<link rel="stylesheet" href="/_astro/sm.49aafab0.css" />
-<link rel="stylesheet" href="/_astro/med.24f349b2.css" />
-<link rel="stylesheet" href="/_astro/lg.65b53051.css" />
-<link rel="stylesheet" href="/_astro/reset.49e8993f.css" /><script type="module" src="/_astro/hoisted.a45d0546.js"></script></head>
+<link rel="stylesheet" href="/_astro/global.8a078e27.css" />
+<link rel="stylesheet" href="/_astro/sm.5e4c9859.css" />
+<link rel="stylesheet" href="/_astro/med.cdc052d2.css" />
+<link rel="stylesheet" href="/_astro/lg.d0df9c78.css" />
+<link rel="stylesheet" href="/_astro/reset.948aae4a.css" /><script type="module" src="/_astro/hoisted.494624eb.js"></script></head>
 	<body>
         <nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
 
     <!--    toggle dark mode button -->
-    <button arial-label="Toggle Dark Mode On/Off" class="darkLightMode" id="darkLightButton" type="button"> 
-        
-            <svg viewBox="0 0 24 24" width="2em" astro-icon="uit:toggle-on"><path fill="currentColor" d="M16.5 6.5h-9a5.5 5.5 0 0 0 0 11h9a5.5 5.5 0 0 0 0-11zm0 10h-9a4.5 4.5 0 1 1 0-9h9a4.5 4.5 0 1 1 0 9zm0-7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm0 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>  
-        
-    </button>
+            <button aria-label="Toggle Dark Mode On/Off" class="darkLightMode theme-switch align-self-center" id="darkLightButton" aria-pressed="false" type="button"> 
+                
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"></path>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+    <circle cx="12" cy="12" r="5"></circle>
+    <path d="M12 1v2m0 18v2M4 4l2 2m12 12 2 2M1 12h2m18 0h2M4 20l2-2M18 6l2-2"></path>
+  </svg> 
+                
+            </button>
+
+    
+
+
     
     <!--  SITE LOGO -->
-         <a href="/" class="siteLogo font-bricks" aria-label="Site Logo"> ChaosAndVideoGames </a>
+         <a href="/" class="siteLogo font-arcade-classic" aria-label="Site Logo"> ChaosAndVideoGames </a>
         
 
-         <!-- NAVIGATION FOR MOBILE AND SEKTOP -->
+         <!-- NAVIGATION FOR MOBILE AND DESKTOP -->
     <div class="navigation" tabindex="0">
     <!-- <img src="img/menu.png" class="menuIcon"/> -->
      
     <ul class="desktopNav">
-        <li><a href="/about/" class="link Secondary" data-navLink>
+        <li><a href="/about/" class="link font-rajdhani" data-navLink>
 
 
 <span>
+    
 About
+
+
 </span>
 
 
-</a></li><li><a href="/blogs/blog/" class="link Secondary" data-navLink>
+</a></li><li><a href="/blogs/blog/" class="link font-rajdhani" data-navLink>
 
 
 <span>
-Blog
+    
+Blogs
+
+
 </span>
 
 
@@ -64,19 +80,25 @@ Blog
         
          <div class="navBar" tabindex="0">
              <ul class="mobileNav">
-                     <li><a href="/about/" class="link Secondary" data-navLink>
+                     <li class="font-avengers"><a href="/about/" class="link font-rajdhani" data-navLink>
 
 
 <span>
+    
 About
+
+
 </span>
 
 
-</a></li><li><a href="/blogs/blog/" class="link Secondary" data-navLink>
+</a></li><li class="font-avengers"><a href="/blogs/blog/" class="link font-rajdhani" data-navLink>
 
 
 <span>
-Blog
+    
+Blogs
+
+
 </span>
 
 
@@ -93,34 +115,19 @@ Blog
 	
 <section class=" homeContainer text-center flex column lineBorderX" araia-label="All Blog Post">
 
-    <div class="w-full flex column recentPostContainer">
-        <div class=" w-half row flex recentPostShader">
-            <h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">All<span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 ">Blog Post</span></h2>
-        </div>
-        
+  <div class="w-full flex column recentPostContainer">
+    <div class="w-full row flex recentPostShader astro-J7PV25F6">
+      <h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40 astro-J7PV25F6">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 astro-J7PV25F6">Blog Post</span></h2>
     </div>
+    
+</div>
 
     <!-- <form class="w-half flex">
         <Icon name="search" width="40"></Icon>
         <input class="searchInput" type="text" placeholder="Enter your name">
       </form> -->
 
-      <div class="search-box">
-        <div class="search-icon">
-          
-            <svg viewBox="0 0 24 24" width="40" astro-icon="search"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-
-        </div>
-        <form action="" class="search-form">
-          <input type="text" placeholder="Search" id="search" autocomplete="off">
-        </form>
-        <svg class="search-border" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" viewBox="0 0 671 111" style="enable-background:new 0 0 671 111;" xml:space="preserve">
-            <path class="border" d="M335.5,108.5h-280c-29.3,0-53-23.7-53-53v0c0-29.3,23.7-53,53-53h280"></path>
-            <path class="border" d="M335.5,108.5h280c29.3,0,53-23.7,53-53v0c0-29.3-23.7-53-53-53h-280"></path>
-          </svg>
-        <div class="go-icon"><i class="fa fa-arrow-right"></i></div>
-      </div>
-
+        <!-- <SearchBar /> -->
 
    <div class="homeContainer flex column items-center justify-items-center">
        <article class="blogCard items-center justify-items-center">
@@ -157,75 +164,9 @@ posts.reduce((acc, post ) => {
     </div>
     
 </article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-10" tabindex="1">   
-    <small>Darius D Hansley - 2019-05-14</small>
-    <h2>The TGA catagories need to improve.</h2>
-    <h4 onClick="function filterTags (posts, {
-    filterTags = true,
-    limit = undefined,
-
-    
-} = {} ) {
-posts.reduce((acc, post ) => {
-    post.frontmatter;
-
-    if(filterTags) return acc;
-
-    acc.push(post);
-
-    return acc;
-}, [] );
-
-}" class="tags">PsychologyGaming</h4> 
-       
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/joystick-4321216_ZH8R3r.jpeg" loading="lazy" decoding="async">
-    </a>
-    <div class="descContainer">
-        <p>
-            
-      
-        </p>
-
-    
-    </div>
-    
-</article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-11" tabindex="1">   
-    <small>Darius D Hansley - 2020-05-05</small>
-    <h2>Your FPS game lacks impact to me ,</h2>
-    <h4 onClick="function filterTags (posts, {
-    filterTags = true,
-    limit = undefined,
-
-    
-} = {} ) {
-posts.reduce((acc, post ) => {
-    post.frontmatter;
-
-    if(filterTags) return acc;
-
-    acc.push(post);
-
-    return acc;
-}, [] );
-
-}" class="tags">Psychology</h4> 
-       
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/alley_uxbuP.jpeg" loading="lazy" decoding="async">
-    </a>
-    <div class="descContainer">
-        <p>
-            
-      
-        </p>
-
-    
-    </div>
-    
-</article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-12" tabindex="1">   
-    <small>Darius D Hansley - 2020-05-05</small>
-    <h2>Please stop making fun of other programming languages ,</h2>
+     <a href="../blog-13" tabindex="1">   
+    <small>Darius D Hansley - 2023-08-02</small>
+    <h2>Does Front-End Development Exist ?</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -244,10 +185,10 @@ posts.reduce((acc, post ) => {
 
 }" class="tags">Coding</h4> 
        
-            <img alt="An astronaut standing in a puddle of with a bright moon behind him.The puddle beneath him shows a reflection of himself as well as the moon behind him." fit="cover" class="" width="500" height="400" src="/_astro/astronaut_Z1gDvi1.jpeg" loading="lazy" decoding="async">
+            <img alt="An astronaut standing in a puddle of with a bright moon behind him.The puddle beneath him shows a reflection of himself as well as the moon behind him." fit="cover" class="" width="500" height="400" src="/_astro/startup_Z1WTm2Q.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>It&#39;s all in good fun, but eventually someone will get their feelings hurt
+        <p>As someone who loves doing things on the front and it is become painfully and obviously clear that my ability to get a job as well as my ability to grow further in a career will only happen if I adapt to becoming a software engineer.
             
       
         </p>
@@ -256,9 +197,9 @@ posts.reduce((acc, post ) => {
     </div>
     
 </article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-2" tabindex="1">   
-    <small>Darius D Hansley - 2023-02-27</small>
-    <h2>The downsides of Youtube studying</h2>
+     <a href="../blog-14" tabindex="1">   
+    <small>Darius D Hansley - 2024-01-28</small>
+    <h2>Ways to Support Small Streamers</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -275,12 +216,12 @@ posts.reduce((acc, post ) => {
     return acc;
 }, [] );
 
-}" class="tags">Coding</h4> 
+}" class="tags">Gaming</h4> 
        
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/temple_1fdmMM.jpeg" loading="lazy" decoding="async">
+            <img alt="A logo of the Twitch Streaming Platform" fit="cover" class="" width="500" height="400" src="/_astro/streamer_16WcvQ.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?
+        <p>As the title reads, I truly think that 2024 is the year we start supporting other streamers and content creators who are not hugely popular and instead give more appreciation to people who have just as much passion and enthusiasm for gaming as the top streamers who always get rewarded.
             
       
         </p>
@@ -289,9 +230,9 @@ posts.reduce((acc, post ) => {
     </div>
     
 </article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-3" tabindex="1">   
-    <small>Darius D Hansley - 2020-05-05</small>
-    <h2>Five reasons to Train Your child for Esports,</h2>
+     <a href="../blog-15" tabindex="1">   
+    <small>Darius D Hansley - 2024-02-2</small>
+    <h2>How To Support The Unknown Developers</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -308,12 +249,12 @@ posts.reduce((acc, post ) => {
     return acc;
 }, [] );
 
-}" class="tags">Psychology</h4> 
+}" class="tags">Gaming</h4> 
        
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/alley_uxbuP.jpeg" loading="lazy" decoding="async">
+            <img alt="A group of people in a cartoon style drawing standing together with various faces" fit="cover" class="" width="500" height="400" src="/_astro/developers_22Q0QC.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>You know you child can do thier schoolwork before gaming, why not train them to get paid for it?
+        <p>We all have a favorite game company they we know and love but what about individual developers?Most people never take the time to show support to the staff of developers who make that game.
             
       
         </p>
@@ -322,9 +263,9 @@ posts.reduce((acc, post ) => {
     </div>
     
 </article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-4" tabindex="1">   
-    <small>Darius D Hansley - 2022-05-22</small>
-    <h2>Things I Hate About Your Game Trailers</h2>
+     <a href="../blog-16" tabindex="1">   
+    <small>Darius D Hansley - 2024-02-26</small>
+    <h2>Can Fighting Game AI Replace Real Opponents?</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -341,12 +282,12 @@ posts.reduce((acc, post ) => {
     return acc;
 }, [] );
 
-}" class="tags">PsychologyGaming</h4> 
+}" class="tags">Gaming</h4> 
        
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/lost-places_Z1lBOFL.jpeg" loading="lazy" decoding="async">
+            <img alt="A cartoon style drawing of a half human, half cyborg man holding a sword in his right hand" fit="cover" class="" width="500" height="400" src="/_astro/cyborg_24o0R0.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>Video game trailers are my all time favorite part of the game awards,but there are certain trailers that have a repeat pattern of showing nothing worthwhile.
+        <p>Fighting Games have ways of making the computer seem as if it knows your moves before your press them.WHich is true,but is it possible to have a real MLM that can observe your moves,weakness and strengths?
             
       
         </p>
@@ -355,9 +296,9 @@ posts.reduce((acc, post ) => {
     </div>
     
 </article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-5" tabindex="1">   
-    <small>Darius D Hansley - 2019-05-14</small>
-    <h2>The ethical conerns of using AI in video game development.</h2>
+     <a href="../blog-17" tabindex="1">   
+    <small>Darius D Hansley - 2024-02-26</small>
+    <h2>No One wants to Buy Your Overlays</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -374,12 +315,45 @@ posts.reduce((acc, post ) => {
     return acc;
 }, [] );
 
-}" class="tags">PsychologyGaming</h4> 
+}" class="tags">Gaming</h4> 
        
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/japan_npcjp.jpeg" loading="lazy" decoding="async">
+            <img alt="A cartoon style drawing of a half human, half cyborg man holding a sword in his right hand" fit="cover" class="" width="500" height="400" src="/_astro/cyborg_24o0R0.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>The topic of how using AI in video games effects the brain is something that I never thought I would have to look deeply into, considering that most games already have an AI implemented in them such as fighting games and even first person shooters of all kinds.
+        <p>Look,I get it we all want to make extra money or have a side hustle.
+            
+      
+        </p>
+
+    
+    </div>
+    
+</article><article class="blogCard items-center justify-items-center">
+     <a href="../blog-18" tabindex="1">   
+    <small>Darius D Hansley - 2024-03-05</small>
+    <h2>Multiversus is Warner Bros Last Hope</h2>
+    <h4 onClick="function filterTags (posts, {
+    filterTags = true,
+    limit = undefined,
+
+    
+} = {} ) {
+posts.reduce((acc, post ) => {
+    post.frontmatter;
+
+    if(filterTags) return acc;
+
+    acc.push(post);
+
+    return acc;
+}, [] );
+
+}" class="tags">Gaming</h4> 
+       
+            <img alt="A cartoon style drawing of a half human, half cyborg man holding a sword in his right hand" fit="cover" class="" width="500" height="400" src="/_astro/multiversus_Z1ocIMM.jpeg" loading="lazy" decoding="async">
+    </a>
+    <div class="descContainer">
+        <p>With the recent failures of Mortal Kombat , and thier DC franchise not having great movies.Multiverse seems to be the only hope that Warner Bros has for monitized success.
             
       
         </p>
@@ -409,43 +383,10 @@ posts.reduce((acc, post ) => {
 
 }" class="tags">Coding</h4> 
        
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/catontree_ZHL0Fo.jpeg" loading="lazy" decoding="async">
+            <img alt="A cartoon style collage of nintendo video game characters" fit="cover" class="" width="500" height="400" src="/_astro/a_cartoon_style_collage_of_video_game_characters_Z2moaRQ.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>
-            
-      
-        </p>
-
-    
-    </div>
-    
-</article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-7" tabindex="1">   
-    <small>Darius D Hansley - 2020-05-05</small>
-    <h2>Five books to increase your gaming ability ,</h2>
-    <h4 onClick="function filterTags (posts, {
-    filterTags = true,
-    limit = undefined,
-
-    
-} = {} ) {
-posts.reduce((acc, post ) => {
-    post.frontmatter;
-
-    if(filterTags) return acc;
-
-    acc.push(post);
-
-    return acc;
-}, [] );
-
-}" class="tags">Psychology</h4> 
-       
-            <img alt="A Monk walking barefoot in the streets of vietnam with his back turned to the camera" fit="cover" class="" width="500" height="400" src="/_astro/monk_1mpiJF.jpeg" loading="lazy" decoding="async">
-    </a>
-    <div class="descContainer">
-        <p>
+        <p>Originally I was going to make a blog post called &#39;WHY VIDEO GAME MOVIES WILL NEVER BE GOOD&#39;. But I decided to change the title after having just seen Tetris the movie.
             
       
         </p>
@@ -455,8 +396,8 @@ posts.reduce((acc, post ) => {
     
 </article><article class="blogCard items-center justify-items-center">
      <a href="../blog-8" tabindex="1">   
-    <small>Darius D Hansley - 2020-05-05</small>
-    <h2>Are Video games Teasers Losing Purpose? ,</h2>
+    <small>Darius D Hansley - 2023-04-14</small>
+    <h2>Are Video game Teasers Losing Purpose? ,</h2>
     <h4 onClick="function filterTags (posts, {
     filterTags = true,
     limit = undefined,
@@ -478,40 +419,7 @@ posts.reduce((acc, post ) => {
             <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/lost-places_Z1lBOFL.jpeg" loading="lazy" decoding="async">
     </a>
     <div class="descContainer">
-        <p>
-            
-      
-        </p>
-
-    
-    </div>
-    
-</article><article class="blogCard items-center justify-items-center">
-     <a href="../blog-9" tabindex="1">   
-    <small>Darius D Hansley - 2020-05-05</small>
-    <h2>Does coding make you anti-social ? ,</h2>
-    <h4 onClick="function filterTags (posts, {
-    filterTags = true,
-    limit = undefined,
-
-    
-} = {} ) {
-posts.reduce((acc, post ) => {
-    post.frontmatter;
-
-    if(filterTags) return acc;
-
-    acc.push(post);
-
-    return acc;
-}, [] );
-
-}" class="tags">Video Games</h4> 
-       
-            <img alt="Alternate Text" fit="cover" class="" width="500" height="400" src="/_astro/japan_npcjp.jpeg" loading="lazy" decoding="async">
-    </a>
-    <div class="descContainer">
-        <p>
+        <p>Video game teasers have been a staple of the industry for decades, providing gamers with a sneak peek of what&#39;s to come and building excitement for upcoming releases. But in recent years, some have questioned whether these teasers are losing their purpose in marketing.
             
       
         </p>
@@ -530,31 +438,42 @@ posts.reduce((acc, post ) => {
 
 
    
-	 <footer class="copyrightContainer flex">
+	 <footer class="copyrightContainer flex column text-center">
     <div class="copyrightText">
-          <p>Copyright &copy;</p>
+          
+          <a href="/" class="siteLogo font-arcade-classic" aria-label="Site Logo"> ChaosAndVideoGames </a>
 
-    
     </div>
 
     <ul class="footerSocialIcons">
-      <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M7.826 10.083a.784.784 0 0 0-.468-.175h-.701v4.198h.701a.786.786 0 0 0 .469-.175c.155-.117.233-.292.233-.525v-2.798c.001-.233-.079-.408-.234-.525zM19.236 3H4.764C3.791 3 3.002 3.787 3 4.76v14.48c.002.973.791 1.76 1.764 1.76h14.473c.973 0 1.762-.787 1.764-1.76V4.76A1.765 1.765 0 0 0 19.236 3zM9.195 13.414c0 .755-.466 1.901-1.942 1.898H5.389V8.665h1.903c1.424 0 1.902 1.144 1.903 1.899v2.85zm4.045-3.562H11.1v1.544h1.309v1.188H11.1v1.543h2.142v1.188h-2.498a.813.813 0 0 1-.833-.792V9.497a.813.813 0 0 1 .792-.832h2.539l-.002 1.187zm4.165 4.632c-.531 1.235-1.481.99-1.906 0l-1.548-5.818h1.309l1.193 4.569l1.188-4.569h1.31l-1.546 5.818z"></path></svg>
-      </li>
+      <a href="https://dev.to/darius410">
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M7.826 10.083a.784.784 0 0 0-.468-.175h-.701v4.198h.701a.786.786 0 0 0 .469-.175c.155-.117.233-.292.233-.525v-2.798c.001-.233-.079-.408-.234-.525zM19.236 3H4.764C3.791 3 3.002 3.787 3 4.76v14.48c.002.973.791 1.76 1.764 1.76h14.473c.973 0 1.762-.787 1.764-1.76V4.76A1.765 1.765 0 0 0 19.236 3zM9.195 13.414c0 .755-.466 1.901-1.942 1.898H5.389V8.665h1.903c1.424 0 1.902 1.144 1.903 1.899v2.85zm4.045-3.562H11.1v1.544h1.309v1.188H11.1v1.543h2.142v1.188h-2.498a.813.813 0 0 1-.833-.792V9.497a.813.813 0 0 1 .792-.832h2.539l-.002 1.187zm4.165 4.632c-.531 1.235-1.481.99-1.906 0l-1.548-5.818h1.309l1.193 4.569l1.188-4.569h1.31l-1.546 5.818z"></path></svg>
+        </li>
+      </a>
          
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188" fill="currentColor"></circle><path fill="currentColor" d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
-      </li>
+      <a href="https://www.linkedin.com/in/darius-hansley-96b752147/">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188" fill="currentColor"></circle><path fill="currentColor" d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
+        </li>
+      </a>
       
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6l5.207 3.005l-5.212 2.995z"></path></svg>
-      </li>
+      <a href="">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765c1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6l5.207 3.005l-5.212 2.995z"></path></svg>
+        </li>
+      </a>
       
-      <li>
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z" clip-rule="evenodd"></path></svg>
-      </li>
+      <a href="https://github.com/darius410">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z" clip-rule="evenodd"></path></svg>
+        </li>
+      </a>
       
-      <li><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
-      </li>
+      <a href="https://www.twitch.tv/gameswithchaos">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M2.149 0l-1.612 4.119v16.836h5.731v3.045h3.224l3.045-3.045h4.657l6.269-6.269v-14.686h-21.314zm19.164 13.612l-3.582 3.582h-5.731l-3.045 3.045v-3.045h-4.836v-15.045h17.194v11.463zm-3.582-7.343v6.262h-2.149v-6.262h2.149zm-5.731 0v6.262h-2.149v-6.262h2.149z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+        </li>
+      </a>
       
       </ul>
 
