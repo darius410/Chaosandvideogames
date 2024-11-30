@@ -26,7 +26,7 @@ With the recent failures such  as suicide squad kills the justice league and got
 Multiverses was canceled during its beta last year in 2023 after being available for less then  a year. In that period there have been several people who enjoy its smash like gameplay and wacky characters mechanics and of course seeing childhood icons like the Iron Giant face of against superman. Now that multiverses will return sometime in May it just begs the question.
 </p>
 
-<p class="blogP">
+<p class=" blogP text-center">
 "Will Warner Bros focus on Monitization for this game rather then making the game a great and fun experience"
 </p>
 <p class="blogP">
