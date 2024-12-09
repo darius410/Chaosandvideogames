@@ -13,6 +13,7 @@ TO DO FOR DESIGN *****************
 --Make the search bar have a flat bottom and no rounded corners
 --All <p> and <h> tags need to be responsive for all screen sizes for blog post 
 --Add Logo for ChaosNVideo Games
+-- Remove the image and sideways lettering on the front page hero section and change to have a bunch of squares that represent a tag.Can be clicked on to filter all blogs among that tabs name/ value.
 
 TO DO FOR SEO ********************************
 --SEO INTERGRATION - provide the proper tags and meta data for this site to rank in google search
