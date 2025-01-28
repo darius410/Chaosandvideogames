@@ -1,4 +1,4 @@
-# ChaosNVideoGames
+# ChaosAndVideoGames
 
 ## Topics Covered
 
