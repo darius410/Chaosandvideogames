@@ -34,5 +34,5 @@ If you have any feedback, suggestions, or questions regarding ChaosAndVideoGames
 - Twitter: [@CHA0S44](https://twitter.com/ChaosDaGamer)
 - Email: @darius_hansley@yahoo.com
 
-I hope you enjoy your visit to Cmy blog and find the content informative, inspiring, and insightful in exploring the world of video game companies, game development, and video game psychology!
+I hope you enjoy your visit to My blog and find the content informative, inspiring, and insightful in exploring the world of video game companies, game development, and video game psychology!
 
