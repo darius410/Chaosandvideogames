@@ -40,7 +40,8 @@
 <p class="blogP">Often times people will bring up games like Resident Evil and Tomb raider when mentioning movies that are successfull. But In my opinion those movies are only succesfull at NOT MAKING THE AUDIENCE UPSET just enough so that the movie isn't poorly reviewed.For example,the resident evil movies that star Mia Jolavich have almost no reference to the original games but they offer name drops and a plot that is familiar to the originals.Not to mention the tone overall doesn't come off as scary because the main character is confident in her abilities to shoot machine guys while running down the side of a skyscraper.Nothing about this movie stood out as resident evil since it didnt involve being stuck in a mansion and solving obscure puzzles the entire time.</p>
 
 <p class="blogP">There are other movies that I did enjoy that fell into the category of 'It wasn't good, but at least they got the concept right'.</p>
-<ul>
+
+<ul class="listOfItems m-bottom-8">
 <li>Agent 47 (2015)</li>
 <li>Need For Speed (2014)</li>
 <li>Prince Of Persia Sands of time (2010)</li>

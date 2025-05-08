@@ -95,6 +95,21 @@ body {
 	background: var(--clr-background);
   
 }
+.listOfItems{
+  font-size: 1.5rem;
+  font-family:'Archivo Narrow', sans-serif;
+  margin-bottom: 1.3em;
+
+ 
+    li{
+      list-style-image: url(/src/icons/right-arrow.png);
+      li::before{
+        margin-top: 10px;
+        display:inline-block;
+      }
+    }
+}    
+
 .hidden{
   display:none;
 }
