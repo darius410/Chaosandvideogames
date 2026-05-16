@@ -1,58 +1,40 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro";
-// import { getCollection, getEntryBySlug } from "astro:content";
-import { Image } from "@astrojs/image/components";
+import PostCard from "../../layouts/components/PostCard.astro";
 
-import  PostCard  from "../../layouts/components/PostCard.astro"
-
-
-
- const allBlogPost = await Astro.glob("../../content/blogs/*.md");
- const filteredTags = filterTags(allBlogPost)
-    
-       
-
-import { filterTags } from "../../js/utils";
-import SearchBar from "../../layouts/components/searchBar.astro";
-
-
-
-
-
-
-
-
+const allBlogPost = await Astro.glob("../../content/blogs/*.md");
 ---
 
-<MainLayout slot="chaos" title="All Blogs About Gaming" description="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.This includes information about how video game companies operate as well as how developers make the decisions that go into the final version of the game upon its release.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games. " >
-<section class=" homeContainer text-center flex column lineBorderX" araia-label="All Blog Post">
+<MainLayout
+  slot="chaos"
+  title="All Blogs About Gaming"
+  description="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.This includes information about how video game companies operate as well as how developers make the decisions that go into the final version of the game upon its release.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games. "
+>
+  <section
+    class="homeContainer lineBorderX blog-list-shell"
+    aria-label="All Blog Post"
+  >
+    <header class="recent-section" aria-labelledby="all-posts-title">
+      <div class="recentPostContainer">
+        <div class="recentPostShader">
+          <h1 id="all-posts-title" class="recent-heading">
+            All Blog Posts
+            <span>Long-form takes on gaming and coding</span>
+          </h1>
+        </div>
+      </div>
+    </header>
 
-  <div class="w-full flex column recentPostContainer">
-    <div class="w-full row flex recentPostShader astro-J7PV25F6">
-      <h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40 astro-J7PV25F6">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8 astro-J7PV25F6">Blog Post</span></h2>
+    <div class="blog-list-grid">
+      {
+        allBlogPost.map((post: (typeof allBlogPost)[number]) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+            tagType="h4"
+          />
+        ))
+      }
     </div>
-    
-</div>
-
-    <!-- <form class="w-half flex">
-        <Icon name="search" width="40"></Icon>
-        <input class="searchInput" type="text" placeholder="Enter your name">
-      </form> -->
-
-        <!-- <SearchBar /> -->
-
-   <div class="homeContainer flex column items-center justify-items-center">
-       {
-            allBlogPost.map((post) =>
-                <PostCard frontmatter = {post.frontmatter} url={post.url } tagType="h4" />
-            )
-                }
-   </div>
-    
-</section>
-
-     
-
-
+  </section>
 </MainLayout>
-

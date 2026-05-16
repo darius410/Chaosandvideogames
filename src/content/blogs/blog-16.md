@@ -13,7 +13,6 @@
     author: Darius D Hansley
 ---
 
- 
 <h2 class="blogH2">WHAT INSPIRED THIS ARTICLE?</h2>
 
 <p class="blogP">
@@ -83,7 +82,7 @@ Would the game function online?Would there be a way to have both a great CPU for
 My final though on this is simply if all goes wrong and the AI module becomes unenjoyable to play against simply because there is no way to gauge a players skill set properly whether they are at an easy,medium,hard or hardcore level.Imagine fighting something on easy mode but still being unable to win a single round.If the developers don't properly set in place a level of difficulty that can both read the player but allow the player to still fight based on their skill level then it's all for nothing.This would require making three to four separate versions of the machine learning module itself and having each do certain things based on the player input,without expanding to far into another level of difficulty. But,how can you determine if something is easy? If a CPU is at an easy level but learns to make itself more challenging,is it still easy mode?
 </p>
 
-<image src="../../../img/cyborg2.png" width="500" height="400" style="display: block; margin: 0 auto; padding-bottom:50px " ></image>
+<img src="/img/cyborg2.png" width="500" height="400" style="display: block; margin: 0 auto; padding-bottom:50px " alt="Cartoon cyborg character standing in profile" />
 
 <h2 class="blogH2">Conclusion</h2>
 

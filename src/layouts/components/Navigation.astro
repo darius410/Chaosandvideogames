@@ -1,137 +1,136 @@
 ---
-import { Icon } from 'astro-icon'
-import navData from '../../../data/navData';
+import navData from "../../../data/navData";
 
-import Link from './Link.astro';
+import Link from "./Link.astro";
 ---
 
-
-<nav aria-label="Primary Navigation" class="navContainer" tabindex="0">
-
+<nav aria-label="Primary Navigation" class="navContainer">
+  <div class="navChrome">
     <!--    toggle dark mode button -->
-            <button  
-            aria-label="Toggle Dark Mode On/Off" 
-            class="darkLightMode theme-switch align-self-center" 
-            id="darkLightButton" 
-            aria-pressed="false"
-           
-            type="button"> 
-                
-            <svg
-       xmlns="http://www.w3.org/2000/svg"
-       width="24"
-       height="24"
-       viewBox="0 0 24 24"
-       fill="none"
-       stroke="currentColor"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       aria-hidden="true"
-       focusable="false"
-       >
-    <path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z" />
-  </svg>
-  <svg
-       xmlns="http://www.w3.org/2000/svg"
-       width="24"
-       height="24"
-       viewBox="0 0 24 24"
-       fill="none"
-       stroke="currentColor"
-       stroke-width="2"
-       stroke-linecap="round"
-       stroke-linejoin="round"
-       aria-hidden="true"
-       focusable="false"
-       >
-    <circle cx="12" cy="12" r="5" />
-    <path
+    <button
+      aria-label="Toggle Dark Mode On/Off"
+      class="darkLightMode theme-switch align-self-center"
+      id="darkLightButton"
+      aria-pressed="false"
+      type="button"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"></path>
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        focusable="false"
+      >
+        <circle cx="12" cy="12" r="5"></circle>
+        <path
           d="M12 1v2m0 18v2M4 4l2 2m12 12 2 2M1 12h2m18 0h2M4 20l2-2M18 6l2-2"
-          />
-  </svg> 
-                
-            </button>
+        ></path>
+      </svg>
+    </button>
 
-    
-
-
-    
     <!--  SITE LOGO -->
-         <a href="/" class="siteLogo font-arcade-classic" aria-label="Site Logo"> ChaosAndVideoGames </a>
-        
+    <a href="/" class="siteLogo font-arcade-classic" aria-label="Go to homepage"
+      >ChaosAndVideoGames</a
+    >
 
-         <!-- NAVIGATION FOR MOBILE AND DESKTOP -->
-    <div class="navigation" tabindex="0" >
+    <button
+      aria-label="Open navigation menu"
+      class="menuToggle"
+      id="mobileMenuButton"
+      aria-controls="primaryNavLinks"
+      aria-expanded="false"
+      type="button"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+
+  <!-- NAVIGATION FOR MOBILE AND DESKTOP -->
+  <div class="navigation" id="primaryNavLinks">
     <!-- <img src="img/menu.png" class="menuIcon"/> -->
-     
-    <ul class="desktopNav">
-        {
-            navData.map((v) => (
-        <li><Link 
-            text={v.name}
-            href={v.path}
-            style="font-rajdhani"
-            isFilled={false}
-            data-navLink
-           
-        /></li>
-        ))
-            }
-    </ul>
-        
-         <div class="navBar" tabindex="0">
-             <ul class="mobileNav">
-                     {
-                navData.map((v) => (
-                     <li class="font-avengers"><Link
-                text={v.name}
-                href={v.path}
-                style="font-rajdhani"
-                isFilled={false}
-                data-navLink
-               
-                     /></li>
-                     ))
-                }
-             </ul>
-         </div>
 
-  
-    
-</div>
-    
+    <ul class="desktopNav">
+      {
+        navData.map((v) => (
+          <li>
+            <Link
+              text={v.name}
+              href={v.path}
+              style="Secondary"
+              classes="font-rajdhani"
+              isFilled={false}
+              data-navLink
+            />
+          </li>
+        ))
+      }
+    </ul>
+
+    <ul class="mobileNav">
+      {
+        navData.map((v) => (
+          <li class="font-avengers">
+            <Link
+              text={v.name}
+              href={v.path}
+              style="Secondary"
+              classes="font-rajdhani"
+              isFilled={false}
+              data-navLink
+            />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </nav>
 <script>
-import "../../js/nav.js"
-   
+  import "../../js/nav.js";
 
-( () => {
-    
-	let theme = 'light';
+  (() => {
+    const mobileMenuButton = document.querySelector("#mobileMenuButton");
+    const navLinksWrap = document.querySelector("#primaryNavLinks");
 
-	/**
-	 * Function to toggle between themes
-	 *
-	 * @param {MouseEvent} event
-	 */
-	const onToggleTheme = ( { currentTarget } ) => {
-		const newTheme = theme === 'light' ? 'dark' : 'light';
-		theme = newTheme;
+    if (
+      mobileMenuButton instanceof HTMLButtonElement &&
+      navLinksWrap instanceof HTMLElement
+    ) {
+      mobileMenuButton.addEventListener("click", () => {
+        const isOpen =
+          mobileMenuButton.getAttribute("aria-expanded") === "true";
+        mobileMenuButton.setAttribute("aria-expanded", String(!isOpen));
+        navLinksWrap.classList.toggle("is-open", !isOpen);
+      });
 
-		document.documentElement.setAttribute( 'data-theme', newTheme );
-		currentTarget.setAttribute( 'aria-pressed', newTheme === 'dark' );
-	};
-
-	// Get switch button and add click event
-	const btn = document.querySelector( `.theme-switch` );
-	if ( ! btn ) return;
-	btn.addEventListener( 'click', onToggleTheme, true );
-  
-  
-
-}
- )();
-
-    
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= 1024) {
+          mobileMenuButton.setAttribute("aria-expanded", "false");
+          navLinksWrap.classList.remove("is-open");
+        }
+      });
+    }
+  })();
 </script>

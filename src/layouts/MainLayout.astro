@@ -2,33 +2,52 @@
 import HeadComp from "./HeadComp.astro";
 import Footer from "../layouts/components/Footer.astro";
 
-import "../styles/global.scss"
-import "../styles/sm.scss"
-import "../styles/med.scss"
-import "../styles/lg.scss"
+import "../styles/global.scss";
+import "../styles/sm.scss";
+import "../styles/med.scss";
+import "../styles/lg.scss";
 
-
-
-import "../styles/reset.scss"
+import "../styles/reset.scss";
 import Navigation from "./components/Navigation.astro";
 
 const {
-title="Created with Astro 2.0",
-description="This is the description"} = Astro.props;
-
+  title = "Created with Astro 2.0",
+  description = "This is the description",
+  image,
+  type = "website",
+  noindex = false,
+} = Astro.props;
 ---
 
 <html lang="en">
-    <HeadComp title={title} description={description}/>
-	<body>
-        <Navigation />
-		
-	<slot>
-        This is a slot
-    </slot>
+  <HeadComp
+    title={title}
+    description={description}
+    image={image}
+    type={type}
+    noindex={noindex}
+  />
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <Navigation />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body><style>
+    .skip-link {
+      position: absolute;
+      left: -9999px;
+      top: 0;
+      z-index: 9999;
+      padding: 0.75rem 1rem;
+      background: #111;
+      color: #fff;
+    }
 
-   
-	 <Footer />
-	</body>
+    .skip-link:focus {
+      left: 0.5rem;
+      top: 0.5rem;
+    }
+  </style>
 </html>
-

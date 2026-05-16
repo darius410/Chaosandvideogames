@@ -1,27 +1,53 @@
 ---
-const {title, description} = Astro.props;
+const {
+  title = "Chaos And Video Games",
+  description = "Blogs about video games, coding, and the culture around both.",
+  image = "/img/controller.png",
+  type = "website",
+  noindex = false,
+} = Astro.props;
 
-
+const siteUrl = Astro.site ? new URL(Astro.site) : undefined;
+const canonicalURL = siteUrl
+  ? new URL(Astro.url.pathname, siteUrl).toString()
+  : Astro.url.toString();
+const imageURL = image
+  ? image.startsWith("http")
+    ? image
+    : siteUrl
+    ? new URL(image, siteUrl).toString()
+    : undefined
+  : undefined;
 ---
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/faviconx32.png" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale= 1 "/> -->
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-    <meta name='description' content={description}/>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/faviconx32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/faviconx16.png">
-<link rel="manifest" href="/site.webmanifest">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bebas+Neue&family=Sofia+Sans+Extra+Condensed:wght@1;100;200;400&display=swap"
- rel="stylesheet">
-
- 
-   
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content={Astro.generator} />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <meta
+    name="robots"
+    content={noindex ? "noindex, nofollow" : "index, follow"}
+  />
+  <link rel="canonical" href={canonicalURL} />
+  <meta property="og:type" content={type} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonicalURL} />
+  {imageURL && <meta property="og:image" content={imageURL} />}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  {imageURL && <meta name="twitter:image" content={imageURL} />}
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/faviconx32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/faviconx16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bebas+Neue&family=Sofia+Sans+Extra+Condensed:wght@1;100;200;400&display=swap"
+    rel="stylesheet"
+  />
 </head>

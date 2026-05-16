@@ -1,118 +1,80 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import { getCollection,getEntryBySlug } from "astro:content";
-import { formatDate,slugify } from "../js/utils";
+import { getCollection } from "astro:content";
+import { formatDate, slugify } from "../js/utils";
 export const prerender = true;
-import { Image } from "@astrojs/image/components";
 
-const {title , publishDate, tags, author, image}  = Astro.props;
-
-
-const allBlogs = await getCollection('blogs')
-const recentBlogs = [...allBlogs].sort(
-	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
-).slice(0, 4);
-
-const oneBlog = await getEntryBySlug('blogs',"blog-2")
-
+const allBlogs = await getCollection("blogs");
+const recentBlogs = [...allBlogs]
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, 4);
 ---
 
+<MainLayout
+  title="Chaos And Video Games Homepage"
+  role="main"
+  description="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games."
+>
+  <div class="homeContainer lineBorderX">
+    <section class="hero-shell" aria-label="Homepage introduction">
+      <div class="hero-copy">
+        <p class="hero-kicker">Chaos // Video Games // Coding</p>
+        <h1 class="hero-title">Sound The Meta</h1>
+        <p class="hero-description">
+          Sharp takes on game culture, development decisions, and the craft of
+          becoming a better coder.
+        </p>
+        <a class="hero-cta" href="/blogs/blog/">Read Recent Posts</a>
+      </div>
+      <div class="hero-visual">
+        <img
+          src="/img/cyborg.png"
+          alt="Futuristic cyborg artwork"
+          width="900"
+          height="900"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </section>
 
-		<MainLayout title="Chaos And Video Games Homepage" role="main" description="Chaos and video games is a blogging site about the deeper understanding of video games and thier effect on the world as well as blogs about the lifestyle of coding.Whether you enjoy reading about coding trends or if you need a argumentive discussion about the current state of video game development,this website carries several topics that are sure to inform and educate you about video games." > 
-			
+    <section class="recent-section" aria-labelledby="recent-posts-title">
+      <div class="recentPostContainer">
+        <div class="recentPostShader">
+          <h2 id="recent-posts-title" class="recent-heading">
+            Recent Posts
+            <span>Fresh analysis and dev thoughts</span>
+          </h2>
+        </div>
+      </div>
 
+      <ul class="recentPostCard flex column" role="list">
+        {
+          recentBlogs.map((v) => (
+            <li role="listitem">
+              <a href={`/blogs/${slugify(v.slug)}/`}>
+                <div class="postCardContainer flex">
+                  <div class="postCardInfo">
+                    <span />
+                    <h3>{v.data.title}</h3>
+                    <p class="subtitle">{v.data.subtitle}</p>
+                    <p>{formatDate(v.data.publishDate)}</p>
+                  </div>
 
-			<div class="flex column homeContainer lineBorderX " style="margin-top:100px;">
-				
-			
-				<!-- <section class="flex favBlog">
-					<div class="" >
-						
-						<img src="img/controller.png"  class="" width="" alt="A playstation game controller that looks to be drawn with pencil">
-
-							<h3 class="font-stigo absolute ">Are AI Tools in video games usefull ?</h3>
-					</div>
-
-				</section>  -->
-
-				<!-- <section class="blogHeader container">
-				
-					 <h2 class="homeTitle sideways ">welcome To My Blog</h2>
-				
-				
-					<Image
-					src = {'/img/controller.png'}
-					alt = {'vbuvu'}
-					width = "600"
-					height = "800"
-					aspectRatio = "4:2"
-					format = "webp"
-					fit = "cover"
-					quality={80}
-					class="blogImage"
-				/>  
-				
-				<div class="socialContainer" aria-label="Social Icons Navigation">
-			
-	
-				
-				</div>
-				
-				</section> -->
-			
-
-				<ul class="recentPostCard  flex column" role="list">
-					 <div class="w-full flex column recentPostContainer">
-							<div class="w-full row flex recentPostShader">
-								<h2 class="flex column font-avengers pl-8 m-top-8 ff-size-40">Recent <span class="no-wrap pl-8 overflow-hidden m-top-32 absolute font-stigo ff-size-8">Blog Post</span></h2>
-							</div>
-							
-					</div> 
-
-
-					{
-					recentBlogs.map((v) => (
-					<li role="listitem">
-						<a href={`/blogs/${slugify(v.slug)}/`}>
-							<div class="postCardContainer flex">
-								<div class="postCardInfo">	
-									<span></span>
-									<h3>{v.data.title}</h3>
-									<p class="subtitle">{v.data.subtitle}</p>
-									<p>{formatDate(v.data.publishDate)}</p>
-								</div>
-						
-								<div class="postCardImage" >
-									<img
-									src = {v.data.image.src}
-									alt = {v.data.image.alt}
-									/>
-								</div>
-								
-
-							</div>
-						</a>
-					</li>	
-					
-					))
-						}
-				</ul>
-				
-			</div>
-		</MainLayout>	
-		
-<style>
-	.homeTitle{
-		position:absolute;
-  left:-180px;
-  top:3em;
-  width: 650px;
-  margin-top:100px;
-  line-height: 50px;
-  font-size:6rem;
-	}
-
-</style>
-	
-
-		 
+                  <div class="postCardImage">
+                    <img
+                      src={v.data.image.src}
+                      alt={v.data.image.alt}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                </div>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</MainLayout>

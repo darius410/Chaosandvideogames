@@ -2,29 +2,16 @@
 import MainLayout from "./MainLayout.astro";
 import BlogHeader from "./components/BlogHeader.astro";
 
-
-
-const { frontmatter } = Astro.props
-const { title, publishDate, description , tags, author, image} = frontmatter;
-
+const { frontmatter } = Astro.props;
+const { title, publishDate, description, tags, author, image } = frontmatter;
 ---
-<MainLayout { title } {publishDate } {description} { tags }> 
 
-    <BlogHeader
-    {author}
-    {title}
-    {publishDate}
-    {tags}
-    {image}
-    ></BlogHeader>
+<MainLayout {title} {description} image={image?.src} type="article">
+  <BlogHeader {author} {title} {publishDate} {tags} {image} />
 
-    <div class="lineBorderX">
-        
-        <div class="container">
-        
-            <slot/>
-        
-        </div>
+  <div class="lineBorderX">
+    <div class="container">
+      <slot />
     </div>
-
-</>
+  </div>
+</MainLayout>
