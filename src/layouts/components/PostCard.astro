@@ -1,9 +1,18 @@
 ---
 import { formatDate } from "../../js/utils";
+import { slugify } from "../../js/utils";
 
-const { frontmatter, tagType } = Astro.props;
-const { subtitle, desc, title, publishDate, author, url, tags, image } =
-  frontmatter;
+const { frontmatter, tagType, url } = Astro.props;
+const { subtitle, desc, title, publishDate, author, tags, image, url: legacyUrl } = frontmatter;
+const cardDescription = desc || subtitle || "Read this article";
+const normalizedLegacyUrl = legacyUrl
+  ? `/blogs/${String(legacyUrl)
+      .replace(/^\.\.\//, "")
+      .replace(/^\/+/, "")
+      .replace(/\/+$/, "")}/`
+  : undefined;
+const generatedTitleUrl = `/blogs/${slugify(title)}/`;
+const postUrl = url || normalizedLegacyUrl || generatedTitleUrl;
 
 const Tag = tagType;
 const postDate = new Date(publishDate);
@@ -12,7 +21,7 @@ const formattedDate = formatDate(postDate);
 ---
 
 <article class="blogCard items-center justify-items-center">
-  <a href={url} class="blogCardLink">
+  <a href={postUrl} class="blogCardLink">
     <small class="blogCardMeta"
       >{author} - <time datetime={isoDate}>{formattedDate}</time></small
     >
@@ -29,6 +38,6 @@ const formattedDate = formatDate(postDate);
     />
   </a>
   <div class="descContainer">
-    <p>{desc}</p>
+      <p>{cardDescription}</p>
   </div>
 </article>
