@@ -350,6 +350,14 @@
     justify-self: start;
   }
 
+  .headerThemeSwitch {
+    display: inline-flex;
+  }
+
+  .mobileThemeItem {
+    display: none;
+  }
+
   .navigation {
     display: flex;
     align-items: center;

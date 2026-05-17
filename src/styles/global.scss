@@ -553,6 +553,41 @@ a {
   transition: inset-inline-start 0.4s ease-in-out; /* left */
 }
 
+/* Navigation Consistency Fallback */
+@media (max-width: 63.99em) {
+  .navContainer .desktopNav {
+    display: none;
+  }
+
+  .navContainer .headerThemeSwitch {
+    display: none;
+  }
+
+  .navContainer .navigation.is-open .mobileNav {
+    display: flex;
+  }
+}
+
+@media (min-width: 64em) {
+  .navContainer .navigation {
+    display: flex;
+  }
+
+  .navContainer .desktopNav {
+    display: flex;
+  }
+
+  .navContainer .mobileNav,
+  .navContainer .mobileThemeItem,
+  .navContainer .menuToggle {
+    display: none;
+  }
+
+  .navContainer .headerThemeSwitch {
+    display: inline-flex;
+  }
+}
+
 /* ----- TOGGLE BUTTON | ACCESSIBILITY ----- */
 
 .no-js .theme-switch {
@@ -1133,4 +1168,41 @@ h4 {
   .blogHeader .socialMediaIcons li {
     padding-bottom: 0;
   }
+}
+
+/* Blog Post Typography Normalization */
+.blogPostContent {
+  max-width: 72ch;
+  margin-inline: auto;
+}
+
+.blogPostContent p,
+.blogPostContent .blogP {
+  font-family: var(--font-body);
+  font-size: clamp(1.02rem, 2.35vw, 1.2rem);
+  line-height: 1.64;
+  letter-spacing: 0;
+  color: var(--neo-text);
+  margin: 0 0 1.05rem;
+  padding-bottom: 0;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.blogPostContent h2,
+.blogPostContent .blogH2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 8vw, 3.15rem);
+  line-height: 0.95;
+  margin: 2rem 0 0.9rem;
+  color: var(--neo-text);
+  letter-spacing: 0.02em;
+}
+
+.blogPostContent a {
+  font-family: var(--font-body);
+  font-size: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
 }

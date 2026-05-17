@@ -252,16 +252,9 @@ p.subtitle {
 
 /* 
   *BLOG CLASSES BLOG CLASSES BLOG */
-p {
-  font-size: 3rem;
-  word-break: keep-all;
-  font-family: "Sofia Sans Extra Condensed", sans-serif;
-  letter-spacing: 1px;
-}
-
 .blogP {
   padding-bottom: 2em;
-  font-size: 5em;
+  font-size: clamp(1.2rem, 6vw, 2rem);
   word-break: keep-all;
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   letter-spacing: 1px;
@@ -310,6 +303,22 @@ p {
 .darkLightMode {
   margin: 0;
   justify-self: start;
+}
+
+.headerThemeSwitch {
+  display: none;
+}
+
+.mobileThemeItem {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0.6rem;
+  padding: 0;
+}
+
+.mobileThemeSwitch {
+  width: calc(var(--diameter) * 2 + var(--spacing) * 2);
+  height: calc(var(--diameter) + var(--spacing) * 2);
 }
 
 .menuToggle {
