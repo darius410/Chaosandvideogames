@@ -743,7 +743,7 @@ h4 {
   font-size: clamp(3.6rem, 15vw, 8.8rem);
   line-height: 0.84;
   margin: 0;
-  max-width: 8ch;
+  max-width: 12ch;
   color: var(--neo-text);
   text-wrap: balance;
 }
@@ -754,7 +754,23 @@ h4 {
   line-height: 1.5;
   max-width: 45ch;
   color: var(--neo-muted);
-  margin: 1rem 0 1.3rem;
+  margin: 1rem 0 0.9rem;
+}
+
+.hero-points {
+  list-style: none;
+  margin: 0 0 1.3rem;
+  padding: 0;
+  display: grid;
+  gap: 0.42rem;
+  max-width: 65ch;
+}
+
+.hero-points li {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 2.1vw, 1.08rem);
+  line-height: 1.4;
+  color: var(--neo-text);
 }
 
 .hero-cta {
@@ -769,6 +785,24 @@ h4 {
   background: var(--neo-accent);
   color: var(--neo-panel);
   transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.hero-cta:visited,
+.hero-cta:hover,
+.hero-cta:focus-visible,
+.hero-cta:active {
+  color: var(--neo-panel);
+}
+
+body.dark-mode .hero-cta:visited,
+body.dark-mode .hero-cta:hover,
+body.dark-mode .hero-cta:focus-visible,
+body.dark-mode .hero-cta:active,
+html[data-theme="dark"] .hero-cta:visited,
+html[data-theme="dark"] .hero-cta:hover,
+html[data-theme="dark"] .hero-cta:focus-visible,
+html[data-theme="dark"] .hero-cta:active {
+  color: var(--neo-panel);
 }
 
 .hero-cta:hover,
@@ -1143,16 +1177,46 @@ h4 {
   .blogHeader .socialContainer {
     position: static;
     transform: none;
-    width: 100%;
     text-align: center;
   }
 
   .blogHeader .blogTitle {
+    order: 1;
+    position: static;
+    transform: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
     font-size: clamp(1.8rem, 9vw, 3.2rem);
   }
 
+  .blogHeader .blogFeatureImage {
+    order: 2;
+    margin: 0 auto;
+  }
+
+  .blogHeader .blogInfo {
+    order: 3;
+    align-self: center;
+    margin: 0.35rem 0 0;
+    text-align: center;
+  }
+
+  .blogHeader .blogInfo::after {
+    display: none;
+  }
+
   .blogHeader .nameDate {
+    display: inline-block;
     font-size: 0.95rem;
+    transform: none;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0.02em;
+  }
+
+  .blogHeader .socialContainer {
+    order: 4;
+    margin-top: 0.2rem;
   }
 
   .blogHeader .socialMediaIcons {
@@ -1174,6 +1238,7 @@ h4 {
 .blogPostContent {
   max-width: 72ch;
   margin-inline: auto;
+  padding-inline: clamp(0.85rem, 4vw, 1.25rem);
 }
 
 .blogPostContent p,
@@ -1191,7 +1256,7 @@ h4 {
 
 .blogPostContent h2,
 .blogPostContent .blogH2 {
-  font-family: var(--font-display);
+  font-family: "ArcadeClassic", sans-serif;
   font-size: clamp(2rem, 8vw, 3.15rem);
   line-height: 0.95;
   margin: 2rem 0 0.9rem;

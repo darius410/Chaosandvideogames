@@ -3,7 +3,16 @@ import { formatDate } from "../../js/utils";
 import { slugify } from "../../js/utils";
 
 const { frontmatter, tagType, url } = Astro.props;
-const { subtitle, desc, title, publishDate, author, tags, image, url: legacyUrl } = frontmatter;
+const {
+  subtitle,
+  desc,
+  title,
+  publishDate,
+  author,
+  tags,
+  image,
+  url: legacyUrl,
+} = frontmatter;
 const cardDescription = desc || subtitle || "Read this article";
 const normalizedLegacyUrl = legacyUrl
   ? `/blogs/${String(legacyUrl)
@@ -38,6 +47,6 @@ const formattedDate = formatDate(postDate);
     />
   </a>
   <div class="descContainer">
-      <p>{cardDescription}</p>
+    <p>{cardDescription}</p>
   </div>
 </article>

@@ -1,209 +1,193 @@
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
-@media(min-width:64em) {
+@media (min-width: 64em) {
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 
+  .max-w-14 {
+    max-width: 14%;
+  }
 
-
-    .visually-hidden {
-      clip: rect(0 0 0 0);
-      clip-path: inset(50%);
-      height: 1px;
-      overflow: hidden;
-      position: absolute;
-      white-space: nowrap;
-      width: 1px;
-    }
- 
-
-    .max-w-14{
-      max-width:14%;
-      
-    }
-  
   /* NAV */
 
-  .navigation{
+  .navigation {
     display: flex;
     position: relative;
   }
-.desktopNav{
-    display:flex;
+  .desktopNav {
+    display: flex;
     align-self: stretch;
-     margin: 0 1em;
+    margin: 0 1em;
     align-self: center;
-   margin-right:200px;
+    margin-right: 200px;
     position: relative;
-    gap:40px;
-    li{
-      font-size:x-large;
+    gap: 40px;
+    li {
+      font-size: x-large;
     }
-   
-}
-.siteLogo{
-  
-  align-self: center;
-  
-  font-size: 5em;
-  font-weight: 200;
-  position: relative;
-  margin: 0 auto;
+  }
+  .siteLogo {
+    align-self: center;
 
+    font-size: 5em;
+    font-weight: 200;
+    position: relative;
+    margin: 0 auto;
   }
 
-  .navBar{
-    
-      width: 80px;
-      height: 50px;
-      position: relative;
-      background-color: #323941;
-        @media(min-width:64em){
-        display: none;
-        }
-    
+  .navBar {
+    width: 80px;
+    height: 50px;
+    position: relative;
+    background-color: #323941;
+    @media (min-width: 64em) {
+      display: none;
+    }
   }
 
-
-  .navBar::before, .navBar::after{
-    content: '';
+  .navBar::before,
+  .navBar::after {
+    content: "";
     display: inline-block;
     height: 3px;
-    width:70%;
-    position:absolute;
+    width: 70%;
+    position: absolute;
     left: 15%;
     top: 50%;
     background: #e10f0f;
-    transition:
-      transform 0.2s ease,
-      top 0.2s ease;
-    
-    transform:rotate(0deg) translateY(-50%);
+    transition: transform 0.2s ease, top 0.2s ease;
+
+    transform: rotate(0deg) translateY(-50%);
   }
-  .navBar::before{
-  top:30%;
-  
-  } 
-  .navBar::after{
-    top:70%;
+  .navBar::before {
+    top: 30%;
   }
-  
+  .navBar::after {
+    top: 70%;
+  }
+
   .navBar {
     &:focus,
-    &:focus-within{
-    &::before{
-        top:50%;
-        transform:rotate(30deg) translateY(-50%);
+    &:focus-within {
+      &::before {
+        top: 50%;
+        transform: rotate(30deg) translateY(-50%);
+      }
+      &::after {
+        top: 50%;
+        transform: rotate(-30deg) translateY(-50%);
+      }
     }
-    &::after{
-     top:50%;
-    transform:rotate(-30deg) translateY(-50%);
   }
-  
-  }
-  
-  }
-  
-  .navBar{
-       &:focus{
-  
-      ul{
+
+  .navBar {
+    &:focus {
+      ul {
         display: flex;
       }
+    }
   }
-  }
-  
-  .menuIcon{
-    
+
+  .menuIcon {
     height: inherit;
   }
   .menuIcon:focus {
     display: flex;
   }
-  
-  
-  .darkLightMode{
-    margin:.3em 1em;
-  
-   
-    
+
+  .darkLightMode {
+    margin: 0.3em 1em;
+
     z-index: 2;
   }
-  
-  
+
   /* 
    !HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE */
 
-.favBlog{
-  margin:0 100px;
-}
-   
+  .favBlog {
+    margin: 0 100px;
+  }
 
-  .recentPostShader{
-    
+  .recentPostShader {
     position: relative;
   }
-  .recentPostShader::after{
-    content: '';
-  position:absolute;
-  background-color: #980808;
-  inset:0;
-  z-index:-1;
-  opacity:0.7;
-  mix-blend-mode: multiply;
+  .recentPostShader::after {
+    content: "";
+    position: absolute;
+    background-color: #980808;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.7;
+    mix-blend-mode: multiply;
   }
-  .recentPostH2{
-    min-height:500px;
-   padding: 400px 50px 0px 50px;
+  .recentPostH2 {
+    min-height: 500px;
+    padding: 400px 50px 0px 50px;
     justify-content: center;
-    
   }
-  .blogH2{
-    font-family: 'Bebas Neue', cursive;
+  .blogH2 {
+    font-family: "Bebas Neue", cursive;
     font-size: 5rem;
-   
-    
-    text-align:center;
-    
-  
+
+    text-align: center;
   }
-  .recentPostCard{
-   
-    margin:0 100px;
+  .recentPostCard {
+    margin: 0 100px;
   }
-  .recentPostCard li{
-    
+  .recentPostCard li {
     height: 300px;
-    margin-bottom:20px;
-   border:1px solid rgb(84, 82, 82);
+    margin-bottom: 20px;
+    border: 1px solid rgb(84, 82, 82);
   }
-  .postCardInfo{
-   padding:20px 40px;
-  
-    flex: 1;
+  .recentPostCard .postCardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+    height: 100%;
   }
-  .postCardInfo h3{
-     font-weight: bold;
-     font-size:2.8rem;
+  .postCardInfo {
+    padding: 20px 40px;
+    width: 58%;
+    flex: 0 0 58%;
   }
-  .postCardInfo span{
-    
+  .recentPostCard .postCardImage {
+    width: 42%;
+    flex: 0 0 42%;
+    overflow: hidden;
+  }
+  .recentPostCard .postCardImage img {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: 50% 100%;
+    display: block;
+  }
+  .postCardInfo h3 {
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+  .postCardInfo span {
     position: absolute;
     height: 2px;
     background-color: red;
     width: 40px;
   }
- .postCardInfo p{
-
+  .postCardInfo p {
   }
 
-
-  .postCardInfo h3{
+  .postCardInfo h3 {
     word-break: keep-all;
   }
-  
-  
 
-
-  
-  p.subtitle{
+  p.subtitle {
     position: relative;
     font-size: 2.3rem;
     white-space: wrap;
@@ -211,110 +195,87 @@
     text-overflow: ellipsis;
     width: 100%;
     max-height: 50%;
-    
-
   }
 
-  
-  
-  
-  
   /* FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
-  
-  
-  .copyrightContainer{
-  
-  width:80%;
-  height:100px;
-  justify-content:space-between;
-  border-top:solid 1px rgb(84, 82, 82);
-  margin-top: 50px;
-  padding-top:20px;
+
+  .copyrightContainer {
+    width: 80%;
+    height: 100px;
+    justify-content: space-between;
+    border-top: solid 1px rgb(84, 82, 82);
+    margin-top: 50px;
+    padding-top: 20px;
   }
-  .copyrightText p{
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
-  font-weight: 400;
-  font-size: 2em;
-  
+  .copyrightText p {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 2em;
   }
   .footerIconsSocial {
-    flex:1 200px;
+    flex: 1 200px;
   }
-  .footerSocialIcons li{
-    display:inline;
-    
+  .footerSocialIcons li {
+    display: inline;
   }
-  
+
   /* ************************************* BLOG DESIGN ********************************************* */
-  p{
-     
-      font-size: 2rem;
-      word-break:keep-all;
-      font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    
-     
+  p {
+    font-size: 2rem;
+    word-break: keep-all;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
   }
 
-  .container{
-    margin:0px 15em;  
-    max-width:200px;
-    min-width:800px;
-    }
-  .blogContainer{
-  margin:0px 2em; 
-  
-  
+  .container {
+    margin: 0px 15em;
+    max-width: 200px;
+    min-width: 800px;
+  }
+  .blogContainer {
+    margin: 0px 2em;
   }
 
-  .blogTitle{
-    position:absolute;
-    left:-200px;
-    top:5.5em;
+  .blogTitle {
+    position: absolute;
+    left: -200px;
+    top: 5.5em;
     width: 700px;
-    
+
     line-height: 90px;
-    font-size:6rem;
-    
-    }
-    
-  .blogImage{
-      position: relative;
-      left:180px;
-    
-  } 
-
-
-  .socialContainer{
-    right:-20px;
-    position:absolute;
-  
+    font-size: 6rem;
   }
 
-  .socialMediaIcons li{
-    padding-bottom:10px;
+  .blogImage {
+    position: relative;
+    left: 180px;
   }
-  a{
-  font-family: 'Sofia Sans Extra Condensed', sans-serif;
-  font-size: 2em;
+
+  .socialContainer {
+    right: -20px;
+    position: absolute;
   }
-  
-  
-  .blogHeader{
-      
-  flex-direction:row;
-  position: relative;
-  margin-bottom: 2em;
-  
+
+  .socialMediaIcons li {
+    padding-bottom: 10px;
   }
-  .sideways{
-      transform: rotate(-90deg);
-      writing-mode: horizontal-tb;
+  a {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 2em;
   }
-  
-          }
+
+  .blogHeader {
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 2em;
+  }
+  .sideways {
+    transform: rotate(-90deg);
+    writing-mode: horizontal-tb;
+  }
+}
 
 /* NAV REFRESH */
-@media (min-width:64em) {
+@media (min-width: 64em) {
   .navContainer {
     width: min(1280px, 92vw);
     padding: 0.75rem 1.15rem;
@@ -336,9 +297,9 @@
     margin: 0 auto;
     justify-self: center;
     text-align: center;
-    font-family: 'ArcadeClassic', sans-serif;
+    font-family: "ArcadeClassic", sans-serif;
     text-transform: none;
-    margin-left: 20px;;
+    margin-left: 20px;
   }
 
   .menuToggle,
@@ -406,7 +367,7 @@
     background: rgba(17, 24, 33, 0.06);
   }
 
-  .desktopNav .link[aria-current='page'] {
+  .desktopNav .link[aria-current="page"] {
     background: var(--neo-accent);
     color: var(--neo-panel);
     border-color: var(--neo-accent);
@@ -414,10 +375,13 @@
 }
 
 /* BLOG POST HEADER LOCKED LAYOUT */
-@media (min-width:64em) {
+@media (min-width: 64em) {
   .blogHeader.container {
     display: grid;
-    grid-template-columns: minmax(170px, 230px) clamp(300px, 32vw, 420px) minmax(56px, 86px);
+    grid-template-columns: minmax(170px, 230px) clamp(300px, 32vw, 420px) minmax(
+        56px,
+        86px
+      );
     align-items: start;
     justify-content: center;
     column-gap: 0.8rem;
@@ -458,7 +422,6 @@
   }
 
   .blogHeader .blogInfo {
-   
     position: absolute;
     left: calc(50% - clamp(180px, 22vw, 250px));
     top: clamp(600px, 81%, 580px);
@@ -466,18 +429,17 @@
     z-index: 4;
     padding-right: 20px;
     display: flex;
-    
   }
 
   .blogInfo::after {
-  content: "";
-  position: absolute;
-  height: 7px;
-  width:100px;
-  transform: rotate(-90deg);
-  writing-mode: horizontal-tb;
-  bottom:130px;
-  left:55%;
+    content: "";
+    position: absolute;
+    height: 7px;
+    width: 100px;
+    transform: rotate(-90deg);
+    writing-mode: horizontal-tb;
+    bottom: 130px;
+    left: 55%;
   }
 
   .blogHeader .blogInfo .sideways {
